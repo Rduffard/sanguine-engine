@@ -1,0 +1,175 @@
+{
+  "path": {
+    "id": "saltglass-duelist",
+    "name": "Saltglass Duelist",
+    "callingId": "corsair",
+    "description": "Arannian duelist who trades concealment for single combat.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      9,
+      13,
+      17
+    ],
+    "grants": [
+      "path:saltglass-duelist:open-challenge:3",
+      "path:saltglass-duelist:saltglass-footwork:9",
+      "path:saltglass-duelist:answer-in-steel:13",
+      "path:saltglass-duelist:perfect-measure:17"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "rapier",
+          "cutlass"
+        ]
+      }
+    },
+    "pools": {
+      "duel": {
+        "max": 3,
+        "short": 1
+      },
+      "perfect-measure": {
+        "max": 1,
+        "level": 17
+      }
+    },
+    "design": {
+      "id": "saltglass-duelist",
+      "name": "Saltglass Duelist",
+      "callingId": "corsair",
+      "identity": "Arannian duelist who trades concealment for single combat.",
+      "choice": [
+        "rapier",
+        "cutlass"
+      ],
+      "features": [
+        [
+          3,
+          "Open Challenge",
+          "Choose rapier or cutlass as your signature weapon. When holding that weapon and no other weapon or Shield, you may Sneak Attack a target within 5 feet without advantage if no other creature is within 5 feet of you and you lack disadvantage. As a Reaction spend one Duel use to add your Training Bonus to Guard against one melee attack you can see, potentially causing it to miss.",
+          "duel",
+          1
+        ],
+        [
+          9,
+          "Saltglass Footwork",
+          "Your Speed increases by 5 feet. After making a melee attack against a creature, that creature cannot make Opportunity Attacks against you for the rest of the turn, whether you hit or miss. You must be holding your signature weapon.",
+          null,
+          0
+        ],
+        [
+          13,
+          "Answer in Steel",
+          "When an attack misses you because of Open Challenge, you may make one melee attack against the attacker as part of the same Reaction. This attack cannot deal Sneak Attack damage.",
+          null,
+          0
+        ],
+        [
+          17,
+          "Perfect Measure",
+          "Once per Long Rest when you miss with your signature weapon, turn that miss into a hit. It is not a Critical Hit. You must choose before damage is rolled.",
+          "perfect-measure",
+          1
+        ]
+      ],
+      "speed": [
+        [
+          9,
+          5
+        ]
+      ],
+      "pools": {
+        "duel": {
+          "max": 3,
+          "short": 1
+        },
+        "perfect-measure": {
+          "max": 1,
+          "level": 17
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:saltglass-duelist:open-challenge:3",
+      "ownerId": "saltglass-duelist",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Open Challenge",
+      "sourceName": "Open Challenge",
+      "description": "Choose rapier or cutlass as your signature weapon. When holding that weapon and no other weapon or Shield, you may Sneak Attack a target within 5 feet without advantage if no other creature is within 5 feet of you and you lack disadvantage. As a Reaction spend one Duel use to add your Training Bonus to Guard against one melee attack you can see, potentially causing it to miss.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Cutlass uses equipment.md. Declare Open Challenge after the attack total is known and before damage. Answer in Steel requires the attacker within weapon reach and uses the same Reaction. Perfect Measure uses no action after your miss. Neither ability grants another Sneak Attack on one turn.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:saltglass-duelist:saltglass-footwork:9",
+      "ownerId": "saltglass-duelist",
+      "ownerType": "path",
+      "callingLevel": 9,
+      "name": "Saltglass Footwork",
+      "sourceName": "Saltglass Footwork",
+      "description": "Your Speed increases by 5 feet. After making a melee attack against a creature, that creature cannot make Opportunity Attacks against you for the rest of the turn, whether you hit or miss. You must be holding your signature weapon.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Cutlass uses equipment.md. Declare Open Challenge after the attack total is known and before damage. Answer in Steel requires the attacker within weapon reach and uses the same Reaction. Perfect Measure uses no action after your miss. Neither ability grants another Sneak Attack on one turn.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:saltglass-duelist:answer-in-steel:13",
+      "ownerId": "saltglass-duelist",
+      "ownerType": "path",
+      "callingLevel": 13,
+      "name": "Answer in Steel",
+      "sourceName": "Answer in Steel",
+      "description": "When an attack misses you because of Open Challenge, you may make one melee attack against the attacker as part of the same Reaction. This attack cannot deal Sneak Attack damage.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Cutlass uses equipment.md. Declare Open Challenge after the attack total is known and before damage. Answer in Steel requires the attacker within weapon reach and uses the same Reaction. Perfect Measure uses no action after your miss. Neither ability grants another Sneak Attack on one turn.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:saltglass-duelist:perfect-measure:17",
+      "ownerId": "saltglass-duelist",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "name": "Perfect Measure",
+      "sourceName": "Perfect Measure",
+      "description": "Once per Long Rest when you miss with your signature weapon, turn that miss into a hit. It is not a Critical Hit. You must choose before damage is rolled.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Cutlass uses equipment.md. Declare Open Challenge after the attack total is known and before damage. Answer in Steel requires the attacker within weapon reach and uses the same Reaction. Perfect Measure uses no action after your miss. Neither ability grants another Sneak Attack on one turn.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

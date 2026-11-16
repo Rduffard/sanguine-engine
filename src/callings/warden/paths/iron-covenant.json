@@ -1,0 +1,171 @@
+{
+  "path": {
+    "id": "iron-covenant",
+    "name": "Iron Covenant",
+    "callingId": "warden",
+    "description": "Yuma sworn defender who makes discipline a shared shield.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      15,
+      20
+    ],
+    "grants": [
+      "path:iron-covenant:covenant-of-steel:3",
+      "path:iron-covenant:aura-of-resolve:7",
+      "path:iron-covenant:take-the-burden:15",
+      "path:iron-covenant:unyielding-standard:20"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "bulwark",
+          "sentinel"
+        ]
+      }
+    },
+    "pools": {
+      "covenant": {
+        "max": 3,
+        "level": 15,
+        "short": 1
+      },
+      "standard": {
+        "max": 1,
+        "level": 20
+      }
+    },
+    "design": {
+      "id": "iron-covenant",
+      "name": "Iron Covenant",
+      "callingId": "warden",
+      "identity": "Yuma sworn defender who makes discipline a shared shield.",
+      "choice": [
+        "bulwark",
+        "sentinel"
+      ],
+      "features": [
+        [
+          3,
+          "Covenant of Steel",
+          "Choose bulwark or sentinel. As a Bonus Action spend one Channel Divinity use to empower one Shield you hold for one minute. Bulwark adds +1 Guard while holding it; sentinel allows you to use a Reaction to impose disadvantage on one attack against an ally within 5 feet. The effect ends if you release the Shield.",
+          "channel-divinity",
+          1
+        ],
+        [
+          7,
+          "Aura of Resolve",
+          "While your Aura of Protection is active, allies in it have advantage on saves against forced movement and against being knocked Prone. You must be conscious.",
+          null,
+          0
+        ],
+        [
+          15,
+          "Take the Burden",
+          "As a Reaction when an ally in your aura takes damage, spend one Covenant use to take half that damage instead. This transferred damage cannot be reduced; the ally takes the remainder.",
+          "covenant",
+          1
+        ],
+        [
+          20,
+          "Unyielding Standard",
+          "Once per Long Rest as a Bonus Action for one minute, gain Resistance to Bludgeoning, Piercing and Slashing and prevent enemies from moving you against your will. Allies in your aura gain temporary Health equal to your Spirit modifier at the start of each of their turns. Restore the use with a level 5 spell slot.",
+          "standard",
+          1
+        ]
+      ],
+      "pools": {
+        "covenant": {
+          "max": 3,
+          "level": 15,
+          "short": 1
+        },
+        "standard": {
+          "max": 1,
+          "level": 20
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:iron-covenant:covenant-of-steel:3",
+      "ownerId": "iron-covenant",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Covenant of Steel",
+      "sourceName": "Covenant of Steel",
+      "description": "Choose bulwark or sentinel. As a Bonus Action spend one Channel Divinity use to empower one Shield you hold for one minute. Bulwark adds +1 Guard while holding it; sentinel allows you to use a Reaction to impose disadvantage on one attack against an ally within 5 feet. The effect ends if you release the Shield.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Sentinel requires seeing the attacker and declaration before the attack roll. Take the Burden splits post-mitigation damage: owner takes floor(damage/2), ally takes the remainder. Owner's portion cannot be reduced or transferred recursively. Standard temporary Health is max(1, Spirit modifier). Restore its spent counter as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-covenant:aura-of-resolve:7",
+      "ownerId": "iron-covenant",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Aura of Resolve",
+      "sourceName": "Aura of Resolve",
+      "description": "While your Aura of Protection is active, allies in it have advantage on saves against forced movement and against being knocked Prone. You must be conscious.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Sentinel requires seeing the attacker and declaration before the attack roll. Take the Burden splits post-mitigation damage: owner takes floor(damage/2), ally takes the remainder. Owner's portion cannot be reduced or transferred recursively. Standard temporary Health is max(1, Spirit modifier). Restore its spent counter as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-covenant:take-the-burden:15",
+      "ownerId": "iron-covenant",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Take the Burden",
+      "sourceName": "Take the Burden",
+      "description": "As a Reaction when an ally in your aura takes damage, spend one Covenant use to take half that damage instead. This transferred damage cannot be reduced; the ally takes the remainder.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Sentinel requires seeing the attacker and declaration before the attack roll. Take the Burden splits post-mitigation damage: owner takes floor(damage/2), ally takes the remainder. Owner's portion cannot be reduced or transferred recursively. Standard temporary Health is max(1, Spirit modifier). Restore its spent counter as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-covenant:unyielding-standard:20",
+      "ownerId": "iron-covenant",
+      "ownerType": "path",
+      "callingLevel": 20,
+      "name": "Unyielding Standard",
+      "sourceName": "Unyielding Standard",
+      "description": "Once per Long Rest as a Bonus Action for one minute, gain Resistance to Bludgeoning, Piercing and Slashing and prevent enemies from moving you against your will. Allies in your aura gain temporary Health equal to your Spirit modifier at the start of each of their turns. Restore the use with a level 5 spell slot.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Sentinel requires seeing the attacker and declaration before the attack roll. Take the Burden splits post-mitigation damage: owner takes floor(damage/2), ally takes the remainder. Owner's portion cannot be reduced or transferred recursively. Standard temporary Health is max(1, Spirit modifier). Restore its spent counter as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

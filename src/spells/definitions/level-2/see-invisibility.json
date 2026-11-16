@@ -1,0 +1,22 @@
+{
+  "id": "see-invisibility",
+  "name": "See Invisibility",
+  "level": 2,
+  "school": "divination",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Divination (Bard, Tidecaller, Shipwright) Casting Time: Action Range: Self Components: V, S, M (a pinch of talc) Duration: 1 hour For the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 14159
+  },
+  "castingTime": "Action"
+}

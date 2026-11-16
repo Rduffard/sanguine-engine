@@ -1,0 +1,18 @@
+module.exports = {
+  'calling:warden:radiant-strikes:11':[['hit','Radiant Strikes','No action',[],'rider-radiant']],
+  'path:oath-of-the-free-port:break-the-chain:3':[['break','Break the Chain','Action',[['warden:channel-divinity',1]],'freeport-break']],
+  'path:oath-of-the-free-port:no-captive-left:15':[['reroll','No Captive Left','Reaction',[['warden:lay-on-hands',5]],'freeport-reroll']],
+  'path:oath-of-the-free-port:open-harbor:20':[['harbor','Open Harbor','Bonus Action',[['oath-of-the-free-port:open-harbor',1]],'freeport-harbor']],
+  'path:lantern-vigil:light-the-watch:3':[['watch','Light the Watch','Bonus Action',[['warden:channel-divinity',1]],'vigil-watch'],['hit','Watch: first weapon hit','No action',[],'vigil-hit']],
+  'path:lantern-vigil:watchfire:15':[['cure','Watchfire: end Undead charm','Action',[['warden:lay-on-hands',5]],'vigil-cure']],
+  'path:lantern-vigil:dawn-at-sea:20':[['dawn','Dawn at Sea','Bonus Action',[['lantern-vigil:dawn',1]],'vigil-dawn'],['damage','Dawn: Undead turn damage','No action',[],'vigil-dawn-damage']],
+  'path:iron-covenant:covenant-of-steel:3':[['steel','Covenant of Steel','Bonus Action',[['warden:channel-divinity',1]],'covenant-steel'],['sentinel','Sentinel protection','Reaction',[],'covenant-sentinel']],
+  'path:iron-covenant:unyielding-standard:20':[['standard','Unyielding Standard','Bonus Action',[['iron-covenant:standard',1]],'covenant-standard'],['grant','Standard: ally turn temporary Health','No action',[],'covenant-grant']],
+  'path:iron-covenant:take-the-burden:15':[['main','Take the Burden','Reaction',[['iron-covenant:covenant',1]],'burden']],
+  'calling:warden:lay-on-hands:1':[['heal','Lay On Hands','Bonus Action',[],'lay-heal'],['poison','End Poisoned','Bonus Action',[['warden:lay-on-hands',5]],'lay-poison']],
+  'calling:warden:restoring-touch:14':[['cure','Restoring Touch','Bonus Action',[],'warden-touch']],
+  'calling:warden:channel-divinity:3':[['sense','Divine Sense','Bonus Action',[['warden:channel-divinity',1]],'sense']],
+  'calling:warden:abjure-foes:9':[['main','Abjure Foes','Magic action',[['warden:channel-divinity',1]],'abjure']],
+  'path:leviathan-anchor:sacred-weapon:3':[['main','Sacred Weapon','Attack action rider',[['warden:channel-divinity',1]],'sacred']],
+  'path:leviathan-anchor:holy-nimbus:20':[['main','Holy Nimbus','Bonus Action',[['leviathan-anchor:nimbus',1]],'nimbus'],['pulse','Holy Nimbus: enemy turn','No action',[],'nimbus-pulse']],
+};

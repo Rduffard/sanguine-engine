@@ -1,0 +1,22 @@
+{
+  "id": "invisibility",
+  "name": "Invisibility",
+  "level": 2,
+  "school": "illusion",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Illusion (Bard, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: Touch Components: V, S, M (an eyelash in gum arabic) Duration: Concentration, up to 1 hour A creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12521
+  },
+  "castingTime": "Action"
+}

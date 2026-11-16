@@ -1,0 +1,22 @@
+{
+  "id": "polymorph",
+  "name": "Polymorph",
+  "level": 4,
+  "school": "transmutation",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 4 Transmutation (Bard, Druid, Tidecaller, Shipwright) Casting Time: Action Range: 60 feet Components: V, S, M (a caterpillar cocoon) Duration: Concentration, up to 1 hour You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Instinct saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target's (or the target's level if it doesn't have a Challenge Rating). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Health, and Health Dice. See the “Animals” section of “Monsters” for a sample of Beast stat blocks. The target gains a number of Temporary Health equal to the Health of the Beast form. These Temporary Health vanish if any remain when the spell ends. The spell ends early on the target if it has no Temporary Health left. The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells. The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13493
+  },
+  "castingTime": "Action"
+}

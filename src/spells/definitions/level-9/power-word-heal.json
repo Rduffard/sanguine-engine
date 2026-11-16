@@ -1,0 +1,21 @@
+{
+  "id": "power-word-heal",
+  "name": "Power Word Heal",
+  "level": 9,
+  "school": "enchantment",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 9 Enchantment (Bard, Doctor) Casting Time: Action Range: 60 feet Component: V Duration: Instantaneous A wave of healing energy washes over one creature you can see within range. The target regains all its Health. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13520
+  },
+  "castingTime": "Action"
+}

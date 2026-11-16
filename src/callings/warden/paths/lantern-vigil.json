@@ -1,0 +1,167 @@
+{
+  "path": {
+    "id": "lantern-vigil",
+    "name": "Lantern Vigil",
+    "callingId": "warden",
+    "description": "Faith Order keeper against the drowned dead and corrupted spirits.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      15,
+      20
+    ],
+    "grants": [
+      "path:lantern-vigil:light-the-watch:3",
+      "path:lantern-vigil:aura-of-clear-sight:7",
+      "path:lantern-vigil:watchfire:15",
+      "path:lantern-vigil:dawn-at-sea:20"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "radiant",
+          "fire"
+        ]
+      }
+    },
+    "pools": {
+      "dawn": {
+        "max": 1,
+        "level": 20
+      }
+    },
+    "design": {
+      "id": "lantern-vigil",
+      "name": "Lantern Vigil",
+      "callingId": "warden",
+      "identity": "Faith Order keeper against the drowned dead and corrupted spirits.",
+      "choice": [
+        "radiant",
+        "fire"
+      ],
+      "features": [
+        [
+          3,
+          "Light the Watch",
+          "Choose Radiant or Fire. As a Bonus Action spend one Channel Divinity use to create a 20-foot Bright Light aura for one minute. Once on each of your turns your first weapon hit deals 1d6 extra chosen-type damage. Undead hit by it cannot regain Health until your next turn.",
+          "channel-divinity",
+          1
+        ],
+        [
+          7,
+          "Aura of Clear Sight",
+          "While your Aura of Protection is active, you and allies in it can see through nonmagical fog and have advantage on saves against Frightened caused by Undead. This does not pierce magical darkness.",
+          null,
+          0
+        ],
+        [
+          15,
+          "Watchfire",
+          "Gain Resistance to Necrotic damage. Your Light the Watch extra damage becomes 2d6. As an Action you can spend 5 Lay On Hands points to end one Charmed effect caused by an Undead on a creature you touch.",
+          "lay-on-hands",
+          5
+        ],
+        [
+          20,
+          "Dawn at Sea",
+          "Once per Long Rest as a Bonus Action empower your aura for one minute. It becomes sunlight; Undead starting a turn in it take Radiant damage equal to your Training Bonus + Spirit modifier. You and allies in it have Resistance to Necrotic damage. Restore this use with a level 5 spell slot.",
+          "dawn",
+          1
+        ]
+      ],
+      "resistances": [
+        [
+          15,
+          "necrotic"
+        ]
+      ],
+      "pools": {
+        "dawn": {
+          "max": 1,
+          "level": 20
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:lantern-vigil:light-the-watch:3",
+      "ownerId": "lantern-vigil",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Light the Watch",
+      "sourceName": "Light the Watch",
+      "description": "Choose Radiant or Fire. As a Bonus Action spend one Channel Divinity use to create a 20-foot Bright Light aura for one minute. Once on each of your turns your first weapon hit deals 1d6 extra chosen-type damage. Undead hit by it cannot regain Health until your next turn.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Light the Watch is not sunlight before level 20. Healing prevention lasts until the start of your next turn. Dawn damage is max(1, TB+Spirit modifier), without a save, at each Undead's turn start. Restore Dawn as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:lantern-vigil:aura-of-clear-sight:7",
+      "ownerId": "lantern-vigil",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Aura of Clear Sight",
+      "sourceName": "Aura of Clear Sight",
+      "description": "While your Aura of Protection is active, you and allies in it can see through nonmagical fog and have advantage on saves against Frightened caused by Undead. This does not pierce magical darkness.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Light the Watch is not sunlight before level 20. Healing prevention lasts until the start of your next turn. Dawn damage is max(1, TB+Spirit modifier), without a save, at each Undead's turn start. Restore Dawn as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:lantern-vigil:watchfire:15",
+      "ownerId": "lantern-vigil",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Watchfire",
+      "sourceName": "Watchfire",
+      "description": "Gain Resistance to Necrotic damage. Your Light the Watch extra damage becomes 2d6. As an Action you can spend 5 Lay On Hands points to end one Charmed effect caused by an Undead on a creature you touch.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Light the Watch is not sunlight before level 20. Healing prevention lasts until the start of your next turn. Dawn damage is max(1, TB+Spirit modifier), without a save, at each Undead's turn start. Restore Dawn as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:lantern-vigil:dawn-at-sea:20",
+      "ownerId": "lantern-vigil",
+      "ownerType": "path",
+      "callingLevel": 20,
+      "name": "Dawn at Sea",
+      "sourceName": "Dawn at Sea",
+      "description": "Once per Long Rest as a Bonus Action empower your aura for one minute. It becomes sunlight; Undead starting a turn in it take Radiant damage equal to your Training Bonus + Spirit modifier. You and allies in it have Resistance to Necrotic damage. Restore this use with a level 5 spell slot.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Light the Watch is not sunlight before level 20. Healing prevention lasts until the start of your next turn. Dawn damage is max(1, TB+Spirit modifier), without a save, at each Undead's turn start. Restore Dawn as a Bonus Action with exactly one level-five slot.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

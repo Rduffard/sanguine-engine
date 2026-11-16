@@ -1,0 +1,183 @@
+{
+  "path": {
+    "id": "sanguine-conduit",
+    "name": "Sanguine Conduit",
+    "callingId": "tidecaller",
+    "description": "Purapet life-current mage who risks personal vitality.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      14,
+      18
+    ],
+    "grants": [
+      "path:sanguine-conduit:blood-price:3",
+      "path:sanguine-conduit:measured-sacrifice:6",
+      "path:sanguine-conduit:vital-circuit:14",
+      "path:sanguine-conduit:unbroken-current:18"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "shelter",
+          "surge"
+        ]
+      }
+    },
+    "pools": {
+      "conduit": {
+        "max": 3,
+        "short": 1
+      },
+      "transfusion": {
+        "max": 1,
+        "level": 6
+      },
+      "unbroken-current": {
+        "max": 1,
+        "level": 18
+      }
+    },
+    "design": {
+      "id": "sanguine-conduit",
+      "name": "Sanguine Conduit",
+      "callingId": "tidecaller",
+      "identity": "Purapet life-current mage who risks personal vitality.",
+      "choice": [
+        "shelter",
+        "surge"
+      ],
+      "features": [
+        [
+          3,
+          "Blood Price",
+          "Choose shelter or surge. As a Bonus Action spend one Conduit use and lose Health equal to twice your Training Bonus (this cannot be reduced and cannot reduce you below 1). Shelter grants one creature within 30 feet temporary Health equal to 1d8 + Spirit; surge adds 1d8 Necrotic damage to one damage roll of the next spell you cast before your next turn.",
+          "conduit",
+          1
+        ],
+        [
+          6,
+          "Measured Sacrifice",
+          "Gain Resistance to Necrotic damage. Blood Price uses 2d8 instead of 1d8. Once per Long Rest, as a Bonus Action lose 6 Health without reducing yourself below 1 to recover two Sorcery Points, never above your maximum.",
+          "transfusion",
+          1
+        ],
+        [
+          14,
+          "Vital Circuit",
+          "When a creature within 30 feet loses temporary Health granted by Blood Price, you may use your Reaction to grant another creature within 30 feet temporary Health equal to your Spirit modifier (minimum one). This grants no healing and cannot trigger itself.",
+          null,
+          0
+        ],
+        [
+          18,
+          "Unbroken Current",
+          "Once per Long Rest when reduced to 0 Health but not killed outright, as a Reaction remain at 1 Health and gain temporary Health equal to your Tidecaller level. Blood Price now uses 3d8.",
+          "unbroken-current",
+          1
+        ]
+      ],
+      "resistances": [
+        [
+          6,
+          "necrotic"
+        ]
+      ],
+      "pools": {
+        "conduit": {
+          "max": 3,
+          "short": 1
+        },
+        "transfusion": {
+          "max": 1,
+          "level": 6
+        },
+        "unbroken-current": {
+          "max": 1,
+          "level": 18
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:sanguine-conduit:blood-price:3",
+      "ownerId": "sanguine-conduit",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Blood Price",
+      "sourceName": "Blood Price",
+      "description": "Choose shelter or surge. As a Bonus Action spend one Conduit use and lose Health equal to twice your Training Bonus (this cannot be reduced and cannot reduce you below 1). Shelter grants one creature within 30 feet temporary Health equal to 1d8 + Spirit; surge adds 1d8 Necrotic damage to one damage roll of the next spell you cast before your next turn.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Health loss bypasses temporary Health and Resistance and cannot leave less than 1; otherwise reject the entire operation. Bare Spirit means its modifier. Surge expires at the start of your next turn or after its first damage roll. Vital Circuit triggers once per turn when damage reduces Blood Price's temporary Health, not on expiry/replacement or from its own secondary pool. Unbroken Current resolves its Reaction before Unconscious applies.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanguine-conduit:measured-sacrifice:6",
+      "ownerId": "sanguine-conduit",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Measured Sacrifice",
+      "sourceName": "Measured Sacrifice",
+      "description": "Gain Resistance to Necrotic damage. Blood Price uses 2d8 instead of 1d8. Once per Long Rest, as a Bonus Action lose 6 Health without reducing yourself below 1 to recover two Sorcery Points, never above your maximum.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Health loss bypasses temporary Health and Resistance and cannot leave less than 1; otherwise reject the entire operation. Bare Spirit means its modifier. Surge expires at the start of your next turn or after its first damage roll. Vital Circuit triggers once per turn when damage reduces Blood Price's temporary Health, not on expiry/replacement or from its own secondary pool. Unbroken Current resolves its Reaction before Unconscious applies.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanguine-conduit:vital-circuit:14",
+      "ownerId": "sanguine-conduit",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "Vital Circuit",
+      "sourceName": "Vital Circuit",
+      "description": "When a creature within 30 feet loses temporary Health granted by Blood Price, you may use your Reaction to grant another creature within 30 feet temporary Health equal to your Spirit modifier (minimum one). This grants no healing and cannot trigger itself.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Health loss bypasses temporary Health and Resistance and cannot leave less than 1; otherwise reject the entire operation. Bare Spirit means its modifier. Surge expires at the start of your next turn or after its first damage roll. Vital Circuit triggers once per turn when damage reduces Blood Price's temporary Health, not on expiry/replacement or from its own secondary pool. Unbroken Current resolves its Reaction before Unconscious applies.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanguine-conduit:unbroken-current:18",
+      "ownerId": "sanguine-conduit",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "name": "Unbroken Current",
+      "sourceName": "Unbroken Current",
+      "description": "Once per Long Rest when reduced to 0 Health but not killed outright, as a Reaction remain at 1 Health and gain temporary Health equal to your Tidecaller level. Blood Price now uses 3d8.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Health loss bypasses temporary Health and Resistance and cannot leave less than 1; otherwise reject the entire operation. Bare Spirit means its modifier. Surge expires at the start of your next turn or after its first damage roll. Vital Circuit triggers once per turn when damage reduces Blood Price's temporary Health, not on expiry/replacement or from its own secondary pool. Unbroken Current resolves its Reaction before Unconscious applies.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

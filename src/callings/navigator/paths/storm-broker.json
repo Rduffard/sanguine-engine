@@ -1,0 +1,109 @@
+{
+  "path": {
+    "id": "storm-broker",
+    "name": "Storm Broker",
+    "callingId": "navigator",
+    "description": "Choose weather or signals. Gain Training with navigator's tools. You have advantage on Instinct checks to predict natural weather or Wit checks to interpret signals, according to your choice. As a Bonus Action spend one Squall use to create a 10-foot-radius zone within 60 feet until the start of your next turn. Choose fog (heavily obscured), crosswind (ranged weapon attacks through it have disadvantage), or surge (Difficult Terrain). This is magical and does not stack with another Squall.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "grants": [
+      "path:storm-broker:barometer-instinct:3",
+      "path:storm-broker:borrowed-squall:7",
+      "path:storm-broker:captain-s-credit:11",
+      "path:storm-broker:eye-of-the-bargain:15"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "stormDiscipline",
+        "options": [
+          "weather",
+          "signals"
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:storm-broker:barometer-instinct:3",
+      "ownerId": "storm-broker",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Barometer Instinct",
+      "name": "Barometer Instinct",
+      "description": "Choose weather or signals. Gain Training with navigator's tools. You have advantage on Instinct checks to predict natural weather or Wit checks to interpret signals, according to your choice. As a Bonus Action spend one Squall use to create a 10-foot-radius zone within 60 feet until the start of your next turn. Choose fog (heavily obscured), crosswind (ranged weapon attacks through it have disadvantage), or surge (Difficult Terrain). This is magical and does not stack with another Squall. Path uses start at two, increase by one at Calling levels 7, 11, 15, and 19, and recover one on a Short Rest or all on a Long Rest. Separately listed once-per-Long-Rest features recover on a Long Rest.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "The zone is fixed, its center must be visible, and only one may exist; creating another replaces it. No Concentration required. Crosswind applies when the attack line crosses any zone space; surge is ordinary Difficult Terrain. Captain's Credit triggers once per round on any ally's turn or your turn, correcting contradictory draft timing, and grants max(1, TB+Instinct modifier) temporary Health. Eye reserve has a separate one-per-Long-Rest counter.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:storm-broker:borrowed-squall:7",
+      "ownerId": "storm-broker",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "sourceName": "Borrowed Squall",
+      "name": "Borrowed Squall",
+      "description": "Your Squall radius becomes 15 feet. When creating one, choose up to your Instinct modifier (minimum one) creatures you can see; those creatures ignore its effects. Gain Resistance to Lightning or Thunder damage, selected when you gain this feature.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "The zone is fixed, its center must be visible, and only one may exist; creating another replaces it. No Concentration required. Crosswind applies when the attack line crosses any zone space; surge is ordinary Difficult Terrain. Captain's Credit triggers once per round on any ally's turn or your turn, correcting contradictory draft timing, and grants max(1, TB+Instinct modifier) temporary Health. Eye reserve has a separate one-per-Long-Rest counter.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:storm-broker:captain-s-credit:11",
+      "ownerId": "storm-broker",
+      "ownerType": "path",
+      "callingLevel": 11,
+      "sourceName": "Captain's Credit",
+      "name": "Captain's Credit",
+      "description": "Once per combat round, outside your turn, when an ally you can see within 60 feet succeeds on an attack or saving throw while in your Squall, grant that ally temporary Health equal to your Training Bonus + your Instinct modifier (minimum one). Squalls last until the end of your next turn. No retired Focus or specialty currency is restored.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "The zone is fixed, its center must be visible, and only one may exist; creating another replaces it. No Concentration required. Crosswind applies when the attack line crosses any zone space; surge is ordinary Difficult Terrain. Captain's Credit triggers once per round on any ally's turn or your turn, correcting contradictory draft timing, and grants max(1, TB+Instinct modifier) temporary Health. Eye reserve has a separate one-per-Long-Rest counter.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:storm-broker:eye-of-the-bargain:15",
+      "ownerId": "storm-broker",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "sourceName": "Eye of the Bargain",
+      "name": "Eye of the Bargain",
+      "description": "Your Squall radius becomes 20 feet. As a Reaction when a creature you can see within 60 feet takes Lightning or Thunder damage, spend one Squall use to grant it Resistance to that instance of damage. Once per Long Rest, when initiative is rolled and you have no Squall uses, recover one use.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "The zone is fixed, its center must be visible, and only one may exist; creating another replaces it. No Concentration required. Crosswind applies when the attack line crosses any zone space; surge is ordinary Difficult Terrain. Captain's Credit triggers once per round on any ally's turn or your turn, correcting contradictory draft timing, and grants max(1, TB+Instinct modifier) temporary Health. Eye reserve has a separate one-per-Long-Rest counter.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

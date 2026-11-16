@@ -1,0 +1,22 @@
+{
+  "id": "fire-bolt",
+  "name": "Fire Bolt",
+  "level": 0,
+  "school": "evocation",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Evocation Cantrip (Tidecaller, Shipwright) Casting Time: Action Range: 120 feet Components: V, S Duration: Instantaneous You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried. Cantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11400
+  },
+  "castingTime": "Action"
+}

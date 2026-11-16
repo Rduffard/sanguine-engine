@@ -1,0 +1,204 @@
+{
+  "path": {
+    "id": "brass-outrider",
+    "name": "Brass Outrider",
+    "callingId": "gunslinger",
+    "description": "Akshan frontier courier and mobile skirmisher.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      10,
+      15,
+      18
+    ],
+    "grants": [
+      "path:brass-outrider:ride-the-recoil:3",
+      "path:brass-outrider:dust-and-distance:7",
+      "path:brass-outrider:passing-shot:10",
+      "path:brass-outrider:break-pursuit:15",
+      "path:brass-outrider:over-the-horizon:18"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "runner",
+          "rider"
+        ]
+      }
+    },
+    "pools": {
+      "outrider": {
+        "max": 3,
+        "short": "all"
+      },
+      "horizon": {
+        "max": 1,
+        "level": 18,
+        "short": "all"
+      }
+    },
+    "design": {
+      "id": "brass-outrider",
+      "name": "Brass Outrider",
+      "callingId": "gunslinger",
+      "identity": "Akshan frontier courier and mobile skirmisher.",
+      "choice": [
+        "runner",
+        "rider"
+      ],
+      "features": [
+        [
+          3,
+          "Ride the Recoil",
+          "Choose runner or rider. Runner gains Athletics Training; rider gains Animal Handling Training (Expertise if already Trained). Once per turn after a Ranged weapon attack, spend one Outrider use to move up to 15 feet without provoking Opportunity Attacks. A willing mount can move instead, using its movement.",
+          "outrider",
+          1
+        ],
+        [
+          7,
+          "Dust and Distance",
+          "Your Speed increases by 10 feet when not wearing Heavy armor. Mounting or dismounting costs only 5 feet of movement. Difficult Terrain caused by rubble or sand costs you no extra movement.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Passing Shot",
+          "After moving at least 20 feet on your turn, your first weapon hit that turn deals 1d8 extra damage. This applies only once per turn and cannot be combined with Ride the Recoil movement before the hit.",
+          null,
+          0
+        ],
+        [
+          15,
+          "Break Pursuit",
+          "When a creature ends its turn within 5 feet of you, you may use your Reaction and one Outrider use to move half your Speed without provoking Opportunity Attacks.",
+          "outrider",
+          1
+        ],
+        [
+          18,
+          "Over the Horizon",
+          "Once per Short or Long Rest as a Bonus Action, move up to your Speed and make one weapon attack. Passing Shot applies normally; this action does not grant an additional Action.",
+          "horizon",
+          1
+        ]
+      ],
+      "speed": [
+        [
+          7,
+          10
+        ]
+      ],
+      "pools": {
+        "outrider": {
+          "max": 3,
+          "short": "all"
+        },
+        "horizon": {
+          "max": 1,
+          "level": 18,
+          "short": "all"
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:brass-outrider:ride-the-recoil:3",
+      "ownerId": "brass-outrider",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Ride the Recoil",
+      "sourceName": "Ride the Recoil",
+      "description": "Choose runner or rider. Runner gains Athletics Training; rider gains Animal Handling Training (Expertise if already Trained). Once per turn after a Ranged weapon attack, spend one Outrider use to move up to 15 feet without provoking Opportunity Attacks. A willing mount can move instead, using its movement.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Ride the Recoil uses no action after the attack, once on your turn. Its special 15-foot movement does not spend your ordinary Speed; a mount instead spends its remaining movement. Passing Shot counts voluntary Speed movement before the hit and excludes Recoil movement. Runner upgrades its selected skill to Expertise if already trained, as rider does.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:brass-outrider:dust-and-distance:7",
+      "ownerId": "brass-outrider",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Dust and Distance",
+      "sourceName": "Dust and Distance",
+      "description": "Your Speed increases by 10 feet when not wearing Heavy armor. Mounting or dismounting costs only 5 feet of movement. Difficult Terrain caused by rubble or sand costs you no extra movement.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Ride the Recoil uses no action after the attack, once on your turn. Its special 15-foot movement does not spend your ordinary Speed; a mount instead spends its remaining movement. Passing Shot counts voluntary Speed movement before the hit and excludes Recoil movement. Runner upgrades its selected skill to Expertise if already trained, as rider does.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:brass-outrider:passing-shot:10",
+      "ownerId": "brass-outrider",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Passing Shot",
+      "sourceName": "Passing Shot",
+      "description": "After moving at least 20 feet on your turn, your first weapon hit that turn deals 1d8 extra damage. This applies only once per turn and cannot be combined with Ride the Recoil movement before the hit.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Ride the Recoil uses no action after the attack, once on your turn. Its special 15-foot movement does not spend your ordinary Speed; a mount instead spends its remaining movement. Passing Shot counts voluntary Speed movement before the hit and excludes Recoil movement. Runner upgrades its selected skill to Expertise if already trained, as rider does.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:brass-outrider:break-pursuit:15",
+      "ownerId": "brass-outrider",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Break Pursuit",
+      "sourceName": "Break Pursuit",
+      "description": "When a creature ends its turn within 5 feet of you, you may use your Reaction and one Outrider use to move half your Speed without provoking Opportunity Attacks.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Ride the Recoil uses no action after the attack, once on your turn. Its special 15-foot movement does not spend your ordinary Speed; a mount instead spends its remaining movement. Passing Shot counts voluntary Speed movement before the hit and excludes Recoil movement. Runner upgrades its selected skill to Expertise if already trained, as rider does.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:brass-outrider:over-the-horizon:18",
+      "ownerId": "brass-outrider",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "name": "Over the Horizon",
+      "sourceName": "Over the Horizon",
+      "description": "Once per Short or Long Rest as a Bonus Action, move up to your Speed and make one weapon attack. Passing Shot applies normally; this action does not grant an additional Action.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Ride the Recoil uses no action after the attack, once on your turn. Its special 15-foot movement does not spend your ordinary Speed; a mount instead spends its remaining movement. Passing Shot counts voluntary Speed movement before the hit and excludes Recoil movement. Runner upgrades its selected skill to Expertise if already trained, as rider does.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

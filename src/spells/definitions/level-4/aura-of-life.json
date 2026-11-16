@@ -1,0 +1,22 @@
+{
+  "id": "aura-of-life",
+  "name": "Aura of Life",
+  "level": 4,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 4 Abjuration (Doctor, Warden) Casting Time: Action Range: Self Components: V Duration: Concentration, up to 10 minutes An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Necrotic damage, and your Health maximums can't be reduced. If an ally with 0 Health starts its turn in the aura, that ally regains 1 Health.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9451
+  },
+  "castingTime": "Action"
+}

@@ -1,0 +1,146 @@
+{
+  "path": {
+    "id": "omen-diver",
+    "name": "Omen Diver",
+    "callingId": "tidecaller",
+    "description": "Drowned draconic relics; all source dragon-specific restrictions remain.",
+    "status": "available",
+    "source": {
+      "document": "SRD",
+      "version": "5.2.1",
+      "classId": "sorcerer",
+      "subclassId": "draconic-sorcery",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+    },
+    "featureLevels": [
+      3,
+      6,
+      14,
+      18
+    ],
+    "grants": [
+      "path:omen-diver:draconic-resilience:3",
+      "path:omen-diver:draconic-spells:3",
+      "path:omen-diver:elemental-affinity:6",
+      "path:omen-diver:dragon-wings:14",
+      "path:omen-diver:dragon-companion:18"
+    ],
+    "spellsByCallingLevel": {
+      "3": [
+        "Alter Self",
+        "Chromatic Orb",
+        "Command",
+        "Dragon's Breath"
+      ],
+      "5": [
+        "Fear",
+        "Fly"
+      ],
+      "7": [
+        "Arcane Eye",
+        "Charm Monster"
+      ],
+      "9": [
+        "Legend Lore",
+        "Summon Dragon"
+      ]
+    }
+  },
+  "features": [
+    {
+      "id": "path:omen-diver:draconic-resilience:3",
+      "ownerId": "omen-diver",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Draconic Resilience",
+      "name": "Draconic Resilience",
+      "description": "The magic in your body manifests physical traits of your draconic gift. Your Health maximum increases by 3, and it increases by 1 whenever you gain another Tidecaller level. Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Guard equals 10 plus your Agility and Spirit modifiers.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:omen-diver:draconic-spells:3",
+      "ownerId": "omen-diver",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Draconic Spells",
+      "name": "Draconic Spells",
+      "description": "When you reach a Tidecaller level specified in the Draconic Spells table, you thereafter always have the listed spells prepared. Draconic Spells Tidecaller Level Spells 3 Alter Self, Chromatic Orb, Command, Dragon's Breath 5 Fear, Fly 7 Arcane Eye, Charm Monster 9 Legend Lore, Summon Dragon",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:omen-diver:elemental-affinity:6",
+      "ownerId": "omen-diver",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Elemental Affinity",
+      "name": "Elemental Affinity",
+      "description": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison. You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Spirit modifier to one damage roll of that spell.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:omen-diver:dragon-wings:14",
+      "ownerId": "omen-diver",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "sourceName": "Dragon Wings",
+      "name": "Dragon Wings",
+      "description": "As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet. Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:omen-diver:dragon-companion:18",
+      "ownerId": "omen-diver",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "sourceName": "Dragon Companion",
+      "name": "Dragon Companion",
+      "description": "You can cast Summon Dragon without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest. Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "detect-magic",
+  "name": "Detect Magic",
+  "level": 1,
+  "school": "divination",
+  "callings": [
+    "doctor",
+    "warden",
+    "navigator",
+    "tidecaller",
+    "shipwright",
+    "druid"
+  ],
+  "concentration": true,
+  "ritual": true,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Divination (Bard, Doctor, Druid, Warden, Navigator, Tidecaller, Warlock, Shipwright) Casting Time: Action or Ritual Range: Self Components: V, S Duration: Concentration, up to 10 minutes For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10571
+  },
+  "castingTime": "Action or Ritual"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gentle-repose",
+  "name": "Gentle Repose",
+  "level": 2,
+  "school": "necromancy",
+  "callings": [
+    "doctor",
+    "warden",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": true,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Necromancy (Doctor, Warden, Shipwright) Casting Time: Action or Ritual Range: Touch Components: V, S, M (2 Copper Pieces, which the spell consumes) Duration: 10 days You touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead. The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as Raise Dead.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11749
+  },
+  "castingTime": "Action or Ritual"
+}

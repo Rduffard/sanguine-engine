@@ -1,0 +1,161 @@
+{
+  "path": {
+    "id": "sparkwrite-aetherist",
+    "name": "Sparkwrite Aetherist",
+    "callingId": "shipwright",
+    "description": "Yuma experimental arcanist who stores spells in unstable relays.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:sparkwrite-aetherist:aether-relay:3",
+      "path:sparkwrite-aetherist:grounding-circuit:6",
+      "path:sparkwrite-aetherist:capacitor-discharge:10",
+      "path:sparkwrite-aetherist:twin-circuit:14"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "grounded",
+          "mobile"
+        ]
+      }
+    },
+    "pools": {
+      "relay": {
+        "max": 3,
+        "short": 1
+      }
+    },
+    "design": {
+      "id": "sparkwrite-aetherist",
+      "name": "Sparkwrite Aetherist",
+      "callingId": "shipwright",
+      "identity": "Yuma experimental arcanist who stores spells in unstable relays.",
+      "choice": [
+        "grounded",
+        "mobile"
+      ],
+      "features": [
+        [
+          3,
+          "Aether Relay",
+          "Choose grounded or mobile. Gain tinker tools Training. As a Bonus Action spend one Relay use to place a relay in an unoccupied space within 30 feet for one minute. You may originate one Shipwright cantrip per turn from that relay, measuring range from it while still requiring your own sight. Grounded grants the relay Guard 15 and Health equal to twice Shipwright level; mobile lets you move it 15 feet as a Bonus Action. One relay at a time.",
+          "relay",
+          1
+        ],
+        [
+          6,
+          "Grounding Circuit",
+          "While within 10 feet of your relay, gain Resistance to Lightning damage and advantage on Resolve saves to maintain Concentration. If the relay is destroyed, the benefits end.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Capacitor Discharge",
+          "As an Action spend one Relay use to detonate your relay. Creatures within 10 feet make an Agility save against your spell DC, taking 4d8 Lightning damage on failure or half on success. The relay is destroyed; you cannot exempt allies.",
+          "relay",
+          1
+        ],
+        [
+          14,
+          "Twin Circuit",
+          "You may maintain two relays. Each time you cast a Shipwright spell of level 1 or higher, you can teleport between two of your relays within 60 feet of each other, once per turn. Capacitor Discharge damage becomes 6d8.",
+          null,
+          0
+        ]
+      ],
+      "pools": {
+        "relay": {
+          "max": 3,
+          "short": 1
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:sparkwrite-aetherist:aether-relay:3",
+      "ownerId": "sparkwrite-aetherist",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Aether Relay",
+      "sourceName": "Aether Relay",
+      "description": "Choose grounded or mobile. Gain tinker tools Training. As a Bonus Action spend one Relay use to place a relay in an unoccupied space within 30 feet for one minute. You may originate one Shipwright cantrip per turn from that relay, measuring range from it while still requiring your own sight. Grounded grants the relay Guard 15 and Health equal to twice Shipwright level; mobile lets you move it 15 feet as a Bonus Action. One relay at a time.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "All relays are magical one-foot objects, Guard 15, Health twice Shipwright level, immune to Poison/Psychic, no turns, no movement blocking. They expire after one minute or at 0 Health. Grounded is immobile; mobile moves 15 feet per Bonus Action within 60 feet of you. At level 14 a third relay dismisses one chosen relay. Cantrip casting changes range origin only; your sight, components and cover remain relevant. Twin Circuit uses no action after a spell: begin within 5 feet of one relay and end in a visible unoccupied space within 5 feet of the other; relays at most 60 feet apart. Discharge destroys only the chosen relay.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sparkwrite-aetherist:grounding-circuit:6",
+      "ownerId": "sparkwrite-aetherist",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Grounding Circuit",
+      "sourceName": "Grounding Circuit",
+      "description": "While within 10 feet of your relay, gain Resistance to Lightning damage and advantage on Resolve saves to maintain Concentration. If the relay is destroyed, the benefits end.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "All relays are magical one-foot objects, Guard 15, Health twice Shipwright level, immune to Poison/Psychic, no turns, no movement blocking. They expire after one minute or at 0 Health. Grounded is immobile; mobile moves 15 feet per Bonus Action within 60 feet of you. At level 14 a third relay dismisses one chosen relay. Cantrip casting changes range origin only; your sight, components and cover remain relevant. Twin Circuit uses no action after a spell: begin within 5 feet of one relay and end in a visible unoccupied space within 5 feet of the other; relays at most 60 feet apart. Discharge destroys only the chosen relay.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sparkwrite-aetherist:capacitor-discharge:10",
+      "ownerId": "sparkwrite-aetherist",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Capacitor Discharge",
+      "sourceName": "Capacitor Discharge",
+      "description": "As an Action spend one Relay use to detonate your relay. Creatures within 10 feet make an Agility save against your spell DC, taking 4d8 Lightning damage on failure or half on success. The relay is destroyed; you cannot exempt allies.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "All relays are magical one-foot objects, Guard 15, Health twice Shipwright level, immune to Poison/Psychic, no turns, no movement blocking. They expire after one minute or at 0 Health. Grounded is immobile; mobile moves 15 feet per Bonus Action within 60 feet of you. At level 14 a third relay dismisses one chosen relay. Cantrip casting changes range origin only; your sight, components and cover remain relevant. Twin Circuit uses no action after a spell: begin within 5 feet of one relay and end in a visible unoccupied space within 5 feet of the other; relays at most 60 feet apart. Discharge destroys only the chosen relay.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sparkwrite-aetherist:twin-circuit:14",
+      "ownerId": "sparkwrite-aetherist",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "Twin Circuit",
+      "sourceName": "Twin Circuit",
+      "description": "You may maintain two relays. Each time you cast a Shipwright spell of level 1 or higher, you can teleport between two of your relays within 60 feet of each other, once per turn. Capacitor Discharge damage becomes 6d8.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "All relays are magical one-foot objects, Guard 15, Health twice Shipwright level, immune to Poison/Psychic, no turns, no movement blocking. They expire after one minute or at 0 Health. Grounded is immobile; mobile moves 15 feet per Bonus Action within 60 feet of you. At level 14 a third relay dismisses one chosen relay. Cantrip casting changes range origin only; your sight, components and cover remain relevant. Twin Circuit uses no action after a spell: begin within 5 feet of one relay and end in a visible unoccupied space within 5 feet of the other; relays at most 60 feet apart. Discharge destroys only the chosen relay.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

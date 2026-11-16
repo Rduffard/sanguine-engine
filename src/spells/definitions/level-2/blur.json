@@ -1,0 +1,22 @@
+{
+  "id": "blur",
+  "name": "Blur",
+  "level": 2,
+  "school": "illusion",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Illusion (Tidecaller, Shipwright) Casting Time: Action Range: Self Components: V Duration: Concentration, up to 1 minute Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9676
+  },
+  "castingTime": "Action"
+}

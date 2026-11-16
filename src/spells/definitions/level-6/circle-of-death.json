@@ -1,0 +1,22 @@
+{
+  "id": "circle-of-death",
+  "name": "Circle of Death",
+  "level": 6,
+  "school": "necromancy",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 6 Necromancy (Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 150 feet Components: V, S, M (the powder of a crushed black pearl worth 500+ GP) Duration: Instantaneous Negative energy ripples out in a 60-foot-radius Sphere from a point you choose within range. Each creature in that area makes a Resolve saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. Using a Higher-Level Spell Slot. The damage increases by 2d8 for each spell slot level above 6.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9821
+  },
+  "castingTime": "Action"
+}

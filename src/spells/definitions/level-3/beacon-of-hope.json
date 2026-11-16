@@ -1,0 +1,21 @@
+{
+  "id": "beacon-of-hope",
+  "name": "Beacon of Hope",
+  "level": 3,
+  "school": "abjuration",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Abjuration (Doctor) Casting Time: Action Range: 30 feet Components: V, S Duration: Concentration, up to 1 minute Choose any number of creatures within range. For the duration, each target has Advantage on Instinct saving throws and Death Saving Throws and regains the maximum number of Health possible from any healing.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9528
+  },
+  "castingTime": "Action"
+}

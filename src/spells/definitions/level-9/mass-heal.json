@@ -1,0 +1,21 @@
+{
+  "id": "mass-heal",
+  "name": "Mass Heal",
+  "level": 9,
+  "school": "abjuration",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 9 Abjuration (Doctor) Casting Time: Action Range: 60 feet Components: V, S Duration: Instantaneous A flood of healing energy flows from you into creatures around you. You restore up to 700 Health, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the Blinded, Deafened, and Poisoned conditions removed from them.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12917
+  },
+  "castingTime": "Action"
+}

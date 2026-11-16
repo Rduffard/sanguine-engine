@@ -1,0 +1,22 @@
+{
+  "id": "greater-invisibility",
+  "name": "Greater Invisibility",
+  "level": 4,
+  "school": "illusion",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 4 Illusion (Bard, Tidecaller, Shipwright) Casting Time: Action Range: Touch Components: V, S Duration: Concentration, up to 1 minute A creature you touch has the Invisible condition until the spell ends.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11918
+  },
+  "castingTime": "Action"
+}

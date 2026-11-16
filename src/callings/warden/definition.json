@@ -1,0 +1,386 @@
+{
+  "definition": {
+    "name": "Warden",
+    "classId": "paladin",
+    "page": 53,
+    "hitDie": 10,
+    "prerequisites": {
+      "might": 13,
+      "spirit": 13
+    },
+    "pathLevels": [
+      3,
+      7,
+      15,
+      20
+    ],
+    "caster": "half",
+    "castingAttribute": "spirit",
+    "starting": {
+      "skillCount": 2,
+      "skillOptions": [
+        "athletics",
+        "insight",
+        "intimidation",
+        "medicine",
+        "persuasion",
+        "religion"
+      ],
+      "saves": [
+        "instinct",
+        "spirit"
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ],
+      "tools": []
+    },
+    "multiclass": {
+      "skillCount": 0,
+      "weapons": [
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "tools": []
+    }
+  },
+  "timeline": [
+    "Lay On Hands/Spellcasting/Weapon Mastery",
+    "Fighting Style/Paladin's Smite",
+    "Channel Divinity/Path",
+    "ASI",
+    "Extra Attack/Faithful Steed",
+    "Aura of Protection",
+    "Path",
+    "ASI",
+    "Abjure Foes",
+    "Aura of Courage",
+    "Radiant Strikes",
+    "ASI",
+    "",
+    "Restoring Touch",
+    "Path",
+    "ASI",
+    "",
+    "Aura Expansion",
+    "Epic Boon",
+    "Path"
+  ],
+  "features": [
+    {
+      "id": "calling:warden:lay-on-hands:1",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Lay On Hands",
+      "name": "Lay On Hands",
+      "description": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Health equal to five times your Warden level. As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Health to that creature, up to the maximum amount remaining in the pool. You can also expend 5 Health from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Health to the creature.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:spellcasting:1",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Spellcasting",
+      "name": "Spellcasting",
+      "description": "You have learned to cast spells through prayer and meditation. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Warden spells, which appear in the Warden spell list later in the class's description. Spell Slots. The Warden Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest. Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warden spells. Heroism and Searing Smite are recommended. The number of spells on your list increases as you gain Warden levels, as shown in the Prepared Spells column of the Warden Features table. Whenever that number increases, choose additional Warden spells until the number of spells on your list matches the number in the Warden Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Warden, your list of prepared spells can include six Warden spells of level 1 or 2 in any combination. If another Warden feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Warden spells for you. Changing Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Warden spell for which you have spell slots. Spellcasting Ability. Spirit is your spellcasting ability for your Warden spells. Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Warden spells.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:weapon-mastery:1",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Weapon Mastery",
+      "name": "Weapon Mastery",
+      "description": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have Training, such as Longswords and Javelins. Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:fighting-style:2",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Fighting Style",
+      "name": "Fighting Style",
+      "description": "You gain a Fighting Style feat of your choice (see “Feats” for feats). Instead of choosing one of those feats, you can choose the option below. Blessed Warrior. You learn two Doctor cantrips of your choice (see the Doctor class's section for a list of Doctor spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Warden spells for you, and Spirit is your spellcasting ability for them. Whenever you gain a Warden level, you can replace one of these cantrips with another Doctor cantrip.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:paladin-s-smite:2",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Paladin's Smite",
+      "name": "Warden's Smite",
+      "description": "You always have the Divine Smite spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:channel-divinity:3",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 3,
+      "sourceName": "Channel Divinity",
+      "name": "Channel Divinity",
+      "description": "You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Warden features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create. You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Warden level 11. If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature. Divine Sense. As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:ability-score-improvement:4",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 4,
+      "sourceName": "Ability Score Improvement",
+      "name": "Ability Score Improvement",
+      "description": "You gain the Ability Score Improvement feat (see “Feats”) or another feat of your choice for which you qualify. You gain this feature again at Warden levels 8, 12, and 16.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:extra-attack:5",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Extra Attack",
+      "name": "Extra Attack",
+      "description": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:faithful-steed:5",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Faithful Steed",
+      "name": "Faithful Steed",
+      "description": "You can call on the aid of an otherworldly steed. You always have the Find Steed spell prepared. You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:aura-of-protection:6",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 6,
+      "sourceName": "Aura of Protection",
+      "name": "Aura of Protection",
+      "description": "You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition. You and your allies in the aura gain a bonus to saving throws equal to your Spirit modifier (minimum bonus of +1). If another Warden is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:abjure-foes:9",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 9,
+      "sourceName": "Abjure Foes",
+      "name": "Abjure Foes",
+      "description": "As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Spirit modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Instinct saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:aura-of-courage:10",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 10,
+      "sourceName": "Aura of Courage",
+      "name": "Aura of Courage",
+      "description": "You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:radiant-strikes:11",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 11,
+      "sourceName": "Radiant Strikes",
+      "name": "Radiant Strikes",
+      "description": "Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:restoring-touch:14",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 14,
+      "sourceName": "Restoring Touch",
+      "name": "Restoring Touch",
+      "description": "When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Health from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Health to the creature.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:aura-expansion:18",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 18,
+      "sourceName": "Aura Expansion",
+      "name": "Aura Expansion",
+      "description": "Your Aura of Protection is now a 30-foot Emanation.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:warden:epic-boon:19",
+      "ownerId": "warden",
+      "ownerType": "calling",
+      "callingLevel": 19,
+      "sourceName": "Epic Boon",
+      "name": "Epic Boon",
+      "description": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Truesight is recommended.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

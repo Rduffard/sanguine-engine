@@ -1,0 +1,161 @@
+{
+  "path": {
+    "id": "thunderhide",
+    "name": "Thunderhide",
+    "callingId": "reaver",
+    "description": "Akshan storm runner who uses Rage to dominate space.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:thunderhide:stormhide:3",
+      "path:thunderhide:weather-the-blow:6",
+      "path:thunderhide:thunderous-landing:10",
+      "path:thunderhide:walking-storm:14"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "thunder",
+          "lightning"
+        ]
+      }
+    },
+    "pools": {
+      "stormhide": {
+        "max": 3,
+        "short": 1
+      }
+    },
+    "design": {
+      "id": "thunderhide",
+      "name": "Thunderhide",
+      "callingId": "reaver",
+      "identity": "Akshan storm runner who uses Rage to dominate space.",
+      "choice": [
+        "thunder",
+        "lightning"
+      ],
+      "features": [
+        [
+          3,
+          "Stormhide",
+          "Choose Thunder or Lightning. While Raging gain Resistance to the chosen type. Once on each of your turns when a Might-based melee attack hits during Rage, deal chosen-type damage equal to your Rage Damage bonus. As a Bonus Action spend one Stormhide use to leap 15 feet; movement provokes normally.",
+          "stormhide",
+          1
+        ],
+        [
+          6,
+          "Weather the Blow",
+          "Gain permanent Resistance to your chosen type. When a creature hits you with a melee attack while you Rage, you may use your Reaction to deal chosen-type damage equal to your Resolve modifier (minimum one) to it.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Thunderous Landing",
+          "When you use the Stormhide leap, each creature of your choice within 5 feet of your landing space makes a Might save (DC 8 + Training Bonus + Might) or falls Prone. You must land on a supporting surface.",
+          null,
+          0
+        ],
+        [
+          14,
+          "Walking Storm",
+          "Once per Rage as a Bonus Action spend one Stormhide use to emit a 10-foot Emanation until your next turn. Enemies that start a turn there make a Resolve save against your Stormhide DC, taking 3d6 chosen-type damage on failure or half on success.",
+          "stormhide",
+          1
+        ]
+      ],
+      "pools": {
+        "stormhide": {
+          "max": 3,
+          "short": 1
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:thunderhide:stormhide:3",
+      "ownerId": "thunderhide",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Stormhide",
+      "sourceName": "Stormhide",
+      "description": "Choose Thunder or Lightning. While Raging gain Resistance to the chosen type. Once on each of your turns when a Might-based melee attack hits during Rage, deal chosen-type damage equal to your Rage Damage bonus. As a Bonus Action spend one Stormhide use to leap 15 feet; movement provokes normally.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Leap is special movement to a visible unoccupied supporting space and cannot cross solid barriers. Leaping need not occur during Rage, but damage/landing riders require Rage. Weather the Blow resolves after damage while conscious and seeing the attacker. Walking Storm is once per Rage instance, costs one Stormhide use and uses DC 8+TB+Might modifier.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:thunderhide:weather-the-blow:6",
+      "ownerId": "thunderhide",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Weather the Blow",
+      "sourceName": "Weather the Blow",
+      "description": "Gain permanent Resistance to your chosen type. When a creature hits you with a melee attack while you Rage, you may use your Reaction to deal chosen-type damage equal to your Resolve modifier (minimum one) to it.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Leap is special movement to a visible unoccupied supporting space and cannot cross solid barriers. Leaping need not occur during Rage, but damage/landing riders require Rage. Weather the Blow resolves after damage while conscious and seeing the attacker. Walking Storm is once per Rage instance, costs one Stormhide use and uses DC 8+TB+Might modifier.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:thunderhide:thunderous-landing:10",
+      "ownerId": "thunderhide",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Thunderous Landing",
+      "sourceName": "Thunderous Landing",
+      "description": "When you use the Stormhide leap, each creature of your choice within 5 feet of your landing space makes a Might save (DC 8 + Training Bonus + Might) or falls Prone. You must land on a supporting surface.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Leap is special movement to a visible unoccupied supporting space and cannot cross solid barriers. Leaping need not occur during Rage, but damage/landing riders require Rage. Weather the Blow resolves after damage while conscious and seeing the attacker. Walking Storm is once per Rage instance, costs one Stormhide use and uses DC 8+TB+Might modifier.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:thunderhide:walking-storm:14",
+      "ownerId": "thunderhide",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "Walking Storm",
+      "sourceName": "Walking Storm",
+      "description": "Once per Rage as a Bonus Action spend one Stormhide use to emit a 10-foot Emanation until your next turn. Enemies that start a turn there make a Resolve save against your Stormhide DC, taking 3d6 chosen-type damage on failure or half on success.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Leap is special movement to a visible unoccupied supporting space and cannot cross solid barriers. Leaping need not occur during Rage, but damage/landing riders require Rage. Weather the Blow resolves after damage while conscious and seeing the attacker. Walking Storm is once per Rage instance, costs one Stormhide use and uses DC 8+TB+Might modifier.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "path": {
+    "id": "field-surgeon",
+    "name": "Field Surgeon",
+    "callingId": "doctor",
+    "description": "Choose trauma or toxicology. Gain Training with healer's kits and herbalism kits, and Expertise in Stabilize if already Trained, otherwise Training in Stabilize. Your Doctor spells and features can use Wit instead of Instinct; this choice is fixed when this Path is gained. This changes the casting attribute, not the magical rules or components of spells. As an Action spend one Triage use and one healer's kit use to restore 2d8 + your Doctor level Health to a creature within reach. A creature can receive this healing once per Short or Long Rest.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      17
+    ],
+    "grants": [
+      "path:field-surgeon:clinical-doctrine:3",
+      "path:field-surgeon:battlefield-procedure:6",
+      "path:field-surgeon:impossible-operation:17"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "surgicalDiscipline",
+        "options": [
+          "trauma",
+          "toxicology"
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:field-surgeon:clinical-doctrine:3",
+      "ownerId": "field-surgeon",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Clinical Doctrine",
+      "name": "Clinical Doctrine",
+      "description": "Choose trauma or toxicology. Gain Training with healer's kits and herbalism kits, and Expertise in Stabilize if already Trained, otherwise Training in Stabilize. Your Doctor spells and features can use Wit instead of Instinct; this choice is fixed when this Path is gained. This changes the casting attribute, not the magical rules or components of spells. As an Action spend one Triage use and one healer's kit use to restore 2d8 + your Doctor level Health to a creature within reach. A creature can receive this healing once per Short or Long Rest. Path uses start at two, increase by one at Calling levels 7, 11, 15, and 19, and recover one on a Short Rest or all on a Long Rest. Separately listed once-per-Long-Rest features recover on a Long Rest.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Choose clinicalAttribute instinct or wit at level 3, fixed for the build. Replace Instinct in every Doctor/Path spell, DC and feature, including Channel and existing preparations, but not unrelated skills/saves. Triage requires sight, touch within 5 feet, one Triage use and one kit charge. Healer-kit Training is narrative permission without extra dice. Toxicology uses the same costs and target restriction; poison advantage means saves against Poisoned. Impossible Operation requires consent, touch, one operation counter per Long Rest, one Channel use, five kit charges and its printed body/death conditions.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:field-surgeon:battlefield-procedure:6",
+      "ownerId": "field-surgeon",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Battlefield Procedure",
+      "name": "Battlefield Procedure",
+      "description": "Triage healing becomes 3d8 + your Doctor level. Trauma: when applying Triage, also end the target's Prone condition without spending movement. Toxicology: instead of healing, a Triage use can end the Poisoned condition and grant advantage against poison for one minute. Neither option removes Exhaustion or restores missing limbs. Record each target's Triage rest restriction at the table.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Choose clinicalAttribute instinct or wit at level 3, fixed for the build. Replace Instinct in every Doctor/Path spell, DC and feature, including Channel and existing preparations, but not unrelated skills/saves. Triage requires sight, touch within 5 feet, one Triage use and one kit charge. Healer-kit Training is narrative permission without extra dice. Toxicology uses the same costs and target restriction; poison advantage means saves against Poisoned. Impossible Operation requires consent, touch, one operation counter per Long Rest, one Channel use, five kit charges and its printed body/death conditions.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:field-surgeon:impossible-operation:17",
+      "ownerId": "field-surgeon",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "sourceName": "Impossible Operation",
+      "name": "Impossible Operation",
+      "description": "Triage healing becomes 6d8 + your Doctor level. Once per Long Rest, as an Action expend one Channel Divinity use and five healer's kit uses to restore a creature that died within the last minute to 1 Health. Its body must be present and substantially intact; death by old age and removed vital organs cannot be reversed. You must remain within reach for the Action. This is an original magical intervention, not ordinary surgery.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Choose clinicalAttribute instinct or wit at level 3, fixed for the build. Replace Instinct in every Doctor/Path spell, DC and feature, including Channel and existing preparations, but not unrelated skills/saves. Triage requires sight, touch within 5 feet, one Triage use and one kit charge. Healer-kit Training is narrative permission without extra dice. Toxicology uses the same costs and target restriction; poison advantage means saves against Poisoned. Impossible Operation requires consent, touch, one operation counter per Long Rest, one Channel use, five kit charges and its printed body/death conditions.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

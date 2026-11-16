@@ -1,0 +1,22 @@
+{
+  "id": "shield-of-faith",
+  "name": "Shield of Faith",
+  "level": 1,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Abjuration (Doctor, Warden) Casting Time: Bonus Action Range: 60 feet Components: V, S, M (a prayer scroll) Duration: Concentration, up to 10 minutes A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 14284
+  },
+  "castingTime": "Bonus Action"
+}

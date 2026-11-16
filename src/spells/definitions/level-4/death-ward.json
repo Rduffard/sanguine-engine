@@ -1,0 +1,22 @@
+{
+  "id": "death-ward",
+  "name": "Death Ward",
+  "level": 4,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 4 Abjuration (Doctor, Warden) Casting Time: Action Range: Touch Components: V, S Duration: 8 hours You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Health before the spell ends, the target instead drops to 1 Health, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10499
+  },
+  "castingTime": "Action"
+}

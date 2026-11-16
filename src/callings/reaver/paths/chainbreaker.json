@@ -1,0 +1,169 @@
+{
+  "path": {
+    "id": "chainbreaker",
+    "name": "Chainbreaker",
+    "callingId": "reaver",
+    "description": "Yayimi liberator who breaks holds and protects comrades.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:chainbreaker:break-their-hold:3",
+      "path:chainbreaker:refuse-the-yoke:6",
+      "path:chainbreaker:rally-the-bound:10",
+      "path:chainbreaker:none-shall-kneel:14"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "rescuer",
+          "breaker"
+        ]
+      }
+    },
+    "pools": {
+      "freedom": {
+        "max": 3,
+        "short": 1
+      },
+      "none-kneel": {
+        "max": 1,
+        "level": 14
+      }
+    },
+    "design": {
+      "id": "chainbreaker",
+      "name": "Chainbreaker",
+      "callingId": "reaver",
+      "identity": "Yayimi liberator who breaks holds and protects comrades.",
+      "choice": [
+        "rescuer",
+        "breaker"
+      ],
+      "features": [
+        [
+          3,
+          "Break Their Hold",
+          "Choose rescuer or breaker. While Raging, once per turn when you hit with a Might-based melee attack, deal extra damage equal to your Rage Damage bonus if the target is Grappling an ally or carrying restraints. As a Bonus Action spend one Freedom use to let an adjacent ally immediately attempt to escape a grapple, using your Might (Athletics) modifier.",
+          "freedom",
+          1
+        ],
+        [
+          6,
+          "Refuse the Yoke",
+          "While Raging, you have advantage on saves against Paralyzed and Restrained. Rescuer lets an ally within 5 feet use the same advantage; breaker doubles your weapon damage against nonmagical restraints and unattended doors.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Rally the Bound",
+          "As an Action spend one Freedom use: up to three allies within 30 feet who hear you gain temporary Health equal to 1d8 + Resolve modifier. They can stand from Prone without spending movement.",
+          "freedom",
+          1
+        ],
+        [
+          14,
+          "None Shall Kneel",
+          "Once per Long Rest as a Reaction when an ally within 30 feet fails a save against Charmed, Frightened or Restrained, let it succeed instead. You must be Raging and able to see the ally.",
+          "none-kneel",
+          1
+        ]
+      ],
+      "pools": {
+        "freedom": {
+          "max": 3,
+          "short": 1
+        },
+        "none-kneel": {
+          "max": 1,
+          "level": 14
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:chainbreaker:break-their-hold:3",
+      "ownerId": "chainbreaker",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Break Their Hold",
+      "sourceName": "Break Their Hold",
+      "description": "Choose rescuer or breaker. While Raging, once per turn when you hit with a Might-based melee attack, deal extra damage equal to your Rage Damage bonus if the target is Grappling an ally or carrying restraints. As a Bonus Action spend one Freedom use to let an adjacent ally immediately attempt to escape a grapple, using your Might (Athletics) modifier.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The ally's escape check uses the source grapple DC and your full Might/Athletics modifier; no ally action is spent. Rescuer at level 6 benefits all willing allies within 5 feet while you Rage. Rally grants max(0,1d8+Resolve modifier) temporary Health to each selected target.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:chainbreaker:refuse-the-yoke:6",
+      "ownerId": "chainbreaker",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Refuse the Yoke",
+      "sourceName": "Refuse the Yoke",
+      "description": "While Raging, you have advantage on saves against Paralyzed and Restrained. Rescuer lets an ally within 5 feet use the same advantage; breaker doubles your weapon damage against nonmagical restraints and unattended doors.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The ally's escape check uses the source grapple DC and your full Might/Athletics modifier; no ally action is spent. Rescuer at level 6 benefits all willing allies within 5 feet while you Rage. Rally grants max(0,1d8+Resolve modifier) temporary Health to each selected target.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:chainbreaker:rally-the-bound:10",
+      "ownerId": "chainbreaker",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Rally the Bound",
+      "sourceName": "Rally the Bound",
+      "description": "As an Action spend one Freedom use: up to three allies within 30 feet who hear you gain temporary Health equal to 1d8 + Resolve modifier. They can stand from Prone without spending movement.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The ally's escape check uses the source grapple DC and your full Might/Athletics modifier; no ally action is spent. Rescuer at level 6 benefits all willing allies within 5 feet while you Rage. Rally grants max(0,1d8+Resolve modifier) temporary Health to each selected target.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:chainbreaker:none-shall-kneel:14",
+      "ownerId": "chainbreaker",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "None Shall Kneel",
+      "sourceName": "None Shall Kneel",
+      "description": "Once per Long Rest as a Reaction when an ally within 30 feet fails a save against Charmed, Frightened or Restrained, let it succeed instead. You must be Raging and able to see the ally.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The ally's escape check uses the source grapple DC and your full Might/Athletics modifier; no ally action is spent. Rescuer at level 6 benefits all willing allies within 5 feet while you Rage. Rally grants max(0,1d8+Resolve modifier) temporary Health to each selected target.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

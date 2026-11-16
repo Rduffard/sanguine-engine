@@ -1,0 +1,22 @@
+{
+  "id": "animal-friendship",
+  "name": "Animal Friendship",
+  "level": 1,
+  "school": "enchantment",
+  "callings": [
+    "navigator",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Enchantment (Bard, Druid, Navigator) Casting Time: Action Range: 30 feet Components: V, S, M (a morsel of food) Duration: 24 hours Target a Beast that you can see within range. The target must succeed on a Instinct saving throw or have the Charmed condition for the duration. If you or one of your allies deals damage to the target, the spells ends. Using a Higher-Level Spell Slot. You can target one additional Beast for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9082
+  },
+  "castingTime": "Action"
+}

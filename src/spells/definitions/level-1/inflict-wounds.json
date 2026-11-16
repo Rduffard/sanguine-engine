@@ -1,0 +1,21 @@
+{
+  "id": "inflict-wounds",
+  "name": "Inflict Wounds",
+  "level": 1,
+  "school": "necromancy",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Necromancy (Doctor) Casting Time: Action Range: Touch Components: V, S Duration: Instantaneous A creature you touch makes a Resolve saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one. Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12457
+  },
+  "castingTime": "Action"
+}

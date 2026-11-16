@@ -1,0 +1,23 @@
+{
+  "id": "poison-spray",
+  "name": "Poison Spray",
+  "level": 0,
+  "school": "necromancy",
+  "callings": [
+    "tidecaller",
+    "shipwright",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Necromancy Cantrip (Druid, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 30 feet Components: V, S Duration: Instantaneous You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage. Cantrip Upgrade. The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13480
+  },
+  "castingTime": "Action"
+}

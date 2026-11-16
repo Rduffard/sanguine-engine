@@ -1,0 +1,22 @@
+{
+  "id": "guidance",
+  "name": "Guidance",
+  "level": 0,
+  "school": "divination",
+  "callings": [
+    "doctor",
+    "druid"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Divination Cantrip (Doctor, Druid) Casting Time: Action Range: Touch Component: V, S Duration: Concentration, up to 1 minute You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12004
+  },
+  "castingTime": "Action"
+}

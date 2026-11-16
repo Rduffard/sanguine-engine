@@ -1,0 +1,22 @@
+{
+  "id": "shocking-grasp",
+  "name": "Shocking Grasp",
+  "level": 0,
+  "school": "evocation",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Evocation Cantrip (Tidecaller, Shipwright) Casting Time: Action Range: Touch Components: V, S Duration: Instantaneous Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn. Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 14323
+  },
+  "castingTime": "Action"
+}

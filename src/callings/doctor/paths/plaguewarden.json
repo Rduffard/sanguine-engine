@@ -1,0 +1,140 @@
+{
+  "path": {
+    "id": "plaguewarden",
+    "name": "Plaguewarden",
+    "callingId": "doctor",
+    "description": "Purapet apothecary who contains poison and disease.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      17
+    ],
+    "grants": [
+      "path:plaguewarden:contain-the-fever:3",
+      "path:plaguewarden:inoculated:6",
+      "path:plaguewarden:clean-bill-of-health:17"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "antidote",
+          "quarantine"
+        ]
+      }
+    },
+    "pools": {
+      "clean-bill": {
+        "max": 1,
+        "level": 17
+      }
+    },
+    "design": {
+      "id": "plaguewarden",
+      "name": "Plaguewarden",
+      "callingId": "doctor",
+      "identity": "Purapet apothecary who contains poison and disease.",
+      "choice": [
+        "antidote",
+        "quarantine"
+      ],
+      "features": [
+        [
+          3,
+          "Contain the Fever",
+          "Choose antidote or quarantine. Gain herbalism kit Training. As an Action expend one Channel Divinity use: antidote ends Poisoned on up to two creatures within 30 feet; quarantine forces one creature within 30 feet to make a Resolve save against your spell DC or have its Speed halved and lose Reactions for one minute (repeat save each turn).",
+          "channel-divinity",
+          1
+        ],
+        [
+          6,
+          "Inoculated",
+          "Gain Resistance to Poison damage and advantage on saves against Poisoned. When you restore Health with a level 1+ spell, one healed creature has advantage on its next save against Poisoned within one hour.",
+          null,
+          0
+        ],
+        [
+          17,
+          "Clean Bill of Health",
+          "Once per Long Rest as an Action restore 6d8 + Doctor level Health to one creature within reach and end Poisoned, Blinded and Deafened on it. You must expend one healer kit use. This cannot cure magical curses or restore missing body parts.",
+          "clean-bill",
+          1
+        ]
+      ],
+      "resistances": [
+        [
+          6,
+          "poison"
+        ]
+      ],
+      "pools": {
+        "clean-bill": {
+          "max": 1,
+          "level": 17
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:plaguewarden:contain-the-fever:3",
+      "ownerId": "plaguewarden",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Contain the Fever",
+      "sourceName": "Contain the Fever",
+      "description": "Choose antidote or quarantine. Gain herbalism kit Training. As an Action expend one Channel Divinity use: antidote ends Poisoned on up to two creatures within 30 feet; quarantine forces one creature within 30 feet to make a Resolve save against your spell DC or have its Speed halved and lose Reactions for one minute (repeat save each turn).",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Quarantine repeats its Resolve save at the end of each target turn; success ends both restrictions. This is not Poisoned and poison immunity does not prevent it. Clean Bill requires touch within 5 feet, one counter and one healer's kit charge.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:plaguewarden:inoculated:6",
+      "ownerId": "plaguewarden",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Inoculated",
+      "sourceName": "Inoculated",
+      "description": "Gain Resistance to Poison damage and advantage on saves against Poisoned. When you restore Health with a level 1+ spell, one healed creature has advantage on its next save against Poisoned within one hour.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Quarantine repeats its Resolve save at the end of each target turn; success ends both restrictions. This is not Poisoned and poison immunity does not prevent it. Clean Bill requires touch within 5 feet, one counter and one healer's kit charge.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:plaguewarden:clean-bill-of-health:17",
+      "ownerId": "plaguewarden",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "name": "Clean Bill of Health",
+      "sourceName": "Clean Bill of Health",
+      "description": "Once per Long Rest as an Action restore 6d8 + Doctor level Health to one creature within reach and end Poisoned, Blinded and Deafened on it. You must expend one healer kit use. This cannot cure magical curses or restore missing body parts.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Quarantine repeats its Resolve save at the end of each target turn; success ends both restrictions. This is not Poisoned and poison immunity does not prevent it. Clean Bill requires touch within 5 feet, one counter and one healer's kit charge.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

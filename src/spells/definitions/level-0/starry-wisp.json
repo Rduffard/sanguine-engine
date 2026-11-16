@@ -1,0 +1,19 @@
+{
+  "id": "starry-wisp",
+  "name": "Starry Wisp",
+  "level": 0,
+  "school": "evocation",
+  "callings": [
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "castingTime": "Action",
+  "description": "Evocation cantrip, Druid access only here. Action, 60 feet, V/S, instantaneous. Ranged spell attack against one creature or object, hit 1d8 Radiant, increasing to 2d8/3d8/4d8 at levels 5/11/17. On hit target sheds Dim Light ten feet and cannot benefit from Invisible until the end of your next turn. No save, slot or counter.",
+  "source": {
+    "document": "Sanguine Archipelago Phase 1",
+    "version": "SA-CHAR-1"
+  },
+  "rulesStatus": "tabletop-rules"
+}

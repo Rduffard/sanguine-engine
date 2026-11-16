@@ -1,0 +1,127 @@
+{
+  "path": {
+    "id": "reef-knife",
+    "name": "Reef Knife",
+    "callingId": "corsair",
+    "description": "Free Captains and concealed harbor routes.",
+    "status": "available",
+    "source": {
+      "document": "SRD",
+      "version": "5.2.1",
+      "classId": "rogue",
+      "subclassId": "thief",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+    },
+    "featureLevels": [
+      3,
+      9,
+      13,
+      17
+    ],
+    "grants": [
+      "path:reef-knife:fast-hands:3",
+      "path:reef-knife:second-story-work:3",
+      "path:reef-knife:supreme-sneak:9",
+      "path:reef-knife:use-magic-device:13",
+      "path:reef-knife:thief-s-reflexes:17"
+    ],
+    "spellsByCallingLevel": {}
+  },
+  "features": [
+    {
+      "id": "path:reef-knife:fast-hands:3",
+      "ownerId": "reef-knife",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Fast Hands",
+      "name": "Fast Hands",
+      "description": "As a Bonus Action, you can do one of the following. Sleight of Hand. Make a Agility (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket. Use an Object. Take the Utilize action, or take the Magic action to use a magic item that requires that action.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-knife:second-story-work:3",
+      "ownerId": "reef-knife",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Second-Story Work",
+      "name": "Second-Story Work",
+      "description": "You've trained to get into especially hard-to-reach places, granting you these benefits. Climber. You gain a Climb Speed equal to your Speed. Jumper. You can determine your jump distance using your Agility rather than your Might.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-knife:supreme-sneak:9",
+      "ownerId": "reef-knife",
+      "ownerType": "path",
+      "callingLevel": 9,
+      "sourceName": "Supreme Sneak",
+      "name": "Supreme Sneak",
+      "description": "You gain the following Cunning Strike option. Stealth Attack (Cost: 1d6). If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-knife:use-magic-device:13",
+      "ownerId": "reef-knife",
+      "ownerType": "path",
+      "callingLevel": 13,
+      "sourceName": "Use Magic Device",
+      "name": "Use Magic Device",
+      "description": "You've learned how to maximize use of magic items, granting you the following benefits. Attunement. You can attune to up to four magic items at once. Charges. Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges. Scrolls. You can use any Spell Scroll, using Wit as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Wit (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-knife:thief-s-reflexes:17",
+      "ownerId": "reef-knife",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "sourceName": "Thief's Reflexes",
+      "name": "Reef Knife's Reflexes",
+      "description": "You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

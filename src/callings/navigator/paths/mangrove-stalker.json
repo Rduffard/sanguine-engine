@@ -1,0 +1,167 @@
+{
+  "path": {
+    "id": "mangrove-stalker",
+    "name": "Mangrove Stalker",
+    "callingId": "navigator",
+    "description": "Busha ambusher who turns cover into patient pressure.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "grants": [
+      "path:mangrove-stalker:rooted-ambush:3",
+      "path:mangrove-stalker:marshborn:7",
+      "path:mangrove-stalker:patient-predator:11",
+      "path:mangrove-stalker:vanish-into-green:15"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "snare",
+          "camouflage"
+        ]
+      }
+    },
+    "pools": {
+      "thicket": {
+        "max": 3,
+        "short": 1
+      }
+    },
+    "design": {
+      "id": "mangrove-stalker",
+      "name": "Mangrove Stalker",
+      "callingId": "navigator",
+      "identity": "Busha ambusher who turns cover into patient pressure.",
+      "choice": [
+        "snare",
+        "camouflage"
+      ],
+      "features": [
+        [
+          3,
+          "Rooted Ambush",
+          "Choose snare or camouflage. Once per turn when you hit a creature marked by your Hunters Mark, spend one Thicket use to deal 1d6 extra Piercing damage. Snare forces a Might save against your spell DC or reduces its Speed to 0 until your next turn; camouflage lets you Hide immediately as part of the attack if you have cover or heavy obscurement.",
+          "thicket",
+          1
+        ],
+        [
+          7,
+          "Marshborn",
+          "Gain Resistance to Poison damage and advantage on saves against Poisoned. Nonmagical plants do not cost you extra movement or deal damage when you pass through them.",
+          null,
+          0
+        ],
+        [
+          11,
+          "Patient Predator",
+          "The extra damage of Rooted Ambush becomes 2d6. Once on each of your turns, if you started the turn Hidden from your marked target, you can move 10 feet without ending Hidden until you leave cover.",
+          null,
+          0
+        ],
+        [
+          15,
+          "Vanish into Green",
+          "As a Reaction when a creature you see hits you with an attack, spend one Thicket use to halve the damage and move 10 feet. This movement provokes Opportunity Attacks normally. You may Hide if you end in cover.",
+          "thicket",
+          1
+        ]
+      ],
+      "resistances": [
+        [
+          7,
+          "poison"
+        ]
+      ],
+      "pools": {
+        "thicket": {
+          "max": 3,
+          "short": 1
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:mangrove-stalker:rooted-ambush:3",
+      "ownerId": "mangrove-stalker",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Rooted Ambush",
+      "sourceName": "Rooted Ambush",
+      "description": "Choose snare or camouflage. Once per turn when you hit a creature marked by your Hunter's Mark, spend one Thicket use to deal 1d6 extra Piercing damage. Snare forces a Might save against your spell DC or reduces its Speed to 0 until your next turn; camouflage lets you Hide immediately as part of the attack if you have cover or heavy obscurement.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Hunter's Mark always means spell:hunter-s-mark. Rooted Ambush requires a weapon hit against your own marked target. Hide uses the normal Agility/Stealth DC 15 and required obscurement/cover; failure does not refund costs. Vanish permits Hide without an additional action as part of its Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:mangrove-stalker:marshborn:7",
+      "ownerId": "mangrove-stalker",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Marshborn",
+      "sourceName": "Marshborn",
+      "description": "Gain Resistance to Poison damage and advantage on saves against Poisoned. Nonmagical plants do not cost you extra movement or deal damage when you pass through them.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Hunter's Mark always means spell:hunter-s-mark. Rooted Ambush requires a weapon hit against your own marked target. Hide uses the normal Agility/Stealth DC 15 and required obscurement/cover; failure does not refund costs. Vanish permits Hide without an additional action as part of its Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:mangrove-stalker:patient-predator:11",
+      "ownerId": "mangrove-stalker",
+      "ownerType": "path",
+      "callingLevel": 11,
+      "name": "Patient Predator",
+      "sourceName": "Patient Predator",
+      "description": "The extra damage of Rooted Ambush becomes 2d6. Once on each of your turns, if you started the turn Hidden from your marked target, you can move 10 feet without ending Hidden until you leave cover.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Hunter's Mark always means spell:hunter-s-mark. Rooted Ambush requires a weapon hit against your own marked target. Hide uses the normal Agility/Stealth DC 15 and required obscurement/cover; failure does not refund costs. Vanish permits Hide without an additional action as part of its Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:mangrove-stalker:vanish-into-green:15",
+      "ownerId": "mangrove-stalker",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Vanish into Green",
+      "sourceName": "Vanish into Green",
+      "description": "As a Reaction when a creature you see hits you with an attack, spend one Thicket use to halve the damage and move 10 feet. This movement provokes Opportunity Attacks normally. You may Hide if you end in cover.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Hunter's Mark always means spell:hunter-s-mark. Rooted Ambush requires a weapon hit against your own marked target. Hide uses the normal Agility/Stealth DC 15 and required obscurement/cover; failure does not refund costs. Vanish permits Hide without an additional action as part of its Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

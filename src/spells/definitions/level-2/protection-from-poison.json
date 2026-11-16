@@ -1,0 +1,23 @@
+{
+  "id": "protection-from-poison",
+  "name": "Protection from Poison",
+  "level": 2,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden",
+    "navigator"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Abjuration (Doctor, Druid, Warden, Navigator) Casting Time: Action Range: Touch Components: V, S Duration: 1 hour You touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13826
+  },
+  "castingTime": "Action"
+}

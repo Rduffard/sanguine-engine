@@ -1,0 +1,19 @@
+{
+  "id": "shillelagh",
+  "name": "Shillelagh",
+  "level": 0,
+  "school": "transmutation",
+  "callings": [
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "castingTime": "Bonus Action",
+  "description": "Transmutation cantrip, Druid access only. Bonus Action, Self, V/S/M mistletoe, one minute, no Concentration. One held Club or Quarterstaff may use the grant's casting modifier instead of Might for melee attack and damage. Damage die becomes d8, then d10 at 5, d12 at 11, 2d6 at 17. On a hit choose Force or ordinary weapon damage. Ends if cast again or weapon released. Does not add an attack, weapon Training or bonus flat damage.",
+  "source": {
+    "document": "Sanguine Archipelago Phase 1",
+    "version": "SA-CHAR-1"
+  },
+  "rulesStatus": "tabletop-rules"
+}

@@ -1,0 +1,15 @@
+module.exports = {
+  'path:plaguewarden:inoculated:6':[['grant','Inoculated: healed recipient save','No action',[],'rider-inoculate']],
+  'calling:doctor:blessed-strikes:7':[['weapon','Divine Strike','No action',[],'rider-divine'],['cantrip','Potent Spellcasting','No action',[],'rider-potent']],
+  'calling:doctor:improved-blessed-strikes:14':[['vitality','Potent Spellcasting vitality','No action',[],'rider-vitality']],
+  'path:keeper-of-last-breaths:stay-the-crossing:3':[['main','Stay the Crossing','Reaction',[['keeper-of-last-breaths:vigil',1]],'keeper-stabilize']],
+  'path:keeper-of-last-breaths:witness-against-oblivion:6':[['main','Witness Against Oblivion','Action',[['doctor:channel-divinity',1]],'keeper-heal']],
+  'path:keeper-of-last-breaths:one-more-dawn:17':[['main','One More Dawn','Reaction',[['keeper-of-last-breaths:one-dawn',1]],'keeper-dawn']],
+  'path:plaguewarden:contain-the-fever:3':[['antidote','Contain the Fever: antidote','Action',[['doctor:channel-divinity',1]],'plague-antidote'],['quarantine','Contain the Fever: quarantine','Action',[['doctor:channel-divinity',1]],'plague-quarantine']],
+  'path:plaguewarden:clean-bill-of-health:17':[['main','Clean Bill of Health','Action',[['plaguewarden:clean-bill',1]],'clean-bill']],
+  'calling:doctor:channel-divinity:2':[['spark-heal','Divine Spark: healing','Magic action',[['doctor:channel-divinity',1]],'spark-heal'],['spark-damage','Divine Spark: damage','Magic action',[['doctor:channel-divinity',1]],'spark-damage'],['turn-undead','Turn Undead','Magic action',[['doctor:channel-divinity',1]],'turn-undead']],
+  'path:sanctuary-hand:preserve-life:3':[['main','Preserve Life','Magic action',[['doctor:channel-divinity',1]],'preserve-life']],
+  'path:field-surgeon:clinical-doctrine:3':[['triage','Triage','Action',[['field-surgeon:triage',1]],'triage']],
+  'path:field-surgeon:battlefield-procedure:6':[['toxicology','Triage: antidote','Action',[['field-surgeon:triage',1]],'triage-antidote']],
+  'path:field-surgeon:impossible-operation:17':[['main','Impossible Operation','Action',[['field-surgeon:operation',1],['doctor:channel-divinity',1]],'impossible-operation']],
+};

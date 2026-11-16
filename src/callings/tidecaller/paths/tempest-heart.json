@@ -1,0 +1,175 @@
+{
+  "path": {
+    "id": "tempest-heart",
+    "name": "Tempest Heart",
+    "callingId": "tidecaller",
+    "description": "Silvian storm channeler balancing wind and lightning.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      14,
+      18
+    ],
+    "grants": [
+      "path:tempest-heart:storm-pulse:3",
+      "path:tempest-heart:conductive-soul:6",
+      "path:tempest-heart:eye-of-the-storm:14",
+      "path:tempest-heart:living-tempest:18"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "lightning",
+          "thunder"
+        ]
+      }
+    },
+    "pools": {
+      "pulse": {
+        "max": 3,
+        "short": 1
+      },
+      "tempest": {
+        "max": 1,
+        "level": 18
+      }
+    },
+    "design": {
+      "id": "tempest-heart",
+      "name": "Tempest Heart",
+      "callingId": "tidecaller",
+      "identity": "Silvian storm channeler balancing wind and lightning.",
+      "choice": [
+        "lightning",
+        "thunder"
+      ],
+      "features": [
+        [
+          3,
+          "Storm Pulse",
+          "Choose Lightning or Thunder. Gain Resistance to the chosen damage type. Once per turn when you cast a level 1+ spell, spend one Pulse use to move 10 feet without provoking Opportunity Attacks and deal chosen-type damage equal to your Spirit modifier (minimum one) to one creature within 10 feet.",
+          "pulse",
+          1
+        ],
+        [
+          6,
+          "Conductive Soul",
+          "Once per turn when your spell deals the chosen damage type, add your Spirit modifier to one damage roll. As a Bonus Action spend two Sorcery Points to change one spells Lightning damage to Thunder or Thunder to Lightning for that casting.",
+          "sorcery-points",
+          2
+        ],
+        [
+          14,
+          "Eye of the Storm",
+          "Gain a Fly Speed of 30 feet while not wearing Heavy armor. When you use Storm Pulse, you may carry one willing adjacent creature of your size or smaller through the movement; it must end in an unoccupied space.",
+          null,
+          0
+        ],
+        [
+          18,
+          "Living Tempest",
+          "Once per Long Rest as a Bonus Action become a storm for one minute. Your Fly Speed becomes 60 feet; you have Immunity to your chosen damage type and Resistance to the other. You may move through creatures as Difficult Terrain, but cannot end there.",
+          "tempest",
+          1
+        ]
+      ],
+      "fly": [
+        [
+          14,
+          30
+        ]
+      ],
+      "pools": {
+        "pulse": {
+          "max": 3,
+          "short": 1
+        },
+        "tempest": {
+          "max": 1,
+          "level": 18
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:tempest-heart:storm-pulse:3",
+      "ownerId": "tempest-heart",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Storm Pulse",
+      "sourceName": "Storm Pulse",
+      "description": "Choose Lightning or Thunder. Gain Resistance to the chosen damage type. Once per turn when you cast a level 1+ spell, spend one Pulse use to move 10 feet without provoking Opportunity Attacks and deal chosen-type damage equal to your Spirit modifier (minimum one) to one creature within 10 feet.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Storm Pulse uses no action immediately after your level-one-or-higher spell resolves, once on your turn. Choose a visible damage target after moving. Conductive conversion uses a Bonus Action before the next Tidecaller spell on that same turn, costs two Sorcery Points and expires at turn end if unused. Its passive modifier applies once per turn, not per target.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:tempest-heart:conductive-soul:6",
+      "ownerId": "tempest-heart",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Conductive Soul",
+      "sourceName": "Conductive Soul",
+      "description": "Once per turn when your spell deals the chosen damage type, add your Spirit modifier to one damage roll. As a Bonus Action spend two Sorcery Points to change one spells Lightning damage to Thunder or Thunder to Lightning for that casting.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Storm Pulse uses no action immediately after your level-one-or-higher spell resolves, once on your turn. Choose a visible damage target after moving. Conductive conversion uses a Bonus Action before the next Tidecaller spell on that same turn, costs two Sorcery Points and expires at turn end if unused. Its passive modifier applies once per turn, not per target.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:tempest-heart:eye-of-the-storm:14",
+      "ownerId": "tempest-heart",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "Eye of the Storm",
+      "sourceName": "Eye of the Storm",
+      "description": "Gain a Fly Speed of 30 feet while not wearing Heavy armor. When you use Storm Pulse, you may carry one willing adjacent creature of your size or smaller through the movement; it must end in an unoccupied space.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Storm Pulse uses no action immediately after your level-one-or-higher spell resolves, once on your turn. Choose a visible damage target after moving. Conductive conversion uses a Bonus Action before the next Tidecaller spell on that same turn, costs two Sorcery Points and expires at turn end if unused. Its passive modifier applies once per turn, not per target.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:tempest-heart:living-tempest:18",
+      "ownerId": "tempest-heart",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "name": "Living Tempest",
+      "sourceName": "Living Tempest",
+      "description": "Once per Long Rest as a Bonus Action become a storm for one minute. Your Fly Speed becomes 60 feet; you have Immunity to your chosen damage type and Resistance to the other. You may move through creatures as Difficult Terrain, but cannot end there.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Storm Pulse uses no action immediately after your level-one-or-higher spell resolves, once on your turn. Choose a visible damage target after moving. Conductive conversion uses a Bonus Action before the next Tidecaller spell on that same turn, costs two Sorcery Points and expires at turn end if unused. Its passive modifier applies once per turn, not per target.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

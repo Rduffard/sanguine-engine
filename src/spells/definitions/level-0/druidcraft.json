@@ -1,0 +1,19 @@
+{
+  "id": "druidcraft",
+  "name": "Druidcraft",
+  "level": 0,
+  "school": "transmutation",
+  "callings": [
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "castingTime": "Action",
+  "description": "Transmutation cantrip, Druid access only. Action, 30 feet, V/S, instantaneous, no save or attack. Choose one harmless effect: Tiny sensory prediction of local weather for the next 24 hours (one-round display); instantly bloom a flower/open a seed pod or leaf bud; harmless sensory effect within a five-foot Cube (falling leaves, breeze or faint animal sound); instantly light or extinguish a candle, torch or small campfire. No damage, healing or scaling. GM supplies weather and fictional details.",
+  "source": {
+    "document": "Sanguine Archipelago Phase 1",
+    "version": "SA-CHAR-1"
+  },
+  "rulesStatus": "tabletop-rules"
+}

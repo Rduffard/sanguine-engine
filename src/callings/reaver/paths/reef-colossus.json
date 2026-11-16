@@ -1,0 +1,169 @@
+{
+  "path": {
+    "id": "reef-colossus",
+    "name": "Reef Colossus",
+    "callingId": "reaver",
+    "description": "Rukkan boarding giant who trades speed for inexorable force.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:reef-colossus:colossus-stance:3",
+      "path:reef-colossus:reef-skin:6",
+      "path:reef-colossus:deckshaker:10",
+      "path:reef-colossus:mountain-in-the-strait:14"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "anchor",
+          "breaker"
+        ]
+      }
+    },
+    "pools": {
+      "colossus": {
+        "max": 3,
+        "short": 1
+      },
+      "colossus-reserve": {
+        "max": 1,
+        "level": 14
+      }
+    },
+    "design": {
+      "id": "reef-colossus",
+      "name": "Reef Colossus",
+      "callingId": "reaver",
+      "identity": "Rukkan boarding giant who trades speed for inexorable force.",
+      "choice": [
+        "anchor",
+        "breaker"
+      ],
+      "features": [
+        [
+          3,
+          "Colossus Stance",
+          "Choose anchor or breaker. While Raging, you count as one size larger for carrying and grappling, to a maximum effective size of Large. Anchor grants advantage on saves against being moved; breaker adds your Rage Damage bonus to damage against objects. As a Bonus Action spend one Colossus use to gain temporary Health equal to your Reaver level + Resolve modifier.",
+          "colossus",
+          1
+        ],
+        [
+          6,
+          "Reef Skin",
+          "While Raging and not wearing Heavy armor, reduce Bludgeoning, Piercing or Slashing damage from each attack by your Training Bonus after applying Resistance, to a minimum of 0. Your Speed is reduced by 5 feet while this benefit applies; you can suppress it until your next turn.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Deckshaker",
+          "As an Action during Rage spend one Colossus use: creatures of your choice within 10 feet make a Might save (DC 8 + Training Bonus + Might), taking 3d8 Bludgeoning damage and falling Prone on failure, or half damage on success. This is not the Attack action.",
+          "colossus",
+          1
+        ],
+        [
+          14,
+          "Mountain in the Strait",
+          "While Raging your reach for melee weapon attacks increases by 5 feet on your turn. Deckshaker damage becomes 5d8. Once per Long Rest when initiative is rolled with no Colossus uses, regain one.",
+          null,
+          0
+        ]
+      ],
+      "pools": {
+        "colossus": {
+          "max": 3,
+          "short": 1
+        },
+        "colossus-reserve": {
+          "max": 1,
+          "level": 14
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:reef-colossus:colossus-stance:3",
+      "ownerId": "reef-colossus",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Colossus Stance",
+      "sourceName": "Colossus Stance",
+      "description": "Choose anchor or breaker. While Raging, you count as one size larger for carrying and grappling, to a maximum effective size of Large. Anchor grants advantage on saves against being moved; breaker adds your Rage Damage bonus to damage against objects. As a Bonus Action spend one Colossus use to gain temporary Health equal to your Reaver level + Resolve modifier.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Effective size changes carrying and grapple limits, not token size, reach or damage dice. Suppress Reef Skin without an action on your turn until your next turn starts. A successful Deckshaker save prevents Prone. Initiative recovery spends a distinct colossus-reserve counter, one per Long Rest; repeat initiative cannot farm recovery.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-colossus:reef-skin:6",
+      "ownerId": "reef-colossus",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Reef Skin",
+      "sourceName": "Reef Skin",
+      "description": "While Raging and not wearing Heavy armor, reduce Bludgeoning, Piercing or Slashing damage from each attack by your Training Bonus after applying Resistance, to a minimum of 0. Your Speed is reduced by 5 feet while this benefit applies; you can suppress it until your next turn.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Effective size changes carrying and grapple limits, not token size, reach or damage dice. Suppress Reef Skin without an action on your turn until your next turn starts. A successful Deckshaker save prevents Prone. Initiative recovery spends a distinct colossus-reserve counter, one per Long Rest; repeat initiative cannot farm recovery.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-colossus:deckshaker:10",
+      "ownerId": "reef-colossus",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Deckshaker",
+      "sourceName": "Deckshaker",
+      "description": "As an Action during Rage spend one Colossus use: creatures of your choice within 10 feet make a Might save (DC 8 + Training Bonus + Might), taking 3d8 Bludgeoning damage and falling Prone on failure, or half damage on success. This is not the Attack action.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Effective size changes carrying and grapple limits, not token size, reach or damage dice. Suppress Reef Skin without an action on your turn until your next turn starts. A successful Deckshaker save prevents Prone. Initiative recovery spends a distinct colossus-reserve counter, one per Long Rest; repeat initiative cannot farm recovery.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:reef-colossus:mountain-in-the-strait:14",
+      "ownerId": "reef-colossus",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "Mountain in the Strait",
+      "sourceName": "Mountain in the Strait",
+      "description": "While Raging your reach for melee weapon attacks increases by 5 feet on your turn. Deckshaker damage becomes 5d8. Once per Long Rest when initiative is rolled with no Colossus uses, regain one.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Effective size changes carrying and grapple limits, not token size, reach or damage dice. Suppress Reef Skin without an action on your turn until your next turn starts. A successful Deckshaker save prevents Prone. Initiative recovery spends a distinct colossus-reserve counter, one per Long Rest; repeat initiative cannot farm recovery.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

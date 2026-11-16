@@ -1,0 +1,22 @@
+{
+  "id": "entangle",
+  "name": "Entangle",
+  "level": 1,
+  "school": "conjuration",
+  "callings": [
+    "navigator",
+    "druid"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Conjuration (Druid, Navigator) Casting Time: Action Range: 90 feet Components: V, S Duration: Concentration, up to 1 minute Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into Difficult Terrain. They disappear when the spell ends. Each creature (other than you) in the area when you cast the spell must succeed on a Might saving throw or have the Restrained condition until the spell ends. A Restrained creature can take an action to make a Might (Athletics) check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11057
+  },
+  "castingTime": "Action"
+}

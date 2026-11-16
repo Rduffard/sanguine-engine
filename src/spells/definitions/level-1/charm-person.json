@@ -1,0 +1,23 @@
+{
+  "id": "charm-person",
+  "name": "Charm Person",
+  "level": 1,
+  "school": "enchantment",
+  "callings": [
+    "tidecaller",
+    "shipwright",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Enchantment (Bard, Druid, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 30 feet Components: V, S Duration: 1 hour One Humanoid you can see within range makes a Instinct saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9772
+  },
+  "castingTime": "Action"
+}

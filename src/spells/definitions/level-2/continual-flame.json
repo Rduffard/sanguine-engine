@@ -1,0 +1,22 @@
+{
+  "id": "continual-flame",
+  "name": "Continual Flame",
+  "level": 2,
+  "school": "evocation",
+  "callings": [
+    "doctor",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Evocation (Doctor, Druid, Shipwright) Casting Time: Action Range: Touch Components: V, S, M (ruby dust worth 50+ GP, which the spell consumes) Duration: Until dispelled A flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10220
+  },
+  "castingTime": "Action"
+}

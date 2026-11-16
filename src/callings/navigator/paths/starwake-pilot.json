@@ -1,0 +1,169 @@
+{
+  "path": {
+    "id": "starwake-pilot",
+    "name": "Starwake Pilot",
+    "callingId": "navigator",
+    "description": "Thult wayfinder who guides allies through hostile terrain.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      11,
+      15
+    ],
+    "grants": [
+      "path:starwake-pilot:chart-the-passage:3",
+      "path:starwake-pilot:safe-bearing:7",
+      "path:starwake-pilot:converging-routes:11",
+      "path:starwake-pilot:homeward-star:15"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "cliff",
+          "current"
+        ]
+      }
+    },
+    "pools": {
+      "passage": {
+        "max": 3,
+        "short": 1
+      },
+      "homeward": {
+        "max": 1,
+        "level": 15
+      }
+    },
+    "design": {
+      "id": "starwake-pilot",
+      "name": "Starwake Pilot",
+      "callingId": "navigator",
+      "identity": "Thult wayfinder who guides allies through hostile terrain.",
+      "choice": [
+        "cliff",
+        "current"
+      ],
+      "features": [
+        [
+          3,
+          "Chart the Passage",
+          "Choose cliff or current. Gain Training with navigator tools. As a Bonus Action spend one Passage use to guide up to two allies within 30 feet for one minute. Cliff gives a Climb Speed of 20 feet; current gives a Swim Speed of 20 feet. This requires Concentration as a spell and grants no extra movement.",
+          "passage",
+          1
+        ],
+        [
+          7,
+          "Safe Bearing",
+          "You have advantage on saves against becoming lost or being teleported unwillingly. Guided allies ignore nonmagical Difficult Terrain and their granted speed becomes 30 feet.",
+          null,
+          0
+        ],
+        [
+          11,
+          "Converging Routes",
+          "Once on each of your turns when a guided ally is within 5 feet of your target, your first weapon hit against that target deals 1d8 extra damage. You cannot guide yourself.",
+          null,
+          0
+        ],
+        [
+          15,
+          "Homeward Star",
+          "Once per Long Rest as an Action teleport yourself and up to two willing creatures within 5 feet to a visible unoccupied location within 60 feet. Each destination must support the creature. This ends Chart the Passage.",
+          "homeward",
+          1
+        ]
+      ],
+      "pools": {
+        "passage": {
+          "max": 3,
+          "short": 1
+        },
+        "homeward": {
+          "max": 1,
+          "level": 15
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:starwake-pilot:chart-the-passage:3",
+      "ownerId": "starwake-pilot",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Chart the Passage",
+      "sourceName": "Chart the Passage",
+      "description": "Choose cliff or current. Gain Training with navigator tools. As a Bonus Action spend one Passage use to guide up to two allies within 30 feet for one minute. Cliff gives a Climb Speed of 20 feet; current gives a Swim Speed of 20 feet. This requires Concentration as a spell and grants no extra movement.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Guide visible willing allies, excluding yourself. Homeward Star destinations must be distinct unoccupied supporting spaces within 60 feet of your activation point. Guidance ends with Concentration and removes granted speeds. Safe Bearing modifies an actual saving throw, not a navigation check without a save.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:starwake-pilot:safe-bearing:7",
+      "ownerId": "starwake-pilot",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Safe Bearing",
+      "sourceName": "Safe Bearing",
+      "description": "You have advantage on saves against becoming lost or being teleported unwillingly. Guided allies ignore nonmagical Difficult Terrain and their granted speed becomes 30 feet.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Guide visible willing allies, excluding yourself. Homeward Star destinations must be distinct unoccupied supporting spaces within 60 feet of your activation point. Guidance ends with Concentration and removes granted speeds. Safe Bearing modifies an actual saving throw, not a navigation check without a save.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:starwake-pilot:converging-routes:11",
+      "ownerId": "starwake-pilot",
+      "ownerType": "path",
+      "callingLevel": 11,
+      "name": "Converging Routes",
+      "sourceName": "Converging Routes",
+      "description": "Once on each of your turns when a guided ally is within 5 feet of your target, your first weapon hit against that target deals 1d8 extra damage. You cannot guide yourself.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Guide visible willing allies, excluding yourself. Homeward Star destinations must be distinct unoccupied supporting spaces within 60 feet of your activation point. Guidance ends with Concentration and removes granted speeds. Safe Bearing modifies an actual saving throw, not a navigation check without a save.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:starwake-pilot:homeward-star:15",
+      "ownerId": "starwake-pilot",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Homeward Star",
+      "sourceName": "Homeward Star",
+      "description": "Once per Long Rest as an Action teleport yourself and up to two willing creatures within 5 feet to a visible unoccupied location within 60 feet. Each destination must support the creature. This ends Chart the Passage.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Guide visible willing allies, excluding yourself. Homeward Star destinations must be distinct unoccupied supporting spaces within 60 feet of your activation point. Guidance ends with Concentration and removes granted speeds. Safe Bearing modifies an actual saving throw, not a navigation check without a save.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

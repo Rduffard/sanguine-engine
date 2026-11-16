@@ -1,0 +1,109 @@
+{
+  "path": {
+    "id": "breakwater",
+    "name": "Breakwater",
+    "callingId": "shipwright",
+    "description": "Choose bulwark or shelter. Gain Training with mason's tools and carpenter's tools. As an Action spend one Bastion use to place a magical barrier in unoccupied space within 30 feet: up to 10 feet wide, 5 feet high, and 1 foot thick. It lasts one minute, has Guard 15 and Health equal to five times your Shipwright level, is immune to Poison and Psychic damage, and provides half cover. You may have only one such barrier; creating another dismisses the first. Bulwark adds your Wit modifier (minimum one) to its Guard; shelter grants creatures of your choice within 5 feet temporary Health equal to your Training Bonus when it appears.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:breakwater:breakwater-doctrine:3",
+      "path:breakwater:reinforced-anchorage:6",
+      "path:breakwater:harbor-geometry:10",
+      "path:breakwater:hold-against-the-sea:14"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "fortification",
+        "options": [
+          "bulwark",
+          "shelter"
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:breakwater:breakwater-doctrine:3",
+      "ownerId": "breakwater",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Breakwater Doctrine",
+      "name": "Breakwater Doctrine",
+      "description": "Choose bulwark or shelter. Gain Training with mason's tools and carpenter's tools. As an Action spend one Bastion use to place a magical barrier in unoccupied space within 30 feet: up to 10 feet wide, 5 feet high, and 1 foot thick. It lasts one minute, has Guard 15 and Health equal to five times your Shipwright level, is immune to Poison and Psychic damage, and provides half cover. You may have only one such barrier; creating another dismisses the first. Bulwark adds your Wit modifier (minimum one) to its Guard; shelter grants creatures of your choice within 5 feet temporary Health equal to your Training Bonus when it appears. Path uses start at two, increase by one at Calling levels 7, 11, 15, and 19, and recover one on a Short Rest or all on a Long Rest. Separately listed once-per-Long-Rest features recover on a Long Rest.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Placement requires sight, support and no overlap with solids. Its printed half/three-quarters cover controls; ordinary movement is blocked except for selected level-ten passers. Shelter selects at most TB creatures within 5 feet of the barrier, once on creation. The level-fourteen free barrier uses its own hold-sea counter per Long Rest. Barrier Resistance excludes Force and siege damage; reaction reduction applies before the target's Resistance.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:breakwater:reinforced-anchorage:6",
+      "ownerId": "breakwater",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Reinforced Anchorage",
+      "name": "Reinforced Anchorage",
+      "description": "Barrier Health becomes seven times your Shipwright level. You have advantage on tool checks to reinforce structures. As a Reaction when a creature within 5 feet of your barrier takes damage, spend one Bastion use to reduce that damage by 2d8 + your Wit modifier (minimum one total reduction).",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Placement requires sight, support and no overlap with solids. Its printed half/three-quarters cover controls; ordinary movement is blocked except for selected level-ten passers. Shelter selects at most TB creatures within 5 feet of the barrier, once on creation. The level-fourteen free barrier uses its own hold-sea counter per Long Rest. Barrier Resistance excludes Force and siege damage; reaction reduction applies before the target's Resistance.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:breakwater:harbor-geometry:10",
+      "ownerId": "breakwater",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "sourceName": "Harbor Geometry",
+      "name": "Harbor Geometry",
+      "description": "Your barrier can be up to 20 feet wide and 10 feet high, with one right-angle bend. It provides three-quarters cover. When you create it, choose up to your Training Bonus creatures; those creatures can pass through it as Difficult Terrain. It cannot appear through creatures or objects and does not trap a creature in an occupied space.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Placement requires sight, support and no overlap with solids. Its printed half/three-quarters cover controls; ordinary movement is blocked except for selected level-ten passers. Shelter selects at most TB creatures within 5 feet of the barrier, once on creation. The level-fourteen free barrier uses its own hold-sea counter per Long Rest. Barrier Resistance excludes Force and siege damage; reaction reduction applies before the target's Resistance.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:breakwater:hold-against-the-sea:14",
+      "ownerId": "breakwater",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "sourceName": "Hold Against the Sea",
+      "name": "Hold Against the Sea",
+      "description": "Barrier Health becomes ten times your Shipwright level. Once per Long Rest, create a barrier without spending a Bastion use; that barrier lasts one hour. Damage reduction from Reinforced Anchorage becomes 4d8 + your Wit modifier. Your barrier is resistant to all damage except Force and damage from siege weapons.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Placement requires sight, support and no overlap with solids. Its printed half/three-quarters cover controls; ordinary movement is blocked except for selected level-ten passers. Shelter selects at most TB creatures within 5 feet of the barrier, once on creation. The level-fourteen free barrier uses its own hold-sea counter per Long Rest. Barrier Resistance excludes Force and siege damage; reaction reduction applies before the target's Resistance.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

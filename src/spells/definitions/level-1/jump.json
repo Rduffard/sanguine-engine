@@ -1,0 +1,24 @@
+{
+  "id": "jump",
+  "name": "Jump",
+  "level": 1,
+  "school": "transmutation",
+  "callings": [
+    "navigator",
+    "tidecaller",
+    "shipwright",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Transmutation (Druid, Navigator, Tidecaller, Shipwright) Casting Time: Bonus Action Range: Touch Component: V, S, M (a grasshopper's hind leg) Duration: 1 minute You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12533
+  },
+  "castingTime": "Bonus Action"
+}

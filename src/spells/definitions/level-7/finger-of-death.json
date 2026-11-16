@@ -1,0 +1,22 @@
+{
+  "id": "finger-of-death",
+  "name": "Finger of Death",
+  "level": 7,
+  "school": "necromancy",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 7 Necromancy (Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 60 feet Components: V, S Duration: Instantaneous You unleash negative energy toward a creature you can see within range. The target makes a Resolve saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one. A Humanoid killed by this spell rises at the start of your next turn as a Zombie (see “Monsters”) that follows your verbal orders.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11327
+  },
+  "castingTime": "Action"
+}

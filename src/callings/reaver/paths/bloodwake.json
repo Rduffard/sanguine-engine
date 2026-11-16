@@ -1,0 +1,107 @@
+{
+  "path": {
+    "id": "bloodwake",
+    "name": "Bloodwake",
+    "callingId": "reaver",
+    "description": "The Free Captains' tradition of relentless boarding violence.",
+    "status": "available",
+    "source": {
+      "document": "SRD",
+      "version": "5.2.1",
+      "classId": "barbarian",
+      "subclassId": "path-of-the-berserker",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:bloodwake:frenzy:3",
+      "path:bloodwake:mindless-rage:6",
+      "path:bloodwake:retaliation:10",
+      "path:bloodwake:intimidating-presence:14"
+    ],
+    "spellsByCallingLevel": {}
+  },
+  "features": [
+    {
+      "id": "path:bloodwake:frenzy:3",
+      "ownerId": "bloodwake",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Frenzy",
+      "name": "Frenzy",
+      "description": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Might-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:bloodwake:mindless-rage:6",
+      "ownerId": "bloodwake",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Mindless Rage",
+      "name": "Mindless Rage",
+      "description": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:bloodwake:retaliation:10",
+      "ownerId": "bloodwake",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "sourceName": "Retaliation",
+      "name": "Retaliation",
+      "description": "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:bloodwake:intimidating-presence:14",
+      "ownerId": "bloodwake",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "sourceName": "Intimidating Presence",
+      "name": "Intimidating Presence",
+      "description": "As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Instinct saving throw (DC 8 plus your Might modifier and Training Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success. Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "definition": {
+    "name": "Shipwright",
+    "classId": "wizard",
+    "page": 77,
+    "hitDie": 6,
+    "prerequisites": {
+      "wit": 13
+    },
+    "pathLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "caster": "full",
+    "castingAttribute": "wit",
+    "starting": {
+      "skillCount": 2,
+      "skillOptions": [
+        "arcana",
+        "history",
+        "insight",
+        "investigation",
+        "medicine",
+        "nature",
+        "religion"
+      ],
+      "saves": [
+        "wit",
+        "instinct"
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [],
+      "tools": []
+    },
+    "multiclass": {
+      "skillCount": 0,
+      "weapons": [],
+      "armor": [],
+      "tools": []
+    }
+  },
+  "timeline": [
+    "Spellcasting/Ritual Adept/Arcane Recovery",
+    "Scholar",
+    "Path",
+    "ASI",
+    "Memorize Spell",
+    "Path",
+    "",
+    "ASI",
+    "",
+    "Path",
+    "",
+    "ASI",
+    "",
+    "Path",
+    "",
+    "ASI",
+    "",
+    "Spell Mastery",
+    "Epic Boon",
+    "Signature Spells"
+  ],
+  "features": [
+    {
+      "id": "calling:shipwright:spellcasting:1",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Spellcasting",
+      "name": "Spellcasting",
+      "description": "As a student of arcane magic, you have learned to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Shipwright spells, which appear in the Shipwright spell list later in the class's description. Cantrips. You know three Shipwright cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Shipwright cantrip of your choice. Expanding and Replacing a Engineering Folio The spells you add to your engineering folio as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Shipwright spell on a Spell Scroll, for example, and then copy it into your engineering folio. Copying a Spell into the Book. When you find a level 1+ Shipwright spell, you can copy it into your engineering folio if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your engineering folio. Copying the Book. You can copy a spell from your engineering folio into another book. This is like copying a new spell into your engineering folio but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell. If you lose your engineering folio, you can use the same procedure to transcribe the Shipwright spells that you have prepared into a new engineering folio. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup engineering folio. When you reach Shipwright levels 4 and 10, you learn another Shipwright cantrip of your choice, as shown in the Cantrips column of the Shipwright Features table. Engineering Folio. Your wizardly apprenticeship culminated in the creation of a unique book: your engineering folio. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting Identify. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine. The book contains the level 1+ spells you know. It starts with six level 1 Shipwright spells of your choice. Detect Magic, Feather Fall, Mage Armor, Magic Missile, Sleep, and Thunderwave are recommended. Whenever you gain a Shipwright level after 1, add two Shipwright spells of your choice to your engineering folio. Each of these spells must be of a level for which you have spell slots, as shown in the Shipwright Features table. The spells are the culmination of arcane research you do regularly. Spell Slots. The Shipwright Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest. Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your engineering folio. The chosen spells must be of a level for which you have spell slots. The number of spells on your list increases as you gain Shipwright levels, as shown in the Prepared Spells column of the Shipwright Features table. Whenever that number increases, choose additional Shipwright spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Shipwright, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your engineering folio. If another Shipwright feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Shipwright spells for you. Changing Your Prepared Spells. Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your engineering folio. Spellcasting Ability. Wit is your spellcasting ability for your Shipwright spells. Spellcasting Focus. You can use an Arcane Focus or your engineering folio as a Spellcasting Focus for your Shipwright spells.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:ritual-adept:1",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Ritual Adept",
+      "name": "Ritual Adept",
+      "description": "You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your engineering folio. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:arcane-recovery:1",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Arcane Recovery",
+      "name": "Arcane Recovery",
+      "description": "You can regain some of your magical energy by studying your engineering folio. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Shipwright level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Shipwright, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots. Once you use this feature, you can't do so again until you finish a Long Rest.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:scholar:2",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Scholar",
+      "name": "Scholar",
+      "description": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have Training: Arcana, History, Investigation, Medicine, Nature, or Religion. You have Expertise in the chosen skill.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:ability-score-improvement:4",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 4,
+      "sourceName": "Ability Score Improvement",
+      "name": "Ability Score Improvement",
+      "description": "You gain the Ability Score Improvement feat (see “Feats”) or another feat of your choice for which you qualify. You gain this feature again at Shipwright levels 8, 12, and 16.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:memorize-spell:5",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Memorize Spell",
+      "name": "Memorize Spell",
+      "description": "Whenever you finish a Short Rest, you can study your engineering folio and replace one of the level 1+ Shipwright spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:spell-mastery:18",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 18,
+      "sourceName": "Spell Mastery",
+      "name": "Spell Mastery",
+      "description": "You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your engineering folio that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot. Whenever you finish a Long Rest, you can study your engineering folio and replace one of those spells with an eligible spell of the same level from the book.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:epic-boon:19",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 19,
+      "sourceName": "Epic Boon",
+      "name": "Epic Boon",
+      "description": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:shipwright:signature-spells:20",
+      "ownerId": "shipwright",
+      "ownerType": "calling",
+      "callingLevel": 20,
+      "sourceName": "Signature Spells",
+      "name": "Signature Spells",
+      "description": "Choose two level 3 spells in your engineering folio as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

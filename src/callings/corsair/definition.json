@@ -1,0 +1,403 @@
+{
+  "definition": {
+    "name": "Corsair",
+    "classId": "rogue",
+    "page": 61,
+    "hitDie": 8,
+    "prerequisites": {
+      "agility": 13
+    },
+    "pathLevels": [
+      3,
+      9,
+      13,
+      17
+    ],
+    "starting": {
+      "skillCount": 4,
+      "skillOptions": [
+        "acrobatics",
+        "athletics",
+        "deception",
+        "insight",
+        "intimidation",
+        "investigation",
+        "perception",
+        "persuasion",
+        "sleight-of-hand",
+        "stealth"
+      ],
+      "saves": [
+        "agility",
+        "wit"
+      ],
+      "weapons": [
+        "simple",
+        "martial:finesse-or-light"
+      ],
+      "armor": [
+        "light"
+      ],
+      "tools": [
+        "thieves-tools"
+      ]
+    },
+    "multiclass": {
+      "skillCount": 1,
+      "weapons": [],
+      "armor": [
+        "light"
+      ],
+      "tools": [
+        "thieves-tools"
+      ]
+    }
+  },
+  "timeline": [
+    "Expertise/Sneak Attack/Thieves' Cant/Weapon Mastery",
+    "Cunning Action",
+    "Path/Steady Aim",
+    "ASI",
+    "Cunning Strike/Uncanny Dodge",
+    "Expertise",
+    "Evasion/Reliable Talent",
+    "ASI",
+    "Path",
+    "ASI",
+    "Improved Cunning Strike",
+    "ASI",
+    "Path",
+    "Devious Strikes",
+    "Slippery Mind",
+    "ASI",
+    "Path",
+    "Elusive",
+    "Epic Boon",
+    "Stroke of Luck"
+  ],
+  "features": [
+    {
+      "id": "calling:corsair:expertise:1",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Expertise",
+      "name": "Expertise",
+      "description": "You gain Expertise in two of your skill Training of your choice. Sleight of Hand and Stealth are recommended if you have Training in them. At Corsair level 6, you gain Expertise in two more of your skill Training of your choice.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:sneak-attack:1",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Sneak Attack",
+      "name": "Sneak Attack",
+      "description": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type. You don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll. The extra damage increases as you gain Corsair levels, as shown in the Sneak Attack column of the Corsair Features table.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:thieves-cant:1",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Thieves' Cant",
+      "name": "Thieves' Cant",
+      "description": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in “Character Creation.”",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:weapon-mastery:1",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Weapon Mastery",
+      "name": "Weapon Mastery",
+      "description": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have Training, such as Daggers and Shortbows. Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:cunning-action:2",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Cunning Action",
+      "name": "Cunning Action",
+      "description": "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:steady-aim:3",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 3,
+      "sourceName": "Steady Aim",
+      "name": "Steady Aim",
+      "description": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:ability-score-improvement:4",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 4,
+      "sourceName": "Ability Score Improvement",
+      "name": "Ability Score Improvement",
+      "description": "You gain the Ability Score Improvement feat (see “Feats”) or another feat of your choice for which you qualify. You gain this feature again at Corsair levels 8, 10, 12, and 16.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:cunning-strike:5",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Cunning Strike",
+      "name": "Cunning Strike",
+      "description": "You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling. If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Agility modifier and Training Bonus. Poison (Cost: 1d6). You add a toxin to your strike, forcing the target to make a Resolve saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success. To use this effect, you must have a Poisoner's Kit on your person. Trip (Cost: 1d6). If the target is Large or smaller, it must succeed on a Agility saving throw or have the Prone condition. Withdraw (Cost: 1d6). Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:uncanny-dodge:5",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Uncanny Dodge",
+      "name": "Uncanny Dodge",
+      "description": "When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down).",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:evasion:7",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 7,
+      "sourceName": "Evasion",
+      "name": "Evasion",
+      "description": "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Agility saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:reliable-talent:7",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 7,
+      "sourceName": "Reliable Talent",
+      "name": "Reliable Talent",
+      "description": "Whenever you make an ability check that uses one of your skill or tool Training, you can treat a d20 roll of 9 or lower as a 10.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:improved-cunning-strike:11",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 11,
+      "sourceName": "Improved Cunning Strike",
+      "name": "Improved Cunning Strike",
+      "description": "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:devious-strikes:14",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 14,
+      "sourceName": "Devious Strikes",
+      "name": "Devious Strikes",
+      "description": "You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options. Daze (Cost: 2d6). The target must succeed on a Resolve saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action. Knock Out (Cost: 6d6). The target must succeed on a Resolve saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success. Obscure (Cost: 3d6). The target must succeed on a Agility saving throw, or it has the Blinded condition until the end of its next turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:slippery-mind:15",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 15,
+      "sourceName": "Slippery Mind",
+      "name": "Slippery Mind",
+      "description": "Your cunning mind is exceptionally difficult to control. You gain Training in Instinct and Spirit saving throws.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:elusive:18",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 18,
+      "sourceName": "Elusive",
+      "name": "Elusive",
+      "description": "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:epic-boon:19",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 19,
+      "sourceName": "Epic Boon",
+      "name": "Epic Boon",
+      "description": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:corsair:stroke-of-luck:20",
+      "ownerId": "corsair",
+      "ownerType": "calling",
+      "callingLevel": 20,
+      "sourceName": "Stroke of Luck",
+      "name": "Stroke of Luck",
+      "description": "You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20. Once you use this feature, you can't use it again until you finish a Short or Long Rest.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

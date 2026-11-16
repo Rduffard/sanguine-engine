@@ -1,0 +1,22 @@
+{
+  "id": "create-food-and-water",
+  "name": "Create Food and Water",
+  "level": 3,
+  "school": "conjuration",
+  "callings": [
+    "doctor",
+    "warden"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Conjuration (Doctor, Warden) Casting Time: Action Range: 30 feet Components: V, S Duration: Instantaneous You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10339
+  },
+  "castingTime": "Action"
+}

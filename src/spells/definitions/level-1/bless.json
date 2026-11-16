@@ -1,0 +1,22 @@
+{
+  "id": "bless",
+  "name": "Bless",
+  "level": 1,
+  "school": "enchantment",
+  "callings": [
+    "doctor",
+    "warden"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Enchantment (Doctor, Warden) Casting Time: Action Range: 30 feet Components: V, S, M (a Holy Symbol worth 5+ GP) Duration: Concentration, up to 1 minute You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9612
+  },
+  "castingTime": "Action"
+}

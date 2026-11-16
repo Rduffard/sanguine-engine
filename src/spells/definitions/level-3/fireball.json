@@ -1,0 +1,22 @@
+{
+  "id": "fireball",
+  "name": "Fireball",
+  "level": 3,
+  "school": "evocation",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Evocation (Tidecaller, Shipwright) Casting Time: Action Range: 150 feet Components: V, S, M (a ball of bat guano and sulfur) Duration: Instantaneous A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Agility saving throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one. Flammable objects in the area that aren't being worn or carried start burning. Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11339
+  },
+  "castingTime": "Action"
+}

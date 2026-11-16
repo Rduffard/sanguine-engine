@@ -1,0 +1,21 @@
+{
+  "id": "hunter-s-mark",
+  "name": "Hunter's Mark",
+  "level": 1,
+  "school": "divination",
+  "callings": [
+    "navigator"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Divination (Navigator) Casting Time: Bonus Action Range: 90 feet Components: V Duration: Concentration, up to 1 hour You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Instinct (Perception or Survival) check you make to find it. If the target drops to 0 Health before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range. Using a Higher-Level Spell Slot. Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12299
+  },
+  "castingTime": "Bonus Action"
+}

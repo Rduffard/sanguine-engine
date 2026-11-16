@@ -1,0 +1,161 @@
+{
+  "path": {
+    "id": "oath-of-the-free-port",
+    "name": "Oath of the Free Port",
+    "callingId": "warden",
+    "description": "Free Captain sworn against captivity and coercion.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      15,
+      20
+    ],
+    "grants": [
+      "path:oath-of-the-free-port:break-the-chain:3",
+      "path:oath-of-the-free-port:aura-of-passage:7",
+      "path:oath-of-the-free-port:no-captive-left:15",
+      "path:oath-of-the-free-port:open-harbor:20"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "liberty",
+          "refuge"
+        ]
+      }
+    },
+    "pools": {
+      "open-harbor": {
+        "max": 1,
+        "level": 20
+      }
+    },
+    "design": {
+      "id": "oath-of-the-free-port",
+      "name": "Oath of the Free Port",
+      "callingId": "warden",
+      "identity": "Free Captain sworn against captivity and coercion.",
+      "choice": [
+        "liberty",
+        "refuge"
+      ],
+      "features": [
+        [
+          3,
+          "Break the Chain",
+          "Choose liberty or refuge. As an Action expend one Channel Divinity use to end Grappled or Restrained on a creature within 30 feet; magical restraints require a Spirit check against the effect save DC. Liberty also moves it 10 feet without Opportunity Attacks; refuge grants temporary Health equal to your Warden level.",
+          "channel-divinity",
+          1
+        ],
+        [
+          7,
+          "Aura of Passage",
+          "While your Aura of Protection is active, allies in it ignore nonmagical Difficult Terrain and have advantage on checks to escape Grappled. This does not grant immunity to movement-reducing spells.",
+          null,
+          0
+        ],
+        [
+          15,
+          "No Captive Left",
+          "As a Reaction when an ally within your aura fails a save against Restrained or Paralyzed, spend 5 Lay On Hands points to let it reroll the save. It must use the new result. This does not restore Health.",
+          "lay-on-hands",
+          5
+        ],
+        [
+          20,
+          "Open Harbor",
+          "Once per Long Rest as a Bonus Action empower your aura for ten minutes. Allies within it have advantage on saves against Paralyzed and Restrained, and can Disengage as a Bonus Action. Restore this use by expending a level 5 spell slot.",
+          "open-harbor",
+          1
+        ]
+      ],
+      "pools": {
+        "open-harbor": {
+          "max": 1,
+          "level": 20
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:oath-of-the-free-port:break-the-chain:3",
+      "ownerId": "oath-of-the-free-port",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Break the Chain",
+      "sourceName": "Break the Chain",
+      "description": "Choose liberty or refuge. As an Action expend one Channel Divinity use to end Grappled or Restrained on a creature within 30 feet; magical restraints require a Spirit check against the effect save DC. Liberty also moves it 10 feet without Opportunity Attacks; refuge grants temporary Health equal to your Warden level.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The removal target must be willing and visible. A magical restraint without a printed DC uses DC 15 for this feature. Open Harbor restoration uses a Bonus Action and exactly one level-five slot, only while its counter is spent; it restores a use without activating the ability.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:oath-of-the-free-port:aura-of-passage:7",
+      "ownerId": "oath-of-the-free-port",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Aura of Passage",
+      "sourceName": "Aura of Passage",
+      "description": "While your Aura of Protection is active, allies in it ignore nonmagical Difficult Terrain and have advantage on checks to escape Grappled. This does not grant immunity to movement-reducing spells.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The removal target must be willing and visible. A magical restraint without a printed DC uses DC 15 for this feature. Open Harbor restoration uses a Bonus Action and exactly one level-five slot, only while its counter is spent; it restores a use without activating the ability.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:oath-of-the-free-port:no-captive-left:15",
+      "ownerId": "oath-of-the-free-port",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "No Captive Left",
+      "sourceName": "No Captive Left",
+      "description": "As a Reaction when an ally within your aura fails a save against Restrained or Paralyzed, spend 5 Lay On Hands points to let it reroll the save. It must use the new result. This does not restore Health.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The removal target must be willing and visible. A magical restraint without a printed DC uses DC 15 for this feature. Open Harbor restoration uses a Bonus Action and exactly one level-five slot, only while its counter is spent; it restores a use without activating the ability.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:oath-of-the-free-port:open-harbor:20",
+      "ownerId": "oath-of-the-free-port",
+      "ownerType": "path",
+      "callingLevel": 20,
+      "name": "Open Harbor",
+      "sourceName": "Open Harbor",
+      "description": "Once per Long Rest as a Bonus Action empower your aura for ten minutes. Allies within it have advantage on saves against Paralyzed and Restrained, and can Disengage as a Bonus Action. Restore this use by expending a level 5 spell slot.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "The removal target must be willing and visible. A magical restraint without a printed DC uses DC 15 for this feature. Open Harbor restoration uses a Bonus Action and exactly one level-five slot, only while its counter is spent; it restores a use without activating the ability.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

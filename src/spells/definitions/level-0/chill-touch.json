@@ -1,0 +1,22 @@
+{
+  "id": "chill-touch",
+  "name": "Chill Touch",
+  "level": 0,
+  "school": "necromancy",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Necromancy Cantrip (Tidecaller, Warlock, Shipwright) Casting Time: Action Range: Touch Components: V, S Duration: Instantaneous Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Health until the end of your next turn. Cantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9789
+  },
+  "castingTime": "Action"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "faerie-fire",
+  "name": "Faerie Fire",
+  "level": 1,
+  "school": "evocation",
+  "callings": [
+    "druid"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "castingTime": "Action",
+  "description": "Level-one Evocation, Druid access only here. Action, 60 feet, V, Concentration up to one minute. Objects in a 20-foot Cube are outlined in blue, green or violet light, caster's choice. Creatures in the area make Agility saves; failed saves outline them for the duration. Affected creatures/objects shed Dim Light ten feet, attack rolls against them have advantage if the attacker can see them, and they cannot benefit from Invisible. No damage, repeat save or upcast scaling. Spend an eligible slot or the chosen Magic Initiate free cast.",
+  "source": {
+    "document": "Sanguine Archipelago Phase 1",
+    "version": "SA-CHAR-1"
+  },
+  "rulesStatus": "tabletop-rules"
+}

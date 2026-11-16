@@ -1,0 +1,240 @@
+{
+  "definition": {
+    "name": "Tidecaller",
+    "classId": "sorcerer",
+    "page": 64,
+    "hitDie": 6,
+    "prerequisites": {
+      "spirit": 13
+    },
+    "pathLevels": [
+      3,
+      6,
+      14,
+      18
+    ],
+    "caster": "full",
+    "castingAttribute": "spirit",
+    "starting": {
+      "skillCount": 2,
+      "skillOptions": [
+        "arcana",
+        "deception",
+        "insight",
+        "intimidation",
+        "persuasion",
+        "religion"
+      ],
+      "saves": [
+        "resolve",
+        "spirit"
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [],
+      "tools": []
+    },
+    "multiclass": {
+      "skillCount": 0,
+      "weapons": [],
+      "armor": [],
+      "tools": []
+    }
+  },
+  "timeline": [
+    "Spellcasting/Innate Sorcery",
+    "Font of Magic/Metamagic",
+    "Path",
+    "ASI",
+    "Sorcerous Restoration",
+    "Path",
+    "Sorcery Incarnate",
+    "ASI",
+    "",
+    "Metamagic",
+    "",
+    "ASI",
+    "",
+    "Path",
+    "",
+    "ASI",
+    "Metamagic",
+    "Path",
+    "Epic Boon",
+    "Arcane Apotheosis"
+  ],
+  "features": [
+    {
+      "id": "calling:tidecaller:spellcasting:1",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Spellcasting",
+      "name": "Spellcasting",
+      "description": "Drawing from your innate magic, you can cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Tidecaller spells, which appear in the Tidecaller spell list later in the class's description. Cantrips. You know four Tidecaller cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Tidecaller level, you can replace one of your cantrips from this feature with another Tidecaller cantrip of your choice. When you reach Tidecaller levels 4 and 10, you learn another Tidecaller cantrip of your choice, as shown in the Cantrips column of the Tidecaller Features table. Spell Slots. The Tidecaller Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest. Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Tidecaller spells. Burning Hands and Detect Magic are recommended. The number of spells on your list increases as you gain Tidecaller levels, as shown in the Prepared Spells column of the Tidecaller Features table. Whenever that number increases, choose additional Tidecaller spells until the number of spells on your list matches the number in the Tidecaller Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Tidecaller, your list of prepared spells can include six Tidecaller spells of level 1 or 2 in any combination. If another Tidecaller feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Tidecaller spells for you. Changing Your Prepared Spells. Whenever you gain a Tidecaller level, you can replace one spell on your list with another Tidecaller spell for which you have spell slots. Spellcasting Ability. Spirit is your spellcasting ability for your Tidecaller spells. Spellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Tidecaller spells.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:innate-sorcery:1",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Innate Sorcery",
+      "name": "Innate Sorcery",
+      "description": "An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits: • The spell save DC of your Tidecaller spells increases by 1. • You have Advantage on the attack rolls of Tidecaller spells you cast. You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:font-of-magic:2",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Font of Magic",
+      "name": "Font of Magic",
+      "description": "You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects. You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Tidecaller Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest. You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points. Converting Spell Slots to Sorcery Points. You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required). Creating Spell Slots. As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Tidecaller level you must be to create a slot. You can create a spell slot no higher than level 5. Any spell slot you create with this feature vanishes when you finish a Long Rest. Creating Spell Slots Spell Slot Level Sorcery Point Cost Min. Tidecaller Level 1 2 2 2 3 3 3 5 5 4 6 7 5 7 9",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:metamagic:2",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Metamagic",
+      "name": "Metamagic",
+      "description": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from “Metamagic Options” later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs. You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options. Whenever you gain a Tidecaller level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Tidecaller level 10 and two more at Tidecaller level 17.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:ability-score-improvement:4",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 4,
+      "sourceName": "Ability Score Improvement",
+      "name": "Ability Score Improvement",
+      "description": "You gain the Ability Score Improvement feat (see “Feats”) or another feat of your choice for which you qualify. You gain this feature again at Tidecaller levels 8, 12, and 16.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:sorcerous-restoration:5",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Sorcerous Restoration",
+      "name": "Sorcerous Restoration",
+      "description": "When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Tidecaller level (round down). Once you use this feature, you can't do so again until you finish a Long Rest.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:sorcery-incarnate:7",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 7,
+      "sourceName": "Sorcery Incarnate",
+      "name": "Sorcery Incarnate",
+      "description": "If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it. In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:epic-boon:19",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 19,
+      "sourceName": "Epic Boon",
+      "name": "Epic Boon",
+      "description": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:tidecaller:arcane-apotheosis:20",
+      "ownerId": "tidecaller",
+      "ownerType": "calling",
+      "callingLevel": 20,
+      "sourceName": "Arcane Apotheosis",
+      "name": "Arcane Apotheosis",
+      "description": "While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

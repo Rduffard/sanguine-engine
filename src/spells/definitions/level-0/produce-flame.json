@@ -1,0 +1,19 @@
+{
+  "id": "produce-flame",
+  "name": "Produce Flame",
+  "level": 0,
+  "school": "conjuration",
+  "callings": [
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "castingTime": "Bonus Action",
+  "description": "Conjuration cantrip, Druid access only. Bonus Action, Self, V/S, ten minutes, no Concentration. A harmless flame in your hand sheds Bright Light 20 feet and Dim Light another 20. Ends if cast again. While active, a Magic action makes a ranged spell attack against one creature or object within 60 feet, hit 1d8 Fire; 2d8/3d8/4d8 at levels 5/11/17. The flame does not ignite objects just by being held. No slot or counter; normal hand/component requirements.",
+  "source": {
+    "document": "Sanguine Archipelago Phase 1",
+    "version": "SA-CHAR-1"
+  },
+  "rulesStatus": "tabletop-rules"
+}

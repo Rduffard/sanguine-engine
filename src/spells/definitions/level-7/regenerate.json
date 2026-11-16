@@ -1,0 +1,21 @@
+{
+  "id": "regenerate",
+  "name": "Regenerate",
+  "level": 7,
+  "school": "transmutation",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 7 Transmutation (Bard, Doctor, Druid) Casting Time: 1 minute Range: Touch Components: V, S, M (a prayer wheel) Duration: 1 hour A creature you touch regains 4d8 + 15 Health. For the duration, the target regains 1 Health at the start of each of its turns, and any severed body parts regrow after 2 minutes.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13889
+  },
+  "castingTime": "1 minute"
+}

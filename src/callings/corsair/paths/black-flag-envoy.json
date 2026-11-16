@@ -1,0 +1,170 @@
+{
+  "path": {
+    "id": "black-flag-envoy",
+    "name": "Black Flag Envoy",
+    "callingId": "corsair",
+    "description": "Free Captain negotiator and battlefield coordinator.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      9,
+      13,
+      17
+    ],
+    "grants": [
+      "path:black-flag-envoy:terms-of-surrender:3",
+      "path:black-flag-envoy:crew-before-crown:9",
+      "path:black-flag-envoy:binding-parley:13",
+      "path:black-flag-envoy:all-hands:17"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "parley",
+          "intimidation"
+        ]
+      }
+    },
+    "pools": {
+      "envoy": {
+        "max": 3,
+        "short": 1
+      },
+      "parley": {
+        "max": 1,
+        "level": 13
+      }
+    },
+    "design": {
+      "id": "black-flag-envoy",
+      "name": "Black Flag Envoy",
+      "callingId": "corsair",
+      "identity": "Free Captain negotiator and battlefield coordinator.",
+      "choice": [
+        "parley",
+        "intimidation"
+      ],
+      "skill": "persuasion",
+      "features": [
+        [
+          3,
+          "Terms of Surrender",
+          "Choose parley or intimidation. Gain Training in Persuade (parley) or Threaten (intimidation), or Expertise if already Trained. As a Bonus Action spend one Envoy use: an ally within 30 feet who hears you may use its Reaction to move half its Speed without provoking Opportunity Attacks. You cannot target yourself.",
+          "envoy",
+          1
+        ],
+        [
+          9,
+          "Crew Before Crown",
+          "Your Envoy action may instead let the ally repeat a saving throw against Charmed or Frightened, with advantage. On success that condition ends. Range becomes 60 feet.",
+          "envoy",
+          1
+        ],
+        [
+          13,
+          "Binding Parley",
+          "Once per Long Rest, as an Action address up to your Spirit modifier (minimum one) creatures within 60 feet that understand you. Each makes an Instinct save (DC 8 + Training Bonus + Spirit). On failure it cannot attack you for one minute unless you or your allies harm it. This is Charmed; repeat the save at the end of each turn.",
+          "parley",
+          1
+        ],
+        [
+          17,
+          "All Hands",
+          "As a Bonus Action spend two Envoy uses to apply Terms of Surrender to up to three different allies. Each still spends its own Reaction; a creature cannot benefit twice from the same command.",
+          "envoy",
+          2
+        ]
+      ],
+      "pools": {
+        "envoy": {
+          "max": 3,
+          "short": 1
+        },
+        "parley": {
+          "max": 1,
+          "level": 13
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:black-flag-envoy:terms-of-surrender:3",
+      "ownerId": "black-flag-envoy",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Terms of Surrender",
+      "sourceName": "Terms of Surrender",
+      "description": "Choose parley or intimidation. Gain Training in Persuade (parley) or Threaten (intimidation), or Expertise if already Trained. As a Bonus Action spend one Envoy use: an ally within 30 feet who hears you may use its Reaction to move half its Speed without provoking Opportunity Attacks. You cannot target yourself.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Binding Parley imposes Charmed plus the stated attack prohibition. Both end for an individual if you or an ally damages it or imposes a harmful condition. Repeat the save at the end of its turns. Charmed immunity prevents both effects. Crew commands require sight of the ally, hearing, a conscious ally and an available Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:black-flag-envoy:crew-before-crown:9",
+      "ownerId": "black-flag-envoy",
+      "ownerType": "path",
+      "callingLevel": 9,
+      "name": "Crew Before Crown",
+      "sourceName": "Crew Before Crown",
+      "description": "Your Envoy action may instead let the ally repeat a saving throw against Charmed or Frightened, with advantage. On success that condition ends. Range becomes 60 feet.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Binding Parley imposes Charmed plus the stated attack prohibition. Both end for an individual if you or an ally damages it or imposes a harmful condition. Repeat the save at the end of its turns. Charmed immunity prevents both effects. Crew commands require sight of the ally, hearing, a conscious ally and an available Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:black-flag-envoy:binding-parley:13",
+      "ownerId": "black-flag-envoy",
+      "ownerType": "path",
+      "callingLevel": 13,
+      "name": "Binding Parley",
+      "sourceName": "Binding Parley",
+      "description": "Once per Long Rest, as an Action address up to your Spirit modifier (minimum one) creatures within 60 feet that understand you. Each makes an Instinct save (DC 8 + Training Bonus + Spirit). On failure it cannot attack you for one minute unless you or your allies harm it. This is Charmed; repeat the save at the end of each turn.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Binding Parley imposes Charmed plus the stated attack prohibition. Both end for an individual if you or an ally damages it or imposes a harmful condition. Repeat the save at the end of its turns. Charmed immunity prevents both effects. Crew commands require sight of the ally, hearing, a conscious ally and an available Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:black-flag-envoy:all-hands:17",
+      "ownerId": "black-flag-envoy",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "name": "All Hands",
+      "sourceName": "All Hands",
+      "description": "As a Bonus Action spend two Envoy uses to apply Terms of Surrender to up to three different allies. Each still spends its own Reaction; a creature cannot benefit twice from the same command.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Binding Parley imposes Charmed plus the stated attack prohibition. Both end for an individual if you or an ally damages it or imposes a harmful condition. Repeat the save at the end of its turns. Charmed immunity prevents both effects. Crew commands require sight of the ally, hearing, a conscious ally and an available Reaction.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

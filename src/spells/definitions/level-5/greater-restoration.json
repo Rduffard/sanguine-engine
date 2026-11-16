@@ -1,0 +1,23 @@
+{
+  "id": "greater-restoration",
+  "name": "Greater Restoration",
+  "level": 5,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden",
+    "navigator"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 5 Abjuration (Bard, Doctor, Druid, Warden, Navigator) Casting Time: Action Range: Touch Components: V, S, M (diamond dust worth 100+ GP, which the spell consumes) Duration: Instantaneous You touch a creature and magically remove one of the following effects from it: • 1 Exhaustion level • The Charmed or Petrified condition • A curse, including the target's Attunement to a cursed magic item • Any reduction to one of the target's ability scores • Any reduction to the target's Health maximum",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11925
+  },
+  "castingTime": "Action"
+}

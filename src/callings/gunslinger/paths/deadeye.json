@@ -1,0 +1,148 @@
+{
+  "path": {
+    "id": "deadeye",
+    "name": "Deadeye",
+    "callingId": "gunslinger",
+    "description": "Disciplined Yuma marksmanship; no invented firearm or explosive bonuses.",
+    "status": "available",
+    "source": {
+      "document": "SRD",
+      "version": "5.2.1",
+      "classId": "fighter",
+      "subclassId": "champion",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+    },
+    "featureLevels": [
+      3,
+      7,
+      10,
+      15,
+      18
+    ],
+    "grants": [
+      "path:deadeye:improved-critical:3",
+      "path:deadeye:remarkable-athlete:3",
+      "path:deadeye:additional-fighting-style:7",
+      "path:deadeye:heroic-warrior:10",
+      "path:deadeye:superior-critical:15",
+      "path:deadeye:survivor:18"
+    ],
+    "spellsByCallingLevel": {}
+  },
+  "features": [
+    {
+      "id": "path:deadeye:improved-critical:3",
+      "ownerId": "deadeye",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Improved Critical",
+      "name": "Improved Critical",
+      "description": "Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:deadeye:remarkable-athlete:3",
+      "ownerId": "deadeye",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Remarkable Athlete",
+      "name": "Remarkable Athlete",
+      "description": "Thanks to your athleticism, you have Advantage on Initiative rolls and Might (Athletics) checks. In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:deadeye:additional-fighting-style:7",
+      "ownerId": "deadeye",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "sourceName": "Additional Fighting Style",
+      "name": "Additional Fighting Style",
+      "description": "You gain another Fighting Style feat of your choice.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:deadeye:heroic-warrior:10",
+      "ownerId": "deadeye",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "sourceName": "Heroic Warrior",
+      "name": "Heroic Warrior",
+      "description": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:deadeye:superior-critical:15",
+      "ownerId": "deadeye",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "sourceName": "Superior Critical",
+      "name": "Superior Critical",
+      "description": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:deadeye:survivor:18",
+      "ownerId": "deadeye",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "sourceName": "Survivor",
+      "name": "Survivor",
+      "description": "You attain the pinnacle of resilience in battle, giving you these benefits. Defy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it. Heroic Rally. At the start of each of your turns, you regain Health equal to 5 plus your Resolve modifier if you are Bloodied and have at least 1 Health.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

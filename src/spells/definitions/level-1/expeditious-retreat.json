@@ -1,0 +1,22 @@
+{
+  "id": "expeditious-retreat",
+  "name": "Expeditious Retreat",
+  "level": 1,
+  "school": "transmutation",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Transmutation (Tidecaller, Warlock, Shipwright) Casting Time: Bonus Action Range: Self Components: V, S Duration: Concentration, up to 10 minutes You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11119
+  },
+  "castingTime": "Bonus Action"
+}

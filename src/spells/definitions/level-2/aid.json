@@ -1,0 +1,23 @@
+{
+  "id": "aid",
+  "name": "Aid",
+  "level": 2,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden",
+    "navigator"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Abjuration (Bard, Doctor, Druid, Warden, Navigator) Casting Time: Action Range: 30 feet Components: V, S, M (a strip of white cloth) Duration: 8 hours Choose up to three creatures within range. Each target's Health maximum and current Health increase by 5 for the duration. Using a Higher-Level Spell Slot. Each target's Health increase by 5 for each spell slot level above 2.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9021
+  },
+  "castingTime": "Action"
+}

@@ -1,0 +1,356 @@
+{
+  "definition": {
+    "name": "Gunslinger",
+    "classId": "fighter",
+    "page": 47,
+    "hitDie": 10,
+    "prerequisites": {
+      "any": [
+        {
+          "might": 13
+        },
+        {
+          "agility": 13
+        }
+      ]
+    },
+    "pathLevels": [
+      3,
+      7,
+      10,
+      15,
+      18
+    ],
+    "starting": {
+      "skillCount": 2,
+      "skillOptions": [
+        "acrobatics",
+        "animal-handling",
+        "athletics",
+        "history",
+        "insight",
+        "intimidation",
+        "persuasion",
+        "perception",
+        "survival"
+      ],
+      "saves": [
+        "might",
+        "resolve"
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ],
+      "tools": []
+    },
+    "multiclass": {
+      "skillCount": 0,
+      "weapons": [
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "tools": []
+    }
+  },
+  "timeline": [
+    "Fighting Style/Second Wind/Weapon Mastery",
+    "Action Surge/Tactical Mind",
+    "Path",
+    "ASI",
+    "Extra Attack/Tactical Shift",
+    "ASI",
+    "Path",
+    "ASI",
+    "Indomitable/Tactical Master",
+    "Path",
+    "Two Extra Attacks",
+    "ASI",
+    "Indomitable/Studied Attacks",
+    "ASI",
+    "Path",
+    "ASI",
+    "Action Surge/Indomitable",
+    "Path",
+    "Epic Boon",
+    "Three Extra Attacks"
+  ],
+  "features": [
+    {
+      "id": "calling:gunslinger:fighting-style:1",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Fighting Style",
+      "name": "Fighting Style",
+      "description": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see “Feats”). Defense is recommended. Whenever you gain a Gunslinger level, you can replace the feat you chose with a different Fighting Style feat.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:second-wind:1",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Second Wind",
+      "name": "Second Wind",
+      "description": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Health equal to 1d10 plus your Gunslinger level. You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. When you reach certain Gunslinger levels, you gain more uses of this feature, as shown in the Second Wind column of the Gunslinger Features table.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:weapon-mastery:1",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 1,
+      "sourceName": "Weapon Mastery",
+      "name": "Weapon Mastery",
+      "description": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices. When you reach certain Gunslinger levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Gunslinger Features table.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:action-surge:2",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Action Surge",
+      "name": "Action Surge",
+      "description": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action. Once you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:tactical-mind:2",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 2,
+      "sourceName": "Tactical Mind",
+      "name": "Tactical Mind",
+      "description": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Health, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:ability-score-improvement:4",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 4,
+      "sourceName": "Ability Score Improvement",
+      "name": "Ability Score Improvement",
+      "description": "You gain the Ability Score Improvement feat (see “Feats”) or another feat of your choice for which you qualify. You gain this feature again at Gunslinger levels 6, 8, 12, 14, and 16.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:extra-attack:5",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Extra Attack",
+      "name": "Extra Attack",
+      "description": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:tactical-shift:5",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 5,
+      "sourceName": "Tactical Shift",
+      "name": "Tactical Shift",
+      "description": "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:indomitable:9",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 9,
+      "sourceName": "Indomitable",
+      "name": "Indomitable",
+      "description": "If you fail a saving throw, you can reroll it with a bonus equal to your Gunslinger level. You must use the new roll, and you can't use this feature again until you finish a Long Rest. You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:tactical-master:9",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 9,
+      "sourceName": "Tactical Master",
+      "name": "Tactical Master",
+      "description": "When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:two-extra-attacks:11",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 11,
+      "sourceName": "Two Extra Attacks",
+      "name": "Two Extra Attacks",
+      "description": "You can attack three times instead of once whenever you take the Attack action on your turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:studied-attacks:13",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 13,
+      "sourceName": "Studied Attacks",
+      "name": "Studied Attacks",
+      "description": "You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:epic-boon:19",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 19,
+      "sourceName": "Epic Boon",
+      "name": "Epic Boon",
+      "description": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "calling:gunslinger:three-extra-attacks:20",
+      "ownerId": "gunslinger",
+      "ownerType": "calling",
+      "callingLevel": 20,
+      "sourceName": "Three Extra Attacks",
+      "name": "Three Extra Attacks",
+      "description": "You can attack four times instead of once whenever you take the Attack action on your turn.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

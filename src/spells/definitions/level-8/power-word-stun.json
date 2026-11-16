@@ -1,0 +1,22 @@
+{
+  "id": "power-word-stun",
+  "name": "Power Word Stun",
+  "level": 8,
+  "school": "enchantment",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 8 Enchantment (Bard, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 60 feet Components: V Duration: Instantaneous You overwhelm the mind of one creature you can see within range. If the target has 150 Health or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn. The Stunned target makes a Resolve saving throw at the end of each of its turns, ending the condition on itself on a success.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13541
+  },
+  "castingTime": "Action"
+}

@@ -1,0 +1,15 @@
+module.exports = {
+  'path:omen-diver:elemental-affinity:6':[['damage','Elemental Affinity damage','No action',[],'rider-affinity']],
+  'path:memory-echo:borrowed-voice:3':[['link','Borrowed Voice: telepathy','No action',[],'echo-link'],['save','Borrowed Voice: failed save','Reaction',[['memory-echo:echo',1]],'echo-save']],
+  'path:memory-echo:recalled-pattern:6':[['pattern','Recalled Pattern','No action',[['tidecaller:sorcery-points',2]],'echo-pattern']],
+  'path:memory-echo:shared-recollection:14':[['share','Shared Recollection','Action',[['memory-echo:echo',1]],'echo-share']],
+  'path:memory-echo:unwritten-self:18':[['save','Unwritten Self','Reaction',[['memory-echo:unwritten',1]],'echo-unwritten']],
+  'path:tempest-heart:storm-pulse:3':[['pulse','Storm Pulse','No action',[['tempest-heart:pulse',1]],'tempest-pulse']],
+  'path:tempest-heart:conductive-soul:6':[['convert','Conductive Soul: next spell conversion','Bonus Action',[['tidecaller:sorcery-points',2]],'tempest-convert'],['damage','Conductive Soul: damage bonus','No action',[],'tempest-damage']],
+  'path:tempest-heart:living-tempest:18':[['storm','Living Tempest','Bonus Action',[['tempest-heart:tempest',1]],'tempest-live']],
+  'path:sanguine-conduit:blood-price:3':[['price','Blood Price','Bonus Action',[['sanguine-conduit:conduit',1]],'conduit-price']],
+  'path:sanguine-conduit:measured-sacrifice:6':[['sacrifice','Measured Sacrifice','Bonus Action',[['sanguine-conduit:transfusion',1]],'conduit-sacrifice']],
+  'path:sanguine-conduit:vital-circuit:14':[['circuit','Vital Circuit','Reaction',[],'conduit-circuit']],
+  'calling:tidecaller:innate-sorcery:1':[['main','Innate Sorcery','Bonus Action',[['tidecaller:innate-sorcery',1]],'innate']],
+  'path:omen-diver:dragon-wings:14':[['main','Manifest Wings','Bonus Action',[['omen-diver:wings',1]],'wings']],
+};

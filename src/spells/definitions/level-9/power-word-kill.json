@@ -1,0 +1,22 @@
+{
+  "id": "power-word-kill",
+  "name": "Power Word Kill",
+  "level": 9,
+  "school": "enchantment",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 9 Enchantment (Bard, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 60 feet Component: V Duration: Instantaneous You compel one creature you can see within range to die. If the target has 100 Health or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13531
+  },
+  "castingTime": "Action"
+}

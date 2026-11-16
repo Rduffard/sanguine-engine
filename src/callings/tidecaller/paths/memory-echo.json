@@ -1,0 +1,169 @@
+{
+  "path": {
+    "id": "memory-echo",
+    "name": "Memory Echo",
+    "callingId": "tidecaller",
+    "description": "Lilin memory mage who reshapes minds and communication.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      14,
+      18
+    ],
+    "grants": [
+      "path:memory-echo:borrowed-voice:3",
+      "path:memory-echo:recalled-pattern:6",
+      "path:memory-echo:shared-recollection:14",
+      "path:memory-echo:unwritten-self:18"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "memory",
+          "voice"
+        ]
+      }
+    },
+    "pools": {
+      "echo": {
+        "max": 3,
+        "short": 1
+      },
+      "unwritten": {
+        "max": 1,
+        "level": 18
+      }
+    },
+    "design": {
+      "id": "memory-echo",
+      "name": "Memory Echo",
+      "callingId": "tidecaller",
+      "identity": "Lilin memory mage who reshapes minds and communication.",
+      "choice": [
+        "memory",
+        "voice"
+      ],
+      "features": [
+        [
+          3,
+          "Borrowed Voice",
+          "Choose memory or voice. Gain Training in Read (memory) or Deceive (voice), or Expertise if already Trained. You can communicate telepathically with one willing creature within 30 feet that understands a language. As a Reaction spend one Echo use to add 1d6 to your failed Spirit or Instinct save; decide after the roll.",
+          "echo",
+          1
+        ],
+        [
+          6,
+          "Recalled Pattern",
+          "When a creature succeeds on a save against your Enchantment spell, you may spend two Sorcery Points to learn whether it is immune to Charmed. You can then move 10 feet without provoking Opportunity Attacks. This does not change the save result.",
+          "sorcery-points",
+          2
+        ],
+        [
+          14,
+          "Shared Recollection",
+          "As an Action spend one Echo use to link up to Training Bonus willing creatures within 30 feet for one hour. Each can communicate telepathically with the others within one mile. You must Concentrate as if on a spell.",
+          "echo",
+          1
+        ],
+        [
+          18,
+          "Unwritten Self",
+          "Once per Long Rest, as a Reaction when you fail an Wit, Instinct or Spirit save, succeed instead. End one Charmed or Frightened condition on yourself. This cannot reverse damage already resolved.",
+          "unwritten",
+          1
+        ]
+      ],
+      "pools": {
+        "echo": {
+          "max": 3,
+          "short": 1
+        },
+        "unwritten": {
+          "max": 1,
+          "level": 18
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:memory-echo:borrowed-voice:3",
+      "ownerId": "memory-echo",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Borrowed Voice",
+      "sourceName": "Borrowed Voice",
+      "description": "Choose memory or voice. Gain Training in Read (memory) or Deceive (voice), or Expertise if already Trained. You can communicate telepathically with one willing creature within 30 feet that understands a language. As a Reaction spend one Echo use to add 1d6 to your failed Spirit or Instinct save; decide after the roll.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Opening/sending a short telepathic message on your turn uses no action. One willing link at a time, no shared language required, ends beyond 30 feet. Echo's Reaction occurs after a failed save before consequences. Recalled Pattern uses no action on the enemy's successful save, once per turn; pay two Sorcery Points to learn immunity and optionally move, without changing the save or refunding the spell.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:memory-echo:recalled-pattern:6",
+      "ownerId": "memory-echo",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Recalled Pattern",
+      "sourceName": "Recalled Pattern",
+      "description": "When a creature succeeds on a save against your Enchantment spell, you may spend two Sorcery Points to learn whether it is immune to Charmed. You can then move 10 feet without provoking Opportunity Attacks. This does not change the save result.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Opening/sending a short telepathic message on your turn uses no action. One willing link at a time, no shared language required, ends beyond 30 feet. Echo's Reaction occurs after a failed save before consequences. Recalled Pattern uses no action on the enemy's successful save, once per turn; pay two Sorcery Points to learn immunity and optionally move, without changing the save or refunding the spell.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:memory-echo:shared-recollection:14",
+      "ownerId": "memory-echo",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "name": "Shared Recollection",
+      "sourceName": "Shared Recollection",
+      "description": "As an Action spend one Echo use to link up to Training Bonus willing creatures within 30 feet for one hour. Each can communicate telepathically with the others within one mile. You must Concentrate as if on a spell.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Opening/sending a short telepathic message on your turn uses no action. One willing link at a time, no shared language required, ends beyond 30 feet. Echo's Reaction occurs after a failed save before consequences. Recalled Pattern uses no action on the enemy's successful save, once per turn; pay two Sorcery Points to learn immunity and optionally move, without changing the save or refunding the spell.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:memory-echo:unwritten-self:18",
+      "ownerId": "memory-echo",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "name": "Unwritten Self",
+      "sourceName": "Unwritten Self",
+      "description": "Once per Long Rest, as a Reaction when you fail an Wit, Instinct or Spirit save, succeed instead. End one Charmed or Frightened condition on yourself. This cannot reverse damage already resolved.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Opening/sending a short telepathic message on your turn uses no action. One willing link at a time, no shared language required, ends beyond 30 feet. Echo's Reaction occurs after a failed save before consequences. Recalled Pattern uses no action on the enemy's successful save, once per turn; pay two Sorcery Points to learn immunity and optionally move, without changing the save or refunding the spell.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

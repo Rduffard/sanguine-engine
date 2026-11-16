@@ -1,0 +1,22 @@
+{
+  "id": "goodberry",
+  "name": "Goodberry",
+  "level": 1,
+  "school": "conjuration",
+  "callings": [
+    "navigator",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Conjuration (Druid, Navigator) Casting Time: Action Range: Self Components: V, S, M (a sprig of mistletoe) Duration: 24 hours Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Health, and the berry provides enough nourishment to sustain a creature for one day. Uneaten berries disappear when the spell ends.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11895
+  },
+  "castingTime": "Action"
+}

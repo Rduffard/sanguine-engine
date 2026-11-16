@@ -1,0 +1,16 @@
+module.exports = {
+  'calling:navigator:favored-enemy:1':[['hit','Hunter\'s Mark hit damage','No action',[],'rider-mark'],['move','Move Hunter\'s Mark after target drops','Bonus Action',[],'rider-mark-transfer']],
+  'path:gray-net:superior-hunter-s-prey:11':[['secondary','Superior Gray Net prey damage','No action',[],'rider-mark-secondary']],
+  'path:starwake-pilot:chart-the-passage:3':[['guide','Chart the Passage','Bonus Action',[['starwake-pilot:passage',1]],'starwake-guide']],
+  'path:starwake-pilot:converging-routes:11':[['hit','Converging Routes','No action',[],'starwake-hit']],
+  'path:starwake-pilot:homeward-star:15':[['home','Homeward Star','Action',[['starwake-pilot:homeward',1]],'starwake-home']],
+  'path:mangrove-stalker:rooted-ambush:3':[['hit','Rooted Ambush','No action',[['mangrove-stalker:thicket',1]],'mangrove-hit']],
+  'path:mangrove-stalker:patient-predator:11':[['move','Patient Predator','No action',[],'mangrove-predator']],
+  'path:mangrove-stalker:vanish-into-green:15':[['vanish','Vanish into Green','Reaction',[['mangrove-stalker:thicket',1]],'mangrove-vanish']],
+  'calling:navigator:tireless:10':[['main','Tireless','Action',[['navigator:tireless',1]],'tireless']],
+  'calling:navigator:nature-s-veil:14':[['main','Nature’s Veil','Bonus Action',[['navigator:natures-veil',1]],'veil']],
+  'path:gray-net:superior-hunter-s-defense:15':[['main','Superior Defense','Reaction',[],'gray-defense']],
+  'path:storm-broker:barometer-instinct:3':[['fog','Fog Squall','Bonus Action',[['storm-broker:squall',1]],'squall'],['crosswind','Crosswind Squall','Bonus Action',[['storm-broker:squall',1]],'squall'],['surge','Surge Squall','Bonus Action',[['storm-broker:squall',1]],'squall']],
+  'path:storm-broker:eye-of-the-bargain:15':[['resist','Resist Lightning/Thunder instance','Reaction',[['storm-broker:squall',1]],'broker-resist']],
+  'path:storm-broker:captain-s-credit:11':[['grant','Captain\'s Credit','No action',[],'broker-credit']],
+};

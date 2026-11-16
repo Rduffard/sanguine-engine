@@ -1,0 +1,22 @@
+{
+  "id": "detect-evil-and-good",
+  "name": "Detect Evil and Good",
+  "level": 1,
+  "school": "divination",
+  "callings": [
+    "doctor",
+    "warden"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Divination (Doctor, Warden) Casting Time: Action Range: Self Components: V, S Duration: Concentration, up to 10 minutes For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the Hallow spell is active there and, if so, where. The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10560
+  },
+  "castingTime": "Action"
+}

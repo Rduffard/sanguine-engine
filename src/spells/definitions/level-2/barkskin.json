@@ -1,0 +1,21 @@
+{
+  "id": "barkskin",
+  "name": "Barkskin",
+  "level": 2,
+  "school": "transmutation",
+  "callings": [
+    "navigator"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Transmutation (Druid, Navigator) Casting Time: Bonus Action Range: Touch Component: V, S, M (a handful of bark) Duration: 1 hour You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Guard of 17 if its AC is lower than that.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9518
+  },
+  "castingTime": "Bonus Action"
+}

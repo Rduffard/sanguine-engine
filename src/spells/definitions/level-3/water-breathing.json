@@ -1,0 +1,23 @@
+{
+  "id": "water-breathing",
+  "name": "Water Breathing",
+  "level": 3,
+  "school": "transmutation",
+  "callings": [
+    "navigator",
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": true,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Transmutation (Druid, Navigator, Tidecaller, Shipwright) Casting Time: Action or Ritual Range: 30 feet Components: V, S, M (a short reed) Duration: 24 hours This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 15448
+  },
+  "castingTime": "Action or Ritual"
+}

@@ -1,0 +1,196 @@
+{
+  "path": {
+    "id": "iron-suppressor",
+    "name": "Iron Suppressor",
+    "callingId": "gunslinger",
+    "description": "Yuma formation gunner who controls approaches.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      10,
+      15,
+      18
+    ],
+    "grants": [
+      "path:iron-suppressor:suppressing-fire:3",
+      "path:iron-suppressor:entrenched-drill:7",
+      "path:iron-suppressor:crossing-denied:10",
+      "path:iron-suppressor:overlapping-fields:15",
+      "path:iron-suppressor:hold-the-corridor:18"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "push",
+          "slow"
+        ]
+      }
+    },
+    "pools": {
+      "suppression": {
+        "max": 4,
+        "short": "all"
+      },
+      "hold-corridor": {
+        "max": 1,
+        "level": 18
+      }
+    },
+    "design": {
+      "id": "iron-suppressor",
+      "name": "Iron Suppressor",
+      "callingId": "gunslinger",
+      "identity": "Yuma formation gunner who controls approaches.",
+      "choice": [
+        "push",
+        "slow"
+      ],
+      "features": [
+        [
+          3,
+          "Suppressing Fire",
+          "Choose push or slow. Once per turn when a Ranged weapon attack hits, spend one Suppression use to deal 1d6 extra damage and force a Resolve save (DC 8 + Training Bonus + Agility). On failure push moves the target 10 feet directly away; slow reduces its Speed by 10 feet until your next turn. Does not stack with the same mastery effect.",
+          "suppression",
+          1
+        ],
+        [
+          7,
+          "Entrenched Drill",
+          "If you have moved no more than 5 feet on your turn, you have Half Cover against ranged attacks until your next turn. Moving farther ends this benefit. Suppression extra damage becomes 1d8.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Crossing Denied",
+          "As a Reaction when a creature you can see moves into a space within 30 feet, spend one Suppression use to make one Ranged weapon attack against it. The attack does not also apply Suppressing Fire.",
+          "suppression",
+          1
+        ],
+        [
+          15,
+          "Overlapping Fields",
+          "Your Suppressing Fire can affect a second creature within 10 feet of the original target. It makes the same save and suffers the chosen control effect on failure, but takes no damage. Suppression extra damage becomes 1d10.",
+          null,
+          0
+        ],
+        [
+          18,
+          "Hold the Corridor",
+          "Once per Long Rest, as a Bonus Action recover all expended Suppression uses. Until your next turn your Suppressing Fire save DC increases by 2.",
+          "hold-corridor",
+          1
+        ]
+      ],
+      "pools": {
+        "suppression": {
+          "max": 4,
+          "short": "all"
+        },
+        "hold-corridor": {
+          "max": 1,
+          "level": 18
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:iron-suppressor:suppressing-fire:3",
+      "ownerId": "iron-suppressor",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Suppressing Fire",
+      "sourceName": "Suppressing Fire",
+      "description": "Choose push or slow. Once per turn when a Ranged weapon attack hits, spend one Suppression use to deal 1d6 extra damage and force a Resolve save (DC 8 + Training Bonus + Agility). On failure push moves the target 10 feet directly away; slow reduces its Speed by 10 feet until your next turn. Does not stack with the same mastery effect.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Crossing Denied requires sight, an equipped ranged weapon, valid range and ammunition. Spend ammo and the Reaction; teleportation does not trigger it. The level-15 second creature requires sight and weapon range but takes no damage and consumes no extra attack/ammo. Push affects only Large or smaller creatures and cannot pass through solids.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-suppressor:entrenched-drill:7",
+      "ownerId": "iron-suppressor",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Entrenched Drill",
+      "sourceName": "Entrenched Drill",
+      "description": "If you have moved no more than 5 feet on your turn, you have Half Cover against ranged attacks until your next turn. Moving farther ends this benefit. Suppression extra damage becomes 1d8.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Crossing Denied requires sight, an equipped ranged weapon, valid range and ammunition. Spend ammo and the Reaction; teleportation does not trigger it. The level-15 second creature requires sight and weapon range but takes no damage and consumes no extra attack/ammo. Push affects only Large or smaller creatures and cannot pass through solids.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-suppressor:crossing-denied:10",
+      "ownerId": "iron-suppressor",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Crossing Denied",
+      "sourceName": "Crossing Denied",
+      "description": "As a Reaction when a creature you can see moves into a space within 30 feet, spend one Suppression use to make one Ranged weapon attack against it. The attack does not also apply Suppressing Fire.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Crossing Denied requires sight, an equipped ranged weapon, valid range and ammunition. Spend ammo and the Reaction; teleportation does not trigger it. The level-15 second creature requires sight and weapon range but takes no damage and consumes no extra attack/ammo. Push affects only Large or smaller creatures and cannot pass through solids.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-suppressor:overlapping-fields:15",
+      "ownerId": "iron-suppressor",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Overlapping Fields",
+      "sourceName": "Overlapping Fields",
+      "description": "Your Suppressing Fire can affect a second creature within 10 feet of the original target. It makes the same save and suffers the chosen control effect on failure, but takes no damage. Suppression extra damage becomes 1d10.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Crossing Denied requires sight, an equipped ranged weapon, valid range and ammunition. Spend ammo and the Reaction; teleportation does not trigger it. The level-15 second creature requires sight and weapon range but takes no damage and consumes no extra attack/ammo. Push affects only Large or smaller creatures and cannot pass through solids.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:iron-suppressor:hold-the-corridor:18",
+      "ownerId": "iron-suppressor",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "name": "Hold the Corridor",
+      "sourceName": "Hold the Corridor",
+      "description": "Once per Long Rest, as a Bonus Action recover all expended Suppression uses. Until your next turn your Suppressing Fire save DC increases by 2.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Crossing Denied requires sight, an equipped ranged weapon, valid range and ammunition. Spend ammo and the Reaction; teleportation does not trigger it. The level-15 second creature requires sight and weapon range but takes no damage and consumes no extra attack/ammo. Push affects only Large or smaller creatures and cannot pass through solids.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "true-seeing",
+  "name": "True Seeing",
+  "level": 6,
+  "school": "divination",
+  "callings": [
+    "doctor",
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 6 Divination (Bard, Doctor, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: Touch Components: V, S, M (mushroom powder worth 25+ GP, which the spell consumes) Duration: 1 hour For the duration, the willing creature you touch has Truesight with a range of 120 feet.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 15168
+  },
+  "castingTime": "Action"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "counterspell",
+  "name": "Counterspell",
+  "level": 3,
+  "school": "abjuration",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Abjuration (Tidecaller, Warlock, Shipwright) Casting Time: Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components Range: 60 feet Components: S Duration: Instantaneous You attempt to interrupt a creature in the process of casting a spell. The creature makes a Resolve saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10326
+  },
+  "castingTime": "Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components"
+}

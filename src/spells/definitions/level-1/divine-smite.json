@@ -1,0 +1,21 @@
+{
+  "id": "divine-smite",
+  "name": "Divine Smite",
+  "level": 1,
+  "school": "evocation",
+  "callings": [
+    "warden"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Evocation (Warden) Casting Time: Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike Range: Self Component: V Duration: Instantaneous The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10760
+  },
+  "castingTime": "Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike"
+}

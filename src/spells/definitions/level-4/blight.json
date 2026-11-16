@@ -1,0 +1,22 @@
+{
+  "id": "blight",
+  "name": "Blight",
+  "level": 4,
+  "school": "necromancy",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 4 Necromancy (Druid, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: 30 feet Components: V, S Duration: Instantaneous A creature that you can see within range makes a Resolve saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save. Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 9623
+  },
+  "castingTime": "Action"
+}

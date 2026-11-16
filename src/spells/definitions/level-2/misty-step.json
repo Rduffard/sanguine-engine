@@ -1,0 +1,22 @@
+{
+  "id": "misty-step",
+  "name": "Misty Step",
+  "level": 2,
+  "school": "conjuration",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Conjuration (Tidecaller, Warlock, Shipwright) Casting Time: Bonus Action Range: Self Components: V Duration: Instantaneous Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13171
+  },
+  "castingTime": "Bonus Action"
+}

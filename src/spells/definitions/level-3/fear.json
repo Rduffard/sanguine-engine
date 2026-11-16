@@ -1,0 +1,22 @@
+{
+  "id": "fear",
+  "name": "Fear",
+  "level": 3,
+  "school": "illusion",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Illusion (Bard, Tidecaller, Warlock, Shipwright) Casting Time: Action Range: Self Components: V, S, M (a white feather) Duration: Concentration, up to 1 minute Each creature in a 30-foot Cone must succeed on a Instinct saving throw or drop whatever it is holding and have the Frightened condition for the duration. A Frightened creature takes the Dash action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Instinct saving throw. On a successful save, the spell ends on that creature.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11214
+  },
+  "castingTime": "Action"
+}

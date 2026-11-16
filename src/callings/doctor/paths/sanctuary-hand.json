@@ -1,0 +1,145 @@
+{
+  "path": {
+    "id": "sanctuary-hand",
+    "name": "Sanctuary Hand",
+    "callingId": "doctor",
+    "description": "The Faith Orders' spiritual care and sanctuary medicine.",
+    "status": "available",
+    "source": {
+      "document": "SRD",
+      "version": "5.2.1",
+      "classId": "cleric",
+      "subclassId": "life-domain",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+    },
+    "featureLevels": [
+      3,
+      6,
+      17
+    ],
+    "grants": [
+      "path:sanctuary-hand:disciple-of-life:3",
+      "path:sanctuary-hand:life-domain-spells:3",
+      "path:sanctuary-hand:preserve-life:3",
+      "path:sanctuary-hand:blessed-healer:6",
+      "path:sanctuary-hand:supreme-healing:17"
+    ],
+    "spellsByCallingLevel": {
+      "3": [
+        "Aid",
+        "Bless",
+        "Cure Wounds",
+        "Lesser Restoration"
+      ],
+      "5": [
+        "Mass Healing Word",
+        "Revivify"
+      ],
+      "7": [
+        "Aura of Life",
+        "Death Ward"
+      ],
+      "9": [
+        "Greater Restoration",
+        "Mass Cure Wounds"
+      ]
+    }
+  },
+  "features": [
+    {
+      "id": "path:sanctuary-hand:disciple-of-life:3",
+      "ownerId": "sanctuary-hand",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Disciple of Life",
+      "name": "Disciple of Life",
+      "description": "When a spell you cast with a spell slot restores Health to a creature, that creature regains additional Health on the turn you cast the spell. The additional Health equal 2 plus the spell slot's level.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanctuary-hand:life-domain-spells:3",
+      "ownerId": "sanctuary-hand",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Life Domain Spells",
+      "name": "Sanctuary Hand Spells",
+      "description": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Doctor level specified in the Sanctuary Hand Spells table, you thereafter always have the listed spells prepared. Sanctuary Hand Spells Doctor Level Prepared Spells 3 Aid, Bless, Cure Wounds, Lesser Restoration 5 Mass Healing Word, Revivify 7 Aura of Life, Death Ward 9 Greater Restoration, Mass Cure Wounds",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanctuary-hand:preserve-life:3",
+      "ownerId": "sanctuary-hand",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Preserve Life",
+      "name": "Preserve Life",
+      "description": "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Health equal to five times your Doctor level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Health among them. This feature can restore a creature to no more than half its Health maximum.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanctuary-hand:blessed-healer:6",
+      "ownerId": "sanctuary-hand",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Blessed Healer",
+      "name": "Blessed Healer",
+      "description": "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Health to one or more creatures other than yourself, you regain Health equal to 2 plus the spell slot's level.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:sanctuary-hand:supreme-healing:17",
+      "ownerId": "sanctuary-hand",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "sourceName": "Supreme Healing",
+      "name": "Supreme Healing",
+      "description": "When you would normally roll one or more dice to restore Health to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Health to a creature with a spell, you restore 12.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

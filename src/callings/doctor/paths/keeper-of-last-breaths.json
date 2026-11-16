@@ -1,0 +1,142 @@
+{
+  "path": {
+    "id": "keeper-of-last-breaths",
+    "name": "Keeper of Last Breaths",
+    "callingId": "doctor",
+    "description": "Kirkian grief keeper who guards the boundary of death.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      17
+    ],
+    "grants": [
+      "path:keeper-of-last-breaths:stay-the-crossing:3",
+      "path:keeper-of-last-breaths:witness-against-oblivion:6",
+      "path:keeper-of-last-breaths:one-more-dawn:17"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "comfort",
+          "witness"
+        ]
+      }
+    },
+    "pools": {
+      "vigil": {
+        "max": 3,
+        "short": 1
+      },
+      "one-dawn": {
+        "max": 1,
+        "level": 17
+      }
+    },
+    "design": {
+      "id": "keeper-of-last-breaths",
+      "name": "Keeper of Last Breaths",
+      "callingId": "doctor",
+      "identity": "Kirkian grief keeper who guards the boundary of death.",
+      "choice": [
+        "comfort",
+        "witness"
+      ],
+      "features": [
+        [
+          3,
+          "Stay the Crossing",
+          "Choose comfort or witness. As a Reaction when a creature within 30 feet falls to 0 Health but is not killed outright, spend one Vigil use to stabilize it. Comfort also grants temporary Health equal to your Instinct modifier (minimum one), which does not awaken it; witness lets it speak one sentence even while Unconscious.",
+          "vigil",
+          1
+        ],
+        [
+          6,
+          "Witness Against Oblivion",
+          "As an Action expend one Channel Divinity use to restore Health equal to twice your Doctor level to a creature at 0 Health within 30 feet. It can then stand without spending movement. This does not return a dead creature to life.",
+          "channel-divinity",
+          1
+        ],
+        [
+          17,
+          "One More Dawn",
+          "Once per Long Rest as a Reaction when a creature within 30 feet would die from failed death saves, restore it to 1 Health instead and reset its death saves. This cannot prevent instant death from massive damage or disintegration.",
+          "one-dawn",
+          1
+        ]
+      ],
+      "pools": {
+        "vigil": {
+          "max": 3,
+          "short": 1
+        },
+        "one-dawn": {
+          "max": 1,
+          "level": 17
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:keeper-of-last-breaths:stay-the-crossing:3",
+      "ownerId": "keeper-of-last-breaths",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Stay the Crossing",
+      "sourceName": "Stay the Crossing",
+      "description": "Choose comfort or witness. As a Reaction when a creature within 30 feet falls to 0 Health but is not killed outright, spend one Vigil use to stabilize it. Comfort also grants temporary Health equal to your Instinct modifier (minimum one), which does not awaken it; witness lets it speak one sentence even while Unconscious.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Stay the Crossing requires sight, resolves after reaching 0 but before later death saves, and temporary Health does not awaken its target. One More Dawn resolves before death from the third failed death save is finalized; it cannot reverse an already recorded death.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:keeper-of-last-breaths:witness-against-oblivion:6",
+      "ownerId": "keeper-of-last-breaths",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "name": "Witness Against Oblivion",
+      "sourceName": "Witness Against Oblivion",
+      "description": "As an Action expend one Channel Divinity use to restore Health equal to twice your Doctor level to a creature at 0 Health within 30 feet. It can then stand without spending movement. This does not return a dead creature to life.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Stay the Crossing requires sight, resolves after reaching 0 but before later death saves, and temporary Health does not awaken its target. One More Dawn resolves before death from the third failed death save is finalized; it cannot reverse an already recorded death.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:keeper-of-last-breaths:one-more-dawn:17",
+      "ownerId": "keeper-of-last-breaths",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "name": "One More Dawn",
+      "sourceName": "One More Dawn",
+      "description": "Once per Long Rest as a Reaction when a creature within 30 feet would die from failed death saves, restore it to 1 Health instead and reset its death saves. This cannot prevent instant death from massive damage or disintegration.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Stay the Crossing requires sight, resolves after reaching 0 but before later death saves, and temporary Health does not awaken its target. One More Dawn resolves before death from the third failed death save is finalized; it cannot reverse an already recorded death.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "foresight",
+  "name": "Foresight",
+  "level": 9,
+  "school": "divination",
+  "callings": [
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 9 Divination (Bard, Druid, Warlock, Shipwright) Casting Time: 1 minute Range: Touch Components: V, S, M (a hummingbird feather) Duration: 8 hours You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11617
+  },
+  "castingTime": "1 minute"
+}

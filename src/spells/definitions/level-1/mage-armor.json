@@ -1,0 +1,22 @@
+{
+  "id": "mage-armor",
+  "name": "Mage Armor",
+  "level": 1,
+  "school": "abjuration",
+  "callings": [
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Abjuration (Tidecaller, Shipwright) Casting Time: Action Range: Touch Components: V, S, M (a piece of cured leather) Duration: 8 hours You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Agility modifier. The spell ends early if the target dons armor.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12696
+  },
+  "castingTime": "Action"
+}

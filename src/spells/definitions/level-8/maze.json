@@ -1,0 +1,21 @@
+{
+  "id": "maze",
+  "name": "Maze",
+  "level": 8,
+  "school": "conjuration",
+  "callings": [
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 8 Conjuration (Shipwright) Casting Time: Action Range: 60 feet Components: V, S Duration: Concentration, up to 10 minutes You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze. The target can take a Study action to try to escape. When it does so, it makes a DC 20 Wit (Investigation) check. If it succeeds, it escapes, and the spell ends. When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12964
+  },
+  "castingTime": "Action"
+}

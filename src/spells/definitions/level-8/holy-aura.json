@@ -1,0 +1,21 @@
+{
+  "id": "holy-aura",
+  "name": "Holy Aura",
+  "level": 8,
+  "school": "abjuration",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": true,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 8 Abjuration (Doctor) Casting Time: Action Range: Self Components: V, S, M (a reliquary worth 1,000+ GP) Duration: Concentration, up to 1 minute For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Resolve saving throw or have the Blinded condition until the end of its next turn.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12286
+  },
+  "castingTime": "Action"
+}

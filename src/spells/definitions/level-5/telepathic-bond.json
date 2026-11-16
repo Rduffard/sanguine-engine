@@ -1,0 +1,21 @@
+{
+  "id": "telepathic-bond",
+  "name": "Telepathic Bond",
+  "level": 5,
+  "school": "divination",
+  "callings": [
+    "shipwright"
+  ],
+  "concentration": false,
+  "ritual": true,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 5 Divination (Bard, Shipwright) Casting Time: Action or Ritual Range: 30 feet Components: V, S, M (two eggs) Duration: 1 hour You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell. Until the spell ends, the targets can communicate telepathically through the bond whether or not they share a language. The communication is possible over any distance, though it can't extend to other planes of existence.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 14873
+  },
+  "castingTime": "Action or Ritual"
+}

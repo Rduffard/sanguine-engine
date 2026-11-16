@@ -1,0 +1,21 @@
+{
+  "id": "mass-healing-word",
+  "name": "Mass Healing Word",
+  "level": 3,
+  "school": "abjuration",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Abjuration (Bard, Doctor) Casting Time: Bonus Action Range: 60 feet Components: V Duration: Instantaneous Up to six creatures of your choice that you can see within range regain Health equal to 2d4 plus your spellcasting ability modifier. Using a Higher-Level Spell Slot. The healing increases by 1d4 for each spell slot level above 3.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12929
+  },
+  "castingTime": "Bonus Action"
+}

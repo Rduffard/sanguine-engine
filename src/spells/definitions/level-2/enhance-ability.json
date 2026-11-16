@@ -1,0 +1,24 @@
+{
+  "id": "enhance-ability",
+  "name": "Enhance Ability",
+  "level": 2,
+  "school": "transmutation",
+  "callings": [
+    "doctor",
+    "navigator",
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 2 Transmutation (Bard, Doctor, Druid, Navigator, Tidecaller, Shipwright) Casting Time: Action Range: Touch Components: V, S, M (fur or a feather) Duration: Concentration, up to 1 hour You touch a creature and choose Might, Agility, Wit, Instinct, or Spirit. For the duration, the target has Advantage on ability checks using the chosen ability. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 11000
+  },
+  "castingTime": "Action"
+}

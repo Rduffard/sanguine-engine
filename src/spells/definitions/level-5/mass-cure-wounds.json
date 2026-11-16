@@ -1,0 +1,21 @@
+{
+  "id": "mass-cure-wounds",
+  "name": "Mass Cure Wounds",
+  "level": 5,
+  "school": "abjuration",
+  "callings": [
+    "doctor"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 5 Abjuration (Bard, Doctor, Druid) Casting Time: Action Range: 60 feet Components: V, S Duration: Instantaneous A wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Health equal to 5d8 plus your spellcasting ability modifier. Using a Higher-Level Spell Slot. The healing increases by 1d8 for each spell slot level above 5.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 12906
+  },
+  "castingTime": "Action"
+}

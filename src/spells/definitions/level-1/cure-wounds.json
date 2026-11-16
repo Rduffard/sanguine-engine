@@ -1,0 +1,24 @@
+{
+  "id": "cure-wounds",
+  "name": "Cure Wounds",
+  "level": 1,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "warden",
+    "navigator",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Abjuration (Bard, Doctor, Druid, Warden, Navigator) Casting Time: Action Range: Touch Components: V, S Duration: Instantaneous A creature you touch regains a number of Health equal to 2d8 plus your spellcasting ability modifier. Using a Higher-Level Spell Slot. The healing increases by 2d8 for each spell slot level above 1.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 10428
+  },
+  "castingTime": "Action"
+}

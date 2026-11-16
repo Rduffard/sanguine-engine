@@ -1,0 +1,109 @@
+{
+  "path": {
+    "id": "drydock-ghost",
+    "name": "Drydock Ghost",
+    "callingId": "shipwright",
+    "description": "Gain Training with thieves' tools and carpenter's tools. Choose covert repair or sabotage. Once per turn when making a tool check for that trade, add your Wit modifier (minimum +1). Spend one Ghost Work use as an Action while touching a nonmagical object to repair 2d8 + your Shipwright level damage, or conceal your tampering. Discovering concealed tampering requires an Investigate check against your spell save DC. This does not repair creatures or magic items.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:drydock-ghost:ghost-patch:3",
+      "path:drydock-ghost:paid-in-scrap:6",
+      "path:drydock-ghost:silent-keel:10",
+      "path:drydock-ghost:unseen-passage:14"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "ghostTrade",
+        "options": [
+          "covert-repair",
+          "sabotage"
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:drydock-ghost:ghost-patch:3",
+      "ownerId": "drydock-ghost",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Ghost Patch",
+      "name": "Ghost Patch",
+      "description": "Gain Training with thieves' tools and carpenter's tools. Choose covert repair or sabotage. Once per turn when making a tool check for that trade, add your Wit modifier (minimum +1). Spend one Ghost Work use as an Action while touching a nonmagical object to repair 2d8 + your Shipwright level damage, or conceal your tampering. Discovering concealed tampering requires an Investigate check against your spell save DC. This does not repair creatures or magic items. Path uses start at two, increase by one at Calling levels 7, 11, 15, and 19, and recover one on a Short Rest or all on a Long Rest. Separately listed once-per-Long-Rest features recover on a Long Rest.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Repair needs carpenter's tools and caps at object maximum Health. Sabotage needs thieves' tools and physically feasible tampering; it does not grant unlimited destruction. Salvage needs a wreck and its once-per-Long-Rest counter; earmarked copper credits are consumed once and cannot become gold. Silent Keel affects at most six creatures OR one vehicle at most 100 feet long, without granting each passenger a personal Stealth benefit.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:drydock-ghost:paid-in-scrap:6",
+      "ownerId": "drydock-ghost",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Paid in Scrap",
+      "name": "Paid in Scrap",
+      "description": "After ten minutes salvaging a wreck, recover mundane parts worth up to 10 GP times your Shipwright level, once per Long Rest. Parts can only fund repairs or crafting and cannot be sold. Ghost Patch repairs 3d8 + your Shipwright level. Gain Expertise with the tools granted by this Path.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Repair needs carpenter's tools and caps at object maximum Health. Sabotage needs thieves' tools and physically feasible tampering; it does not grant unlimited destruction. Salvage needs a wreck and its once-per-Long-Rest counter; earmarked copper credits are consumed once and cannot become gold. Silent Keel affects at most six creatures OR one vehicle at most 100 feet long, without granting each passenger a personal Stealth benefit.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:drydock-ghost:silent-keel:10",
+      "ownerId": "drydock-ghost",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "sourceName": "Silent Keel",
+      "name": "Silent Keel",
+      "description": "Spend one Ghost Work use as an Action to shroud a vehicle or up to six willing creatures within 30 feet for ten minutes, requiring Concentration. Affected creatures gain advantage on Stealth checks and leave no mundane tracks. The effect ends for a creature when it attacks or casts a spell. Ghost Patch repairs 4d8 + your Shipwright level.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Repair needs carpenter's tools and caps at object maximum Health. Sabotage needs thieves' tools and physically feasible tampering; it does not grant unlimited destruction. Salvage needs a wreck and its once-per-Long-Rest counter; earmarked copper credits are consumed once and cannot become gold. Silent Keel affects at most six creatures OR one vehicle at most 100 feet long, without granting each passenger a personal Stealth benefit.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:drydock-ghost:unseen-passage:14",
+      "ownerId": "drydock-ghost",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "sourceName": "Unseen Passage",
+      "name": "Unseen Passage",
+      "description": "As a Bonus Action, spend two Ghost Work uses to gain a climbing and swimming speed equal to your speed and pass through nonmagical structures for one minute. Treat structures as Difficult Terrain; ending your turn inside one deals 1d10 Force damage and moves you to the nearest empty space. You cannot carry other creatures through structures. Ghost Patch repairs 5d8 + your Shipwright level.",
+      "source": {
+        "document": "Sanguine Archipelago",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "Repair needs carpenter's tools and caps at object maximum Health. Sabotage needs thieves' tools and physically feasible tampering; it does not grant unlimited destruction. Salvage needs a wreck and its once-per-Long-Rest counter; earmarked copper credits are consumed once and cannot become gold. Silent Keel affects at most six creatures OR one vehicle at most 100 feet long, without granting each passenger a personal Stealth benefit.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "path": {
+    "id": "cinder-artillerist",
+    "name": "Cinder Artillerist",
+    "callingId": "gunslinger",
+    "description": "Klechi siege specialist using controlled powder charges.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      7,
+      10,
+      15,
+      18
+    ],
+    "grants": [
+      "path:cinder-artillerist:measured-charge:3",
+      "path:cinder-artillerist:safe-handling:7",
+      "path:cinder-artillerist:shaped-detonation:10",
+      "path:cinder-artillerist:controlled-demolition:15",
+      "path:cinder-artillerist:grand-battery:18"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "smoke",
+          "breach"
+        ]
+      }
+    },
+    "pools": {
+      "charge": {
+        "max": 3,
+        "short": "all"
+      },
+      "battery": {
+        "max": 1,
+        "level": 18
+      }
+    },
+    "design": {
+      "id": "cinder-artillerist",
+      "name": "Cinder Artillerist",
+      "callingId": "gunslinger",
+      "identity": "Klechi siege specialist using controlled powder charges.",
+      "choice": [
+        "smoke",
+        "breach"
+      ],
+      "features": [
+        [
+          3,
+          "Measured Charge",
+          "Choose smoke or breach. As an Action spend one Charge use to place a charge within 30 feet. It detonates immediately: creatures in a 5-foot radius make an Agility save (DC 8 + Training Bonus + Wit), taking 2d6 Fire damage on failure or half on success. Smoke leaves a heavily obscured 5-foot radius until your next turn; breach deals double damage to unattended objects. This is not a weapon attack.",
+          "charge",
+          1
+        ],
+        [
+          7,
+          "Safe Handling",
+          "Gain Training with smith tools and advantage on checks to inspect explosives. You and allies you choose have advantage on saves against your charges. Charge damage becomes 3d6.",
+          null,
+          0
+        ],
+        [
+          10,
+          "Shaped Detonation",
+          "Charge radius can be 10 feet. Choose up to your Wit modifier (minimum one) creatures in the area; they take no damage and suffer no charge effect. Charges do not bypass total cover.",
+          null,
+          0
+        ],
+        [
+          15,
+          "Controlled Demolition",
+          "Charge damage becomes 5d6. Breach charges ignore object Resistance to Fire. Smoke radius becomes 10 feet and lasts one minute unless a strong wind disperses it.",
+          null,
+          0
+        ],
+        [
+          18,
+          "Grand Battery",
+          "Once per Long Rest as an Action spend two Charge uses to detonate two charges at different points within 60 feet. A creature in both areas is affected only once. Each charge deals 6d6 Fire damage.",
+          "charge",
+          2,
+          "battery"
+        ]
+      ],
+      "pools": {
+        "charge": {
+          "max": 3,
+          "short": "all"
+        },
+        "battery": {
+          "max": 1,
+          "level": 18
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:cinder-artillerist:measured-charge:3",
+      "ownerId": "cinder-artillerist",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Measured Charge",
+      "sourceName": "Measured Charge",
+      "description": "Choose smoke or breach. As an Action spend one Charge use to place a charge within 30 feet. It detonates immediately: creatures in a 5-foot radius make an Agility save (DC 8 + Training Bonus + Wit), taking 2d6 Fire damage on failure or half on success. Smoke leaves a heavily obscured 5-foot radius until your next turn; breach deals double damage to unattended objects. This is not a weapon attack.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Charge uses represent prepared kit components, not stockpilable or sellable bombs. Require carried smith's tools and a free hand, with no extra ammunition cost. Charges affect allies unless exempted. Smoke is obscurement, not Poisoned or recurring damage. Strong wind means at least 20 mph. Grand Battery uses one Action, two Charge uses and one battery counter; its 6d6 replaces ordinary dice, and overlap affects a creature once.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:cinder-artillerist:safe-handling:7",
+      "ownerId": "cinder-artillerist",
+      "ownerType": "path",
+      "callingLevel": 7,
+      "name": "Safe Handling",
+      "sourceName": "Safe Handling",
+      "description": "Gain Training with smith tools and advantage on checks to inspect explosives. You and allies you choose have advantage on saves against your charges. Charge damage becomes 3d6.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Charge uses represent prepared kit components, not stockpilable or sellable bombs. Require carried smith's tools and a free hand, with no extra ammunition cost. Charges affect allies unless exempted. Smoke is obscurement, not Poisoned or recurring damage. Strong wind means at least 20 mph. Grand Battery uses one Action, two Charge uses and one battery counter; its 6d6 replaces ordinary dice, and overlap affects a creature once.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:cinder-artillerist:shaped-detonation:10",
+      "ownerId": "cinder-artillerist",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "name": "Shaped Detonation",
+      "sourceName": "Shaped Detonation",
+      "description": "Charge radius can be 10 feet. Choose up to your Wit modifier (minimum one) creatures in the area; they take no damage and suffer no charge effect. Charges do not bypass total cover.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Charge uses represent prepared kit components, not stockpilable or sellable bombs. Require carried smith's tools and a free hand, with no extra ammunition cost. Charges affect allies unless exempted. Smoke is obscurement, not Poisoned or recurring damage. Strong wind means at least 20 mph. Grand Battery uses one Action, two Charge uses and one battery counter; its 6d6 replaces ordinary dice, and overlap affects a creature once.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:cinder-artillerist:controlled-demolition:15",
+      "ownerId": "cinder-artillerist",
+      "ownerType": "path",
+      "callingLevel": 15,
+      "name": "Controlled Demolition",
+      "sourceName": "Controlled Demolition",
+      "description": "Charge damage becomes 5d6. Breach charges ignore object Resistance to Fire. Smoke radius becomes 10 feet and lasts one minute unless a strong wind disperses it.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Charge uses represent prepared kit components, not stockpilable or sellable bombs. Require carried smith's tools and a free hand, with no extra ammunition cost. Charges affect allies unless exempted. Smoke is obscurement, not Poisoned or recurring damage. Strong wind means at least 20 mph. Grand Battery uses one Action, two Charge uses and one battery counter; its 6d6 replaces ordinary dice, and overlap affects a creature once.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:cinder-artillerist:grand-battery:18",
+      "ownerId": "cinder-artillerist",
+      "ownerType": "path",
+      "callingLevel": 18,
+      "name": "Grand Battery",
+      "sourceName": "Grand Battery",
+      "description": "Once per Long Rest as an Action spend two Charge uses to detonate two charges at different points within 60 feet. A creature in both areas is affected only once. Each charge deals 6d6 Fire damage.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "Charge uses represent prepared kit components, not stockpilable or sellable bombs. Require carried smith's tools and a free hand, with no extra ammunition cost. Charges affect allies unless exempted. Smoke is obscurement, not Poisoned or recurring damage. Strong wind means at least 20 mph. Grand Battery uses one Action, two Charge uses and one battery counter; its 6d6 replaces ordinary dice, and overlap affects a creature once.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

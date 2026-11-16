@@ -1,0 +1,24 @@
+{
+  "id": "protection-from-energy",
+  "name": "Protection from Energy",
+  "level": 3,
+  "school": "abjuration",
+  "callings": [
+    "doctor",
+    "navigator",
+    "tidecaller",
+    "shipwright"
+  ],
+  "concentration": true,
+  "ritual": false,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 3 Abjuration (Doctor, Druid, Navigator, Tidecaller, Shipwright) Casting Time: Action Range: Touch Components: V, S Duration: Concentration, up to 1 hour For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 13800
+  },
+  "castingTime": "Action"
+}

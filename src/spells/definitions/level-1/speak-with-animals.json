@@ -1,0 +1,22 @@
+{
+  "id": "speak-with-animals",
+  "name": "Speak with Animals",
+  "level": 1,
+  "school": "divination",
+  "callings": [
+    "navigator",
+    "druid"
+  ],
+  "concentration": false,
+  "ritual": true,
+  "specificMaterial": false,
+  "rulesStatus": "tabletop-rules",
+  "description": "Level 1 Divination (Bard, Druid, Navigator, Warlock) Casting Time: Action or Ritual Range: Self Components: V, S Duration: 10 minutes For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them. Most Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.",
+  "source": {
+    "document": "SRD",
+    "version": "5.2.1",
+    "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+    "sourceLine": 14477
+  },
+  "castingTime": "Action or Ritual"
+}

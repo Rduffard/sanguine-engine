@@ -1,0 +1,127 @@
+{
+  "path": {
+    "id": "powder-saint",
+    "name": "Powder Saint",
+    "callingId": "shipwright",
+    "description": "Yuma and guild technical artillery; spell mechanics remain magical.",
+    "status": "available",
+    "source": {
+      "document": "SRD",
+      "version": "5.2.1",
+      "classId": "wizard",
+      "subclassId": "evoker",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+    },
+    "featureLevels": [
+      3,
+      6,
+      10,
+      14
+    ],
+    "grants": [
+      "path:powder-saint:evocation-savant:3",
+      "path:powder-saint:potent-cantrip:3",
+      "path:powder-saint:sculpt-spells:6",
+      "path:powder-saint:empowered-evocation:10",
+      "path:powder-saint:overchannel:14"
+    ],
+    "spellsByCallingLevel": {}
+  },
+  "features": [
+    {
+      "id": "path:powder-saint:evocation-savant:3",
+      "ownerId": "powder-saint",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Evocation Savant",
+      "name": "Evocation Savant",
+      "description": "Choose two Shipwright spells from the Evocation school, each of which must be no higher than level 2, and add them to your engineering folio for free. In addition, whenever you gain access to a new level of spell slots in this class, you can add one Shipwright spell from the Evocation school to your engineering folio for free. The chosen spell must be of a level for which you have spell slots.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:powder-saint:potent-cantrip:3",
+      "ownerId": "powder-saint",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "sourceName": "Potent Cantrip",
+      "name": "Potent Cantrip",
+      "description": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:powder-saint:sculpt-spells:6",
+      "ownerId": "powder-saint",
+      "ownerType": "path",
+      "callingLevel": 6,
+      "sourceName": "Sculpt Spells",
+      "name": "Sculpt Spells",
+      "description": "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:powder-saint:empowered-evocation:10",
+      "ownerId": "powder-saint",
+      "ownerType": "path",
+      "callingLevel": 10,
+      "sourceName": "Empowered Evocation",
+      "name": "Empowered Evocation",
+      "description": "Whenever you cast a Shipwright spell from the Evocation school, you can add your Wit modifier to one damage roll of that spell.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:powder-saint:overchannel:14",
+      "ownerId": "powder-saint",
+      "ownerType": "path",
+      "callingLevel": 14,
+      "sourceName": "Overchannel",
+      "name": "Overchannel",
+      "description": "You can increase the power of your spells. When you cast a Shipwright spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it. The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity. Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12.",
+      "source": {
+        "document": "SRD",
+        "version": "5.2.1",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "not-automated",
+      "missingSourceLines": [],
+      "completionRules": "",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "path": {
+    "id": "hollow-lantern",
+    "name": "Hollow Lantern",
+    "callingId": "corsair",
+    "description": "Kirkian investigator who exposes illusions and stolen identities.",
+    "status": "available",
+    "source": {
+      "document": "Sanguine Archipelago: Thirty-Two Paths",
+      "version": "2026-11-07"
+    },
+    "featureLevels": [
+      3,
+      9,
+      13,
+      17
+    ],
+    "grants": [
+      "path:hollow-lantern:read-the-wake:3",
+      "path:hollow-lantern:unmask-the-false:9",
+      "path:hollow-lantern:lantern-in-the-fog:13",
+      "path:hollow-lantern:the-last-tell:17"
+    ],
+    "spellsByCallingLevel": {},
+    "choices": {
+      "3": {
+        "key": "pathDiscipline",
+        "options": [
+          "investigator",
+          "watcher"
+        ]
+      }
+    },
+    "pools": {
+      "lantern": {
+        "max": 3,
+        "short": 1
+      },
+      "last-tell": {
+        "max": 1,
+        "level": 17,
+        "short": "all"
+      }
+    },
+    "design": {
+      "id": "hollow-lantern",
+      "name": "Hollow Lantern",
+      "callingId": "corsair",
+      "identity": "Kirkian investigator who exposes illusions and stolen identities.",
+      "choice": [
+        "investigator",
+        "watcher"
+      ],
+      "features": [
+        [
+          3,
+          "Read the Wake",
+          "Choose Investigate or Perception; gain Training, or Expertise if already Trained. As a Bonus Action spend one Lantern use to study one creature within 30 feet. Until the end of your next turn, you may Sneak Attack it without advantage if no other creature is within 5 feet of you, and you do not have disadvantage.",
+          "lantern",
+          1
+        ],
+        [
+          9,
+          "Unmask the False",
+          "As an Action spend one Lantern use to gain advantage for ten minutes on checks to detect disguises, shapechanging and illusions. This does not reveal an illusion automatically. You can Search as a Bonus Action without spending a use.",
+          "lantern",
+          1
+        ],
+        [
+          13,
+          "Lantern in the Fog",
+          "Gain Blindsight 10 feet. When a creature you can perceive within 30 feet becomes Invisible, you may use your Reaction and one Lantern use to mark its last location. Until your next turn it gains no advantage against you from being unseen; this does not reveal its later location.",
+          "lantern",
+          1
+        ],
+        [
+          17,
+          "The Last Tell",
+          "Once per Short or Long Rest when your Sneak Attack hits a creature studied by Read the Wake, reroll up to three Sneak Attack dice and use the new results. You decide after seeing the damage dice.",
+          "last-tell",
+          1
+        ]
+      ],
+      "pools": {
+        "lantern": {
+          "max": 3,
+          "short": 1
+        },
+        "last-tell": {
+          "max": 1,
+          "level": 17,
+          "short": "all"
+        }
+      }
+    }
+  },
+  "features": [
+    {
+      "id": "path:hollow-lantern:read-the-wake:3",
+      "ownerId": "hollow-lantern",
+      "ownerType": "path",
+      "callingLevel": 3,
+      "name": "Read the Wake",
+      "sourceName": "Read the Wake",
+      "description": "Choose Investigate or Perception; gain Training, or Expertise if already Trained. As a Bonus Action spend one Lantern use to study one creature within 30 feet. Until the end of your next turn, you may Sneak Attack it without advantage if no other creature is within 5 feet of you, and you do not have disadvantage.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "At level 3, investigator selects Investigate and watcher selects Perception; grant one skill only. Studying requires sight. The Last Tell uses no action and its own last-tell counter, not a Lantern use. Blindsight functions while conscious.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:hollow-lantern:unmask-the-false:9",
+      "ownerId": "hollow-lantern",
+      "ownerType": "path",
+      "callingLevel": 9,
+      "name": "Unmask the False",
+      "sourceName": "Unmask the False",
+      "description": "As an Action spend one Lantern use to gain advantage for ten minutes on checks to detect disguises, shapechanging and illusions. This does not reveal an illusion automatically. You can Search as a Bonus Action without spending a use.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "At level 3, investigator selects Investigate and watcher selects Perception; grant one skill only. Studying requires sight. The Last Tell uses no action and its own last-tell counter, not a Lantern use. Blindsight functions while conscious.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:hollow-lantern:lantern-in-the-fog:13",
+      "ownerId": "hollow-lantern",
+      "ownerType": "path",
+      "callingLevel": 13,
+      "name": "Lantern in the Fog",
+      "sourceName": "Lantern in the Fog",
+      "description": "Gain Blindsight 10 feet. When a creature you can perceive within 30 feet becomes Invisible, you may use your Reaction and one Lantern use to mark its last location. Until your next turn it gains no advantage against you from being unseen; this does not reveal its later location.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "At level 3, investigator selects Investigate and watcher selects Perception; grant one skill only. Studying requires sight. The Last Tell uses no action and its own last-tell counter, not a Lantern use. Blindsight functions while conscious.",
+      "rulesVersion": "SA-CHAR-1"
+    },
+    {
+      "id": "path:hollow-lantern:the-last-tell:17",
+      "ownerId": "hollow-lantern",
+      "ownerType": "path",
+      "callingLevel": 17,
+      "name": "The Last Tell",
+      "sourceName": "The Last Tell",
+      "description": "Once per Short or Long Rest when your Sneak Attack hits a creature studied by Read the Wake, reroll up to three Sneak Attack dice and use the new results. You decide after seeing the damage dice.",
+      "source": {
+        "document": "Sanguine Archipelago: Thirty-Two Paths",
+        "version": "2026-11-07"
+      },
+      "rulesStatus": "tabletop-rules",
+      "automationStatus": "character-costs-implemented",
+      "missingSourceLines": [],
+      "completionRules": "At level 3, investigator selects Investigate and watcher selects Perception; grant one skill only. Studying requires sight. The Last Tell uses no action and its own last-tell counter, not a Lantern use. Blindsight functions while conscious.",
+      "rulesVersion": "SA-CHAR-1"
+    }
+  ]
+}
