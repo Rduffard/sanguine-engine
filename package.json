@@ -1,6 +1,6 @@
 {
   "name": "@crossworld/sanguine-engine",
-  "version": "0.68.0",
+  "version": "0.69.2",
   "description": "Portable mechanics for Sanguine Archipelago",
   "private": true,
   "license": "UNLICENSED",
@@ -56,7 +56,8 @@
     "./equipment/movement": "./src/equipment/movement.js",
     "./equipment/starting-equipment": "./src/equipment/startingEquipment.js",
     "./feats": "./src/feats/index.js",
-    "./callings/cinder-artillerist": "./src/callings/gunslinger/paths/cinder-artillerist.js"
+    "./callings/cinder-artillerist": "./src/callings/gunslinger/paths/cinder-artillerist.js",
+    "./lineages": "./src/lineages/index.js"
   },
   "scripts": {
     "test": "node --experimental-test-isolation=none --test tests/*.test.cjs"

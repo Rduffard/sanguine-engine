@@ -7,3 +7,5 @@ The ability modifier, point-buy table, d20 selection and Training schedule were 
 The pool spending and Initiative recovery transitions carry forward existing Sanguine Archipelago mechanics. Their Calling and Path grants and IDs are supplied by the host.
 
 The complete roster, Path grants and progression tables retain attribution in their feature records. Adapted Calling and Path material uses the same SRD 5.2.1 license above.
+
+The Human, Stoneborn and Fey-Touched Lineage rules adapt the Human, Dwarf and Elf entries from the SRD 5.2.1 under CC BY 4.0. The Lineage catalog records the adapted source entry, license, and modification notice. Fishmen, Changelings and Beastshifter forms use original Sanguine rules.

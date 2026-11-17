@@ -1,3 +1,5 @@
+const { absorbTemporaryHealth } = require('./temporary-health');
+
 class HealingError extends Error {}
 
 function freshDeathSaves() {
@@ -67,7 +69,7 @@ function resolveDeathSave(deathSaves, roll, { defyDeath = false } = {}) {
 }
 
 function applyVitalityDamage({ health, temporaryHealth = 0, deathSaves }, amount, critical) {
-  const absorbed = Math.min(temporaryHealth ?? 0, amount);
+  const { absorbed, remaining } = absorbTemporaryHealth(temporaryHealth, amount);
   const current = Math.max(0, health.current - amount + absorbed);
   let saves = { ...(deathSaves ?? freshDeathSaves()) };
   if (amount > 0 && current === 0) {
@@ -80,7 +82,7 @@ function applyVitalityDamage({ health, temporaryHealth = 0, deathSaves }, amount
   return {
     absorbed,
     health: { ...health, current },
-    temporaryHealth: (temporaryHealth ?? 0) - absorbed,
+    temporaryHealth: remaining,
     deathSaves: saves,
   };
 }

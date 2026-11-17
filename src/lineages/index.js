@@ -1,0 +1,20 @@
+const { lineages } = require('./definitions');
+const { validateLineageSelection } = require('./selection');
+const { deriveLineage } = require('./derive');
+const { beastshifterForms, deriveBeastshifterForm } = require('./animal-forms');
+const { beastshifterFormChoices, validateBeastshifterFormChoices } = require('./form-progression');
+const { advanceBeastshifterForms, transitionBeastshifterHealth } = require('./animal-health');
+const { lineageActivationTerms } = require('./activation');
+const { LineageRuleError } = require('./contracts');
+
+exports.lineages = lineages;
+exports.validateLineageSelection = validateLineageSelection;
+exports.deriveLineage = deriveLineage;
+exports.beastshifterForms = beastshifterForms;
+exports.beastshifterFormChoices = beastshifterFormChoices;
+exports.validateBeastshifterFormChoices = validateBeastshifterFormChoices;
+exports.deriveBeastshifterForm = deriveBeastshifterForm;
+exports.advanceBeastshifterForms = advanceBeastshifterForms;
+exports.transitionBeastshifterHealth = transitionBeastshifterHealth;
+exports.lineageActivationTerms = lineageActivationTerms;
+exports.LineageRuleError = LineageRuleError;

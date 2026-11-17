@@ -71,3 +71,12 @@ test('rest timing shares the interruption extension and the Long Rest interval',
   assert.equal(restDuration('long-rest', 2), 10 * hour);
   assert.equal(longRestRecoveryInterval, 24 * hour);
 });
+
+test('a four-hour Long Rest retains interruption extensions and the recovery interval', () => {
+  const { restCompletionTimingError } = require('@crossworld/sanguine-engine/rest');
+  const hour = 3_600_000;
+  assert.equal(restCompletionTimingError('long-rest', 4 * hour, 0, 24 * hour, 4), null);
+  assert.equal(restCompletionTimingError('long-rest', 4 * hour, 1, 24 * hour, 4), 'duration');
+  assert.equal(restCompletionTimingError('long-rest', 5 * hour, 1, 23 * hour, 4), 'interval');
+  assert.equal(restCompletionTimingError('long-rest', 5 * hour, 1, 24 * hour, 4), null);
+});

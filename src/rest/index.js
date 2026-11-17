@@ -1,7 +1,7 @@
 const hour = 3600000;
 
-function restDuration(kind, interruptions = 0) {
-  return kind === 'long-rest' ? (8 + interruptions) * hour : hour;
+function restDuration(kind, interruptions = 0, longRestHours = 8) {
+  return kind === 'long-rest' ? (longRestHours + interruptions) * hour : hour;
 }
 
 const longRestRecoveryInterval = 24 * hour;
@@ -18,8 +18,8 @@ function restStartHealthEligible(health, dead) {
   return health >= 1 && !dead;
 }
 
-function restCompletionTimingError(kind, elapsed, interruptions, elapsedSinceLongRest) {
-  if (elapsed < restDuration(kind, interruptions)) return 'duration';
+function restCompletionTimingError(kind, elapsed, interruptions, elapsedSinceLongRest, longRestHours) {
+  if (elapsed < restDuration(kind, interruptions, longRestHours)) return 'duration';
   if (kind === 'long-rest' && elapsedSinceLongRest < longRestRecoveryInterval) return 'interval';
   return null;
 }
@@ -30,3 +30,4 @@ exports.restInterruptionReasons = restInterruptionReasons;
 exports.restInterruptionOutcome = restInterruptionOutcome;
 exports.restStartHealthEligible = restStartHealthEligible;
 exports.restCompletionTimingError = restCompletionTimingError;
+
